@@ -1,0 +1,507 @@
+{
+  slideNumber: "71",
+  name: "Peripheral Nerve - Longitudinal Section (HE)",
+  section: "longitudinal section",
+  stain: "HE",
+  
+  bigPicture: "Peripheral nerve = axons wrapped in 3 protective CT layers (like CNS meninges!)",
+  
+  hierarchy: [
+    "Axon â†' Fascicle â†' Whole Nerve",
+    "â†" ENDO â†' PERI â†' EPI",
+    "â†" (Pia) â†' (Arachnoid) â†' (Dura)"
+  ],
+  
+  insideTheFascicles: [
+    {
+      structure: "Axon",
+      description: "Long continuous pink strand running parallel; carries electrical impulses along nerve length"
+    },
+    {
+      structure: "Myelin sheath (negative image)",
+      description: "White longitudinal spaces flanking axons; lipid dissolved during processing creating linear pattern"
+    },
+    {
+      structure: "Schwann cell nucleus",
+      description: "Elongated dark blue/purple nuclei aligned along myelin; each Schwann cell myelinates one internode"
+    },
+    {
+      structure: "Wavy fiber pattern",
+      description: "Characteristic undulating appearance of relaxed nerve fibers; allows stretching without damage"
+    },
+    {
+      structure: "Endoneurium",
+      description: "Delicate pink CT between fibers running longitudinally; supports individual axons"
+    }
+  ],
+  
+  stainingInfo: {
+    technique: "HE (Hematoxylin and Eosin)",
+    description: "Hematoxylin stains nuclei blue/purple (basophilic structures like chromatin, rough ER). Eosin stains cytoplasm and collagen pink/red (acidophilic structures like proteins).",
+    whatItStainsInThisSlide: [
+      "Axon cytoplasm â†' Pink (acidophilic proteins)",
+      "Schwann cell nuclei â†' Dark blue/purple (basophilic chromatin)",
+      "Fibrocyte nuclei â†' Dark blue/purple (in connective tissue layers)",
+      "Endoneurium, perineurium, epineurium â†' Pink (collagen-rich CT)",
+      "Myelin sheath â†' WHITE SPACE (negative image - lipids dissolved during processing)",
+      "Blood vessel walls â†' Pink (in epineurium)",
+      "Adipocyte cytoplasm â†' WHITE SPACE (lipids dissolved)"
+    ],
+    keyEmphasis: "In this longitudinal section, HE staining creates a distinctive wavy pattern of pink axons flanked by white linear myelin spaces. The key diagnostic feature is that myelin appears as NEGATIVE IMAGES (white spaces) because lipids are extracted during tissue processing, unlike osmium tetroxide staining where myelin appears black. The wavy appearance of nerve fibers is characteristic of longitudinal sections and represents the relaxed, unstressed state of nerves."
+  },
+
+  layers: [
+    {
+      name: "Endoneurium",
+      level: "Innermost layer (Level 1)",
+      wraps: "Individual nerve fiber (single axon + myelin sheath + Schwann cell)",
+      composition: "Delicate loose connective tissue with reticular fibers (Type III collagen), scattered fibroblasts, and longitudinally oriented capillaries",
+      appearance: "Very thin pink tissue running longitudinally between individual nerve fibers. Appears as delicate pink strands separating the white myelin spaces along fiber length.",
+      contains: "Endoneurial capillaries (part of blood-nerve barrier), fibroblasts, reticular fibers, tissue fluid that bathes each nerve fiber",
+      cnsEquivalent: "Pia mater (direct continuous transition at CNS-PNS junction at nerve roots)",
+      function: "Provides microenvironment for individual nerve fibers, supports axon nutrition through capillaries, maintains ionic balance necessary for nerve conduction, allows metabolic exchange",
+      quickID: "Thinnest pink layer running along length of fibers, barely visible between individual axons"
+    },
+    {
+      name: "Perineurium",
+      level: "Middle layer (Level 2)",
+      wraps: "Fascicle (bundle of multiple nerve fibers)",
+      composition: "2-6 concentric layers of specialized epithelioid perineural cells (modified fibroblasts) connected by tight junctions, each layer surrounded by basement membrane",
+      appearance: "Distinct pink boundary running along entire fascicle length, appearing as continuous longitudinal borders on both sides of each bundle. More prominent than endoneurium.",
+      contains: "Perineural cells with tight junctions forming blood-nerve barrier, basement membrane, occasional fibroblasts, perineurial space",
+      cnsEquivalent: "Arachnoid mater (continuous transition at nerve roots)",
+      function: "Forms blood-nerve barrier by controlling diffusion of substances into and out of fascicle through tight junctions, maintains stable microenvironment for saltatory conduction, protects against mechanical stress and toxic substances",
+      quickID: "Pink longitudinal border running along each fascicle edge - the fascicle boundary"
+    },
+    {
+      name: "Epineurium",
+      level: "Outermost layer (Level 3)",
+      wraps: "Entire nerve (multiple fascicles together)",
+      composition: "Dense irregular connective tissue with thick collagen bundles oriented in multiple directions, adipose tissue, fibroblasts, blood vessels (vasa nervorum), and lymphatics",
+      appearance: "Thick pink connective tissue surrounding fascicles and filling spaces between them. Contains large white adipocytes (also negative images) and blood vessels. Provides substantial padding.",
+      contains: "Vasa nervorum (blood vessels supplying the nerve), lymphatics, adipose tissue, fibroblasts producing collagen, nervi nervorum (small nerves innervating nerve sheaths)",
+      cnsEquivalent: "Dura mater (continuous with dura at nerve roots)",
+      function: "Provides mechanical protection and cushioning, supplies vascular network (vasa nervorum) for nerve nutrition, allows nerve mobility during limb movement, protects from compression",
+      quickID: "Thickest layer with adipocytes, surrounds entire nerve and fills spaces between fascicles"
+    }
+  ],
+
+  essentialStructures: [
+    {
+      name: "Axon (continuous strand)",
+      identificationTips: [
+        "Appears as long, continuous pink strand running parallel to nerve length",
+        "Much thinner than the surrounding myelin white space in longitudinal view",
+        "Shows slight waviness characteristic of relaxed nerve fibers",
+        "Central position within each myelin negative image"
+      ],
+      commonMistakes: [
+        {
+          mistake: "Confusing the axon with the entire nerve fiber",
+          why: "The nerve fiber includes axon + myelin + Schwann cell, not just the axon",
+          avoid: "Remember: axon is only the pink center strand, the whole fiber includes all components"
+        },
+        {
+          mistake: "Expecting axons to be straight lines",
+          why: "Relaxed nerves naturally have a wavy pattern for flexibility",
+          avoid: "The waviness is normal and protective - it allows stretching during movement"
+        }
+      ]
+    },
+    {
+      name: "Myelin sheath (negative image - longitudinal)",
+      identificationTips: [
+        "White longitudinal spaces running parallel to axons on both sides",
+        "Create a linear, parallel pattern along nerve fiber length (not circular like in cross section)",
+        "Flanks the central pink axon strand creating a 'track' appearance",
+        "Interrupted at regular intervals by Nodes of Ranvier (gaps in myelin)"
+      ],
+      commonMistakes: [
+        {
+          mistake: "Looking for circular myelin patterns like in cross sections",
+          why: "Longitudinal sections show linear myelin, not circles",
+          avoid: "Adjust mental image: cross section = honeycomb circles, longitudinal = parallel tracks"
+        },
+        {
+          mistake: "Thinking myelin stains white in HE",
+          why: "Myelin is NOT stained - it's a negative image from lipid extraction",
+          avoid: "Remember: WHITE = ABSENCE of myelin lipids, not white staining"
+        },
+        {
+          mistake: "Confusing longitudinal myelin spaces with adipocytes",
+          why: "Both appear white, but very different locations and patterns",
+          avoid: "Myelin = linear tracks inside fascicles along fibers; Adipocytes = large irregular spaces in epineurium"
+        }
+      ]
+    },
+    {
+      name: "Schwann cell nuclei",
+      identificationTips: [
+        "Elongated dark blue/purple nuclei aligned along myelin sheaths",
+        "Located at periphery of myelin, adjacent to the white myelin space",
+        "Multiple nuclei visible along each nerve fiber length",
+        "Distinguished from fibrocyte nuclei by their association with myelin and regular spacing"
+      ],
+      commonMistakes: [
+        {
+          mistake: "Confusing Schwann nuclei with fibrocyte nuclei",
+          why: "Both stain dark blue, but have different locations and functions",
+          avoid: "Schwann nuclei = aligned with myelin sheaths; Fibrocyte nuclei = scattered in CT layers"
+        },
+        {
+          mistake: "Expecting one Schwann nucleus per fiber",
+          why: "Each internode (segment between Nodes of Ranvier) has its own Schwann cell",
+          avoid: "Look for multiple Schwann nuclei along each fiber's length"
+        }
+      ]
+    },
+    {
+      name: "Wavy fiber pattern",
+      identificationTips: [
+        "Distinctive undulating, serpentine appearance of nerve fibers",
+        "Most obvious diagnostic feature distinguishing longitudinal from cross sections",
+        "Wave pattern is gentle and regular, not chaotic",
+        "Present in all fibers within fascicles, creating synchronized wavy bundles"
+      ],
+      commonMistakes: [
+        {
+          mistake: "Thinking waviness indicates damaged or pathological nerves",
+          why: "Waviness is NORMAL in relaxed, unstretched nerves",
+          avoid: "Understand that waviness is protective - it provides reserve length for stretching during movement"
+        },
+        {
+          mistake: "Not recognizing waviness as diagnostic for longitudinal sections",
+          why: "This is THE key feature that immediately identifies longitudinal orientation",
+          avoid: "Use waviness as your first clue: wavy = longitudinal section"
+        }
+      ]
+    },
+    {
+      name: "Bundle of nerve fibers (fascicle)",
+      identificationTips: [
+        "Collection of parallel wavy fibers bounded by pink perineurium",
+        "Appears as elongated bundle with distinct longitudinal borders",
+        "Multiple fascicles may be visible, each wrapped separately",
+        "Interior shows repeating pattern of pink axons with white myelin spaces"
+      ],
+      commonMistakes: [
+        {
+          mistake: "Not recognizing fascicle boundaries",
+          why: "Perineurium borders may be subtle in some areas",
+          avoid: "Look for the continuous pink rim running along fascicle edges"
+        },
+        {
+          mistake: "Thinking the entire nerve is one fascicle",
+          why: "Most nerves contain multiple fascicles bundled together",
+          avoid: "Count the number of perineurium-bounded bundles - that's your fascicle count"
+        }
+      ]
+    },
+    {
+      name: "Fibrocytes",
+      identificationTips: [
+        "Dark blue/purple elongated nuclei within connective tissue layers",
+        "Found in endoneurium, perineurium, and epineurium",
+        "Produce and maintain collagen fibers",
+        "Distinguished from Schwann nuclei by location in CT, not associated with myelin"
+      ],
+      commonMistakes: [
+        {
+          mistake: "Confusing fibrocytes with Schwann cells",
+          why: "Both have elongated nuclei, but different locations",
+          avoid: "Fibrocytes = in CT layers; Schwann cells = aligned with myelin sheaths"
+        }
+      ]
+    },
+    {
+      name: "Adipocytes",
+      identificationTips: [
+        "Large white spaces (50-150 Î¼m) in epineurium OUTSIDE fascicles",
+        "Much larger and more irregular than myelin spaces",
+        "Variable sizes, not uniform like myelin",
+        "Nucleus pushed to periphery (when visible), creating 'signet ring' appearance"
+      ],
+      commonMistakes: [
+        {
+          mistake: "Confusing adipocytes with myelin sheaths",
+          why: "Both appear as white spaces in HE sections",
+          avoid: "SIZE and LOCATION: Adipocytes 3× larger, OUTSIDE fascicles; Myelin small, INSIDE fascicles"
+        },
+        {
+          mistake: "Not seeing adipocytes as cells",
+          why: "Their lipid is dissolved, leaving only white space",
+          avoid: "Remember: white space = lipid was there but dissolved during processing"
+        }
+      ]
+    }
+  ],
+
+  criticalRelationships: [
+    {
+      title: "CNS-PNS Transition Zone (HIGH-YIELD EXAM TOPIC!)",
+      content: "At the nerve roots where peripheral nerves enter/exit the CNS (dorsal and ventral roots), the three connective tissue layers transition directly to the three meningeal layers. This is a critical anatomical relationship tested on exams.",
+      details: [
+        "Endoneurium (innermost) â†' Pia mater (innermost meningeal layer)",
+        "Perineurium (middle barrier layer) â†' Arachnoid mater (middle meningeal layer)",
+        "Epineurium (outermost protective layer) â†' Dura mater (outermost meningeal layer)",
+        "Transition occurs at CNS-PNS junction where nerve roots attach to spinal cord or brainstem",
+        "Blood-nerve barrier (formed by perineurium tight junctions) is continuous with blood-brain barrier (formed by endothelial tight junctions)",
+        "This continuity ensures protected pathways from brain/spinal cord to periphery"
+      ],
+      emphasis: "This parallel 3-layer protective system is ESSENTIAL to understand for neuroanatomy exams. The continuity ensures that nerve roots are protected as they transition from CNS to PNS. Disruption at this junction can cause specific clinical syndromes."
+    },
+    {
+      title: "Longitudinal vs Cross Section Orientation (EXAM FAVORITE!)",
+      content: "The same peripheral nerve appears dramatically different depending on section orientation. Recognizing orientation is critical for proper identification.",
+      details: [
+        "LONGITUDINAL (Slide 71): Wavy parallel fibers, linear myelin spaces, axons as continuous strands, Nodes of Ranvier visible",
+        "CROSS (Slide 70): Fascicles show honeycomb pattern, circular myelin spaces, axons as central dots, no Nodes visible",
+        "Wavy pattern in longitudinal = RELAXED nerve state, not pathology; provides reserve length for stretching",
+        "Honeycomb pattern in cross section = classic diagnostic appearance for peripheral nerve identification",
+        "Both show same 3 CT layers (ENDO-PERI-EPI), just different perspectives",
+        "Nodes of Ranvier (gaps in myelin) only visible in longitudinal sections as interruptions in myelin track"
+      ],
+      emphasis: "Exam questions often test whether you can distinguish longitudinal from cross sections. WAVY = longitudinal is the key giveaway!"
+    },
+    {
+      title: "Size Comparison: Myelin Spaces vs Adipocytes (CRITICAL DISTINCTION!)",
+      content: "Both myelin sheaths and adipocytes appear as white spaces in HE sections because both contain lipids that are dissolved during tissue processing. However, they are easily distinguished by SIZE and LOCATION.",
+      details: [
+        "MYELIN SPACES: Small (5-15 Î¼m), uniform size, linear tracks flanking axons INSIDE fascicles",
+        "ADIPOCYTES: Large (50-150 Î¼m, approximately 3-10× bigger), variable sizes, irregular spaces in EPINEURIUM OUTSIDE fascicles",
+        "MYELIN: Has Schwann nucleus at periphery and central pink axon running through it",
+        "ADIPOCYTES: Has nucleus pushed to edge (when visible), no central axon structure",
+        "MYELIN: Forms organized linear pattern along nerve fibers in longitudinal sections",
+        "ADIPOCYTES: Scattered irregularly in epineurium between fascicles",
+        "LOCATION is the most reliable distinguishing feature: inside fascicles = myelin, outside fascicles = adipocytes"
+      ],
+      emphasis: "SIZE and LOCATION are the two critical features for distinguishing these structures. When confused, always ask: Is it inside or outside the fascicle? This single question resolves most identification challenges!"
+    },
+    {
+      title: "Blood-Nerve Barrier vs Blood-Brain Barrier (HIGH-YIELD!)",
+      content: "The perineurium forms a selective barrier controlling what enters nerve fascicles, analogous to the blood-brain barrier in the CNS.",
+      details: [
+        "PERINEURIUM contains specialized epithelioid cells connected by TIGHT JUNCTIONS",
+        "These tight junctions create BLOOD-NERVE BARRIER preventing free diffusion",
+        "Barrier protects nerve fibers from toxins, maintains stable ionic environment for conduction",
+        "Unlike CNS (where BBB is in capillary endothelium), PNS barrier is in perineurium",
+        "Barrier function is critical for saltatory conduction and nerve protection",
+        "Clinical significance: Some drugs/toxins can't penetrate blood-nerve barrier, limiting therapeutic options and toxicity"
+      ],
+      emphasis: "Understanding barrier location (perineurium in PNS vs endothelium in CNS) is high-yield for both histology and pharmacology exams!"
+    },
+    {
+      title: "Hierarchical Organization - Wrapping Pattern (EXAM FAVORITE!)",
+      content: "Understanding the nesting order of connective tissue layers is essential for identification and comprehension of nerve structure-function relationships.",
+      details: [
+        "Level 1 (Innermost): Single axon + myelin + Schwann cell wrapped by ENDONEURIUM",
+        "Level 2 (Middle): Bundle of multiple axons (fascicle) wrapped by PERINEURIUM",
+        "Level 3 (Outermost): Bundle of multiple fascicles (whole nerve) wrapped by EPINEURIUM",
+        "Each successive layer provides progressively stronger protection and support",
+        "Analogy: Wire (axon) â†' Insulated wire (+ myelin) â†' Cable (fascicle) â†' Bundled cables (nerve trunk)",
+        "This hierarchical organization allows individual axon protection while maintaining nerve trunk flexibility"
+      ],
+      emphasis: "This hierarchical pattern is your roadmap for nerve identification! Once you identify the perineurium, everything inside is a fascicle, and everything outside contributes to epineurium."
+    }
+  ],
+
+  relationshipsSummary: [
+    {
+      title: "CNS-PNS Continuity (HIGH-YIELD!)",
+      summary: "Nerve layers transition to meninges at roots: ENDO=Pia, PERI=Arachnoid, EPI=Dura",
+      keyPoints: [
+        "3-layer protection continuous from CNS to periphery",
+        "Transition occurs at nerve root attachment sites",
+        "Blood-nerve barrier continuous with blood-brain barrier",
+        "Protects entire pathway from brain to target"
+      ]
+    },
+    {
+      title: "Longitudinal vs Cross Section (EXAM FAVORITE!)",
+      summary: "Longitudinal = wavy parallel fibers; Cross = honeycomb circles. Same nerve, different view!",
+      keyPoints: [
+        "Wavy appearance = diagnostic for longitudinal orientation",
+        "Honeycomb = diagnostic for cross section",
+        "Nodes of Ranvier visible only in longitudinal",
+        "Both show same 3 CT layers (ENDO-PERI-EPI)"
+      ]
+    },
+    {
+      title: "Myelin vs Adipocytes (CRITICAL!)",
+      summary: "Both white spaces in HE, but SIZE + LOCATION different: myelin small/inside, adipocytes large/outside",
+      keyPoints: [
+        "Myelin 5-15 Î¼m, adipocytes 50-150 Î¼m (3-10× bigger)",
+        "Myelin linear tracks INSIDE fascicles with axons",
+        "Adipocytes irregular spaces OUTSIDE in epineurium",
+        "Location is most reliable distinguishing feature"
+      ]
+    },
+    {
+      title: "Blood-Nerve Barrier (HIGH-YIELD!)",
+      summary: "Perineurium tight junctions form barrier protecting fascicle microenvironment",
+      keyPoints: [
+        "Analogous to blood-brain barrier but in PNS",
+        "Controls substance entry into fascicles",
+        "Critical for stable conduction environment",
+        "Clinical significance for drug/toxin penetration"
+      ]
+    }
+  ],
+
+  keyIdentifyingFeatures: [
+    "WAVY PATTERN of nerve fibers - THE diagnostic feature for longitudinal sections; represents relaxed nerve state",
+    "LINEAR WHITE MYELIN SPACES running parallel along axons (not circular like cross sections)",
+    "CONTINUOUS PINK AXON STRANDS running centrally through myelin spaces (not dots)",
+    "DISTINCT PINK PERINEURIUM forming continuous longitudinal borders around each fascicle",
+    "ELONGATED SCHWANN NUCLEI aligned along myelin sheaths at regular intervals",
+    "THREE CONNECTIVE TISSUE LAYERS visible: thin endoneurium, distinct perineurium rim, thick epineurium with adipocytes",
+    "LARGE WHITE ADIPOCYTES in epineurium OUTSIDE fascicles (much larger than myelin spaces)",
+    "PARALLEL FIBER ORGANIZATION - all fibers running in same direction within fascicles"
+  ],
+
+  comparisonWithOtherStains: [
+    {
+      stain: "Peripheral Nerve - Cross Section (HE) - Slide 70",
+      differences: [
+        "CROSS: Fascicles show HONEYCOMB pattern of circular myelin spaces vs LONGITUDINAL: Linear parallel myelin tracks",
+        "CROSS: Axons appear as tiny PINK DOTS in center of circles vs LONGITUDINAL: Axons as continuous PINK STRANDS",
+        "CROSS: NO wavy pattern, fibers cut perpendicular vs LONGITUDINAL: Characteristic WAVY appearance",
+        "CROSS: Nodes of Ranvier NOT visible vs LONGITUDINAL: Nodes visible as interruptions in myelin",
+        "CROSS: Easier to count individual nerve fibers vs LONGITUDINAL: Better for assessing nerve fiber length and continuity",
+        "BOTH: Show same 3 CT layers (endoneurium, perineurium, epineurium) and CNS equivalents"
+      ],
+      whenToUse: "Cross sections are better for identifying and counting individual nerve fibers and seeing fascicle organization. Longitudinal sections are better for seeing Nodes of Ranvier, assessing fiber continuity, and understanding nerve architecture along its length. The wavy pattern in longitudinal sections is pathognomonic."
+    },
+    {
+      stain: "Peripheral Nerve - Longitudinal Section (OsOâ‚„) - Slide 73",
+      differences: [
+        "OsOâ‚„: Myelin stains BLACK (lipids preserved and stained) vs HE: Myelin appears WHITE (lipids dissolved)",
+        "OsOâ‚„: Axon appears UNSTAINED/WHITE (negative image) vs HE: Axon stains PINK (eosinophilic)",
+        "OsOâ‚„: INVERTED contrast - black myelin with white axon vs HE: White myelin with pink axon",
+        "OsOâ‚„: Superior for visualizing myelin architecture vs HE: Better for seeing overall tissue organization and CT layers",
+        "OsOâ‚„: Nodes of Ranvier very obvious as WHITE GAPS in black myelin vs HE: Nodes subtle, seen as interruptions in white space",
+        "BOTH: Show wavy fiber pattern characteristic of longitudinal sections",
+        "BOTH: Show same 3 CT layers, but OsOâ‚„ emphasizes myelin while HE emphasizes CT structure"
+      ],
+      whenToUse: "OsOâ‚„ is specifically used when you want to visualize MYELIN ARCHITECTURE and lipid-rich structures (makes myelin black). HE is used for general tissue architecture showing nuclei, cytoplasm, and connective tissue organization. For exams, knowing that HE myelin = WHITE and OsOâ‚„ myelin = BLACK is critical!"
+    }
+  ],
+
+  commonMistakes: [
+    {
+      mistake: "Confusing myelin linear spaces with blood vessels",
+      why: "Both can appear as white/empty longitudinal spaces",
+      avoid: "Myelin spaces are uniform, parallel, and associated with central pink axons. Blood vessels have walls, are irregular, and contain red blood cells. Myelin spaces are INSIDE fascicles; vessels are in epineurium."
+    },
+    {
+      mistake: "Not recognizing the wavy pattern as normal",
+      why: "Students may think waviness indicates pathology or poor fixation",
+      avoid: "Wavy nerve fiber appearance is NORMAL in longitudinal sections of relaxed nerves. This provides reserve length for stretching during movement and is protective, not pathological."
+    },
+    {
+      mistake: "Confusing adipocytes in epineurium with myelin sheaths",
+      why: "Both appear as white spaces because lipids are dissolved in HE",
+      avoid: "Use SIZE and LOCATION: Adipocytes are 3-10× LARGER (50-150 Î¼m vs 5-15 Î¼m) and located OUTSIDE fascicles in epineurium. Myelin is small, uniform, and INSIDE fascicles along axons."
+    },
+    {
+      mistake: "Expecting to see myelin stained in HE sections",
+      why: "Students may look for colored myelin",
+      avoid: "In HE, myelin is a NEGATIVE IMAGE (white space) because lipids are extracted during processing. Myelin only stains with special lipid stains like osmium tetroxide (black) or luxol fast blue."
+    },
+    {
+      mistake: "Not identifying the perineurium boundary",
+      why: "May be subtle and mistaken for general connective tissue",
+      avoid: "Look for the distinct pink RIM running continuously along fascicle edges. This is your landmark - once found, everything inside is the fascicle, everything outside contributes to epineurium."
+    },
+    {
+      mistake: "Confusing Schwann cell nuclei with fibrocyte nuclei",
+      why: "Both are elongated dark blue nuclei in longitudinal sections",
+      avoid: "Schwann nuclei are ALIGNED ALONG MYELIN SHEATHS in regular pattern. Fibrocyte nuclei are scattered in connective tissue layers (endo/peri/epineurium) and not associated with individual fibers."
+    },
+    {
+      mistake: "Thinking longitudinal and cross sections show different nerves",
+      why: "They look very different (wavy vs honeycomb)",
+      avoid: "It's the SAME structure, just cut in different planes. Like seeing a tube from the side (longitudinal) vs end-on (cross). Both show the same layers and components."
+    }
+  ],
+
+  functionalContext: "Peripheral nerves transmit electrical signals bidirectionally between the CNS and body periphery. Motor axons carry efferent signals from CNS to muscles/glands. Sensory axons carry afferent signals from receptors to CNS. The three-layered connective tissue wrapping provides mechanical protection, vascular supply (vasa nervorum in epineurium), and barrier function (blood-nerve barrier in perineurium). The wavy configuration in longitudinal sections allows nerves to stretch up to 15-20% during limb movement without damage. Myelin sheaths (produced by Schwann cells) enable saltatory conduction, increasing conduction velocity 10-100×. Nodes of Ranvier (visible in longitudinal sections) are gaps where action potentials are regenerated.",
+
+  clinicalCorrelations: [
+    {
+      condition: "Guillain-Barré Syndrome",
+      relevance: "Autoimmune demyelination of peripheral nerves. Immune system attacks myelin sheaths (produced by Schwann cells), stripping myelin from axons. This eliminates saltatory conduction, causing progressive ascending weakness. In histology, would see loss of myelin (fewer white spaces), exposed axons, and inflammatory infiltrate in endoneurium. Recovery occurs as Schwann cells regenerate myelin."
+    },
+    {
+      condition: "Peripheral Neuropathy (Diabetic)",
+      relevance: "Chronic hyperglycemia damages both axons and microvasculature. Disrupts blood-nerve barrier function in perineurium, leading to nerve fiber degeneration. Affects endoneurial capillaries (vasa nervorum), causing ischemia. In histology, would see axon loss, myelin degeneration, thickened perineurium, and reduced nerve fiber density. Length-dependent pattern (longest nerves affected first) due to metabolic demands."
+    },
+    {
+      condition: "Nerve Transection and Regeneration",
+      relevance: "When peripheral nerves are cut, axons distal to injury undergo Wallerian degeneration (axon and myelin breakdown). Schwann cells proliferate and form regeneration tubes (bands of Büngner) to guide regrowing axons. In longitudinal sections, would see disrupted fiber continuity, Schwann cell proliferation, and eventually regenerating axon sprouts growing through Schwann tubes. The endoneurium provides the scaffold for regeneration. PNS can regenerate (unlike CNS) because Schwann cells support regrowth."
+    },
+    {
+      condition: "Carpal Tunnel Syndrome",
+      relevance: "Chronic compression of median nerve at wrist. Sustained pressure damages perineurium barrier function and compromises endoneurial blood flow, causing ischemia. In histology, would see nerve fiber compression, myelin degradation, and fibrosis of connective tissue layers. The epineurium becomes thickened and fibrotic. Demonstrates importance of mechanical protection by CT layers."
+    },
+    {
+      condition: "Leprosy (Hansen's Disease)",
+      relevance: "Mycobacterium leprae specifically infects Schwann cells in peripheral nerves, causing demyelination and sensory loss. Bacteria have tropism for cooler body areas and Schwann cells. In histology, would see Schwann cells packed with acid-fast bacilli, myelin loss, and granulomatous inflammation in perineurium and epineurium. One of the few bacterial infections targeting Schwann cells specifically."
+    }
+  ],
+
+  identificationTips: [
+    "FIRST: Look for the wavy pattern - this immediately confirms longitudinal section (vs honeycomb in cross section)",
+    "SECOND: Identify fascicles by finding the pink perineurium border running longitudinally along bundle edges",
+    "THIRD: Within fascicles, look for the repeating pattern: pink axon strand flanked by white linear myelin spaces",
+    "FOURTH: Distinguish the three CT layers: thin barely-visible endoneurium between fibers, distinct pink perineurium rim around fascicles, thick epineurium with adipocytes outside fascicles",
+    "Look for elongated Schwann nuclei aligned along myelin sheaths - these confirm you're seeing nerve fibers",
+    "Scan for Nodes of Ranvier: brief interruptions in the linear myelin pattern where myelin is absent",
+    "Large white spaces outside fascicles = adipocytes (3-10× bigger than myelin, in epineurium)",
+    "Small uniform white linear spaces inside fascicles with central pink strand = myelin (in fascicles)",
+    "If you see BLACK myelin instead of white spaces, you're looking at OsOâ‚„ stain (Slide 73), not HE!",
+    "The wavy fiber pattern may vary in degree - more pronounced in relaxed nerves, less in stretched nerves",
+    "Use the mnemonic 'WAVY = LONGITUDINAL, HONEYCOMB = CROSS' to instantly orient yourself",
+    "Count fascicles by counting perineurium-bounded bundles - most nerves have multiple fascicles"
+  ],
+
+  examTips: [
+    "Exam images often compare longitudinal vs cross sections of the same nerve - know the diagnostic differences!",
+    "WAVY PATTERN is the #1 giveaway for longitudinal sections - mention this in your answer",
+    "Remember: HE myelin = WHITE (negative image), OsOâ‚„ myelin = BLACK (positive staining)",
+    "Be able to identify all three CT layers and state their CNS equivalents: ENDO=Pia, PERI=Arachnoid, EPI=Dura",
+    "Know the blood-nerve barrier location (perineurium tight junctions) and its function",
+    "Distinguish myelin from adipocytes using SIZE (adipocytes 3-10× bigger) and LOCATION (inside vs outside fascicles)",
+    "Be prepared to identify Nodes of Ranvier in longitudinal sections (not visible in cross sections)",
+    "Understand the hierarchical organization: axon â†' fascicle â†' nerve trunk",
+    "Know clinical correlations: Guillain-Barré (demyelination), diabetic neuropathy (axon + vascular damage), nerve regeneration (Schwann cell role)",
+    "If asked about conduction velocity, relate it to myelin presence (saltatory conduction is 10-100× faster)",
+    "Be ready to explain WHY nerves are wavy (protective reserve length for stretching during movement)",
+    "Remember that Schwann cells produce myelin in PNS (oligodendrocytes in CNS) - each Schwann cell myelinates ONE internode",
+    "For structure-function questions: relate CT layers to protection, perineurium to blood-nerve barrier, myelin to conduction speed",
+    "Longitudinal sections show fiber LENGTH and CONTINUITY; cross sections show ORGANIZATION and allow fiber COUNTING"
+  ],
+
+  ultraMinimalFacts: {
+    staining: "HE: Myelin = WHITE (lipids dissolved), axon = PINK. Wavy = longitudinal!",
+    layers: [
+      "• ENDO = wraps 1 fiber (Pia)",
+      "• PERI = wraps bundle (Arachnoid) - blood-nerve barrier!",
+      "• EPI = wraps nerve (Dura) - has adipocytes"
+    ],
+    visualID: [
+      "• WAVY parallel fibers = longitudinal section (diagnostic!)",
+      "• Linear white spaces along axons = myelin tracks",
+      "• Elongated nuclei along fibers = Schwann cells",
+      "• Pink borders along bundles = perineurium",
+      "• Large white outside = adipocytes (in epineurium)"
+    ],
+    cnsConnection: "ENDO→PERI→EPI = Pia→Arachnoid→Dura (continuous at nerve roots)",
+    dontConfuse: [
+      "• Myelin (small, linear, inside) ≠ Adipocytes (large, outside)",
+      "• Longitudinal (wavy) ≠ Cross section (honeycomb circles)",
+      "• HE myelin (white) ≠ OsO₄ myelin (black)",
+      "• Schwann nuclei (along fibers) ≠ Fibrocyte nuclei (in CT)"
+    ]
+  }
+}
