@@ -1,0 +1,344 @@
+================================================================================
+SLIDE 15: Motor End Plate (AChE)
+================================================================================
+
+This slide shows a Motor End Plate stained with AChE histochemistry. Neuromuscular junctions are chemical synapses converting electrical nerve signals into muscle contraction via acetylcholine neurotransmission.
+
+The neuromuscular junction is the interface between motor neuron terminal and skeletal muscle fiber. It functions as a chemical synapse enabling signal transmission from the nervous system to muscle for voluntary contraction. The presynaptic axon terminal is the expanded unmyelinated nerve ending containing synaptic vesicles filled with acetylcholine and abundant mitochondria for energy. Upon arrival of an action potential, voltage-gated calcium channels open, calcium influx triggers vesicle fusion, and synaptic vesicles release acetylcholine into the synaptic cleft via exocytosis, with each vesicle containing approximately 10,000 ACh molecules.
+
+The synaptic cleft is the narrow 20-30 nanometer space between presynaptic membrane and motor end plate. Acetylcholinesterase enzyme is concentrated in the synaptic cleft, where it rapidly hydrolyzes acetylcholine to terminate the signal and prevent continuous stimulation. In organophosphate poisoning, this enzyme is inhibited, causing muscle paralysis.
+
+The postsynaptic motor end plate is the specialized region of muscle cell membrane with extensive junctional folds. The junctional folds are deep invaginations of the sarcolemma that increase surface area for receptors, with ACh receptors concentrated at fold crests and voltage-gated sodium channels in fold depths. Beneath the motor end plate lies the subneural apparatus, specialized muscle cytoplasm rich in nuclei, mitochondria, rough endoplasmic reticulum, and ribosomes that synthesizes ACh receptors and acetylcholinesterase enzymes.
+
+Myelinated motor neuron axons from alpha motor neurons in the spinal cord or brainstem conduct action potentials from the CNS to skeletal muscle. The axons lose their myelin at terminal branches, forming expanded boutons at motor end plates. The skeletal muscle fibers are large cylindrical multinucleated cells with characteristic alternating cross-striations from sarcomere organization, generating voluntary movement through the sliding filament mechanism of actin and myosin.
+
+
+================================================================================
+SLIDE 70: Peripheral nerve (cross section; HE)
+================================================================================
+
+This slide shows a peripheral nerve in cross section. Peripheral nerves are organized around three protective connective tissue layers running parallel to the nerve axis, exactly analogous to the three meningeal layers of the central nervous system, ensuring seamless protection at CNS-PNS transition zones.
+
+The endoneurium is the innermost layer, wrapping each individual nerve fiber along its entire length. This delicate loose connective tissue contains reticular fibers, fibroblasts, and capillaries. It provides the immediate microenvironment for nerve fibers, supporting their nutritional needs and maintaining optimal ion balance essential for signal conduction. This layer is the peripheral nervous system equivalent of the pia mater.
+
+The perineurium forms the middle layer, encircling bundles of multiple nerve fibers to create distinct fascicles. Composed of five to fifteen concentric layers of specialized perineural cells connected by tight junctions, this layer creates the blood-nerve barrier. This selective barrier prevents harmful blood-borne substances from reaching nerve fibers while maintaining the precise ionic composition necessary for proper nerve conduction. The perineurium corresponds functionally and structurally to the arachnoid mater of the central nervous system.
+
+The epineurium is the outermost layer, surrounding the entire nerve and all its fascicles. This dense irregular connective tissue contains thick collagen bundles, blood vessels, lymphatics, and adipose tissue. The epineurium provides mechanical protection and shock absorption while housing the vascular supply for the entire nerve structure. This layer allows nerve flexibility and mobility, functioning as the peripheral equivalent of the dura mater.
+
+Within each fascicle, bundles of nerve fibers create the characteristic honeycomb pattern visible in cross section. Each fiber consists of a central axon surrounded by a myelin sheath produced by Schwann cells. The myelin insulation enables saltatory conduction, dramatically increasing signal transmission speed. Between nerve fibers within the endoneurium, fibrocytes maintain the connective tissue matrix by producing collagen and reticular fibers. In the epineurium, adipocytes provide energy storage, mechanical cushioning, and protection from compression injury.
+
+
+================================================================================
+SLIDE 71: Peripheral Nerve (HE)
+================================================================================
+
+This slide shows a longitudinal section of a peripheral nerve. Peripheral nerves are organized around three protective connective tissue layers that run parallel to the nerve axis, each serving distinct structural and physiological roles.
+
+The endoneurium is the innermost layer, wrapping each individual nerve fiber along its entire length. This delicate loose connective tissue contains reticular fibers, fibroblasts, and capillaries. It provides the immediate microenvironment for nerve fibers, supporting their nutritional needs and maintaining optimal ion balance essential for signal conduction. This layer is the peripheral nervous system equivalent of the pia mater.
+
+The perineurium forms the middle layer, encircling bundles of multiple nerve fibers to create distinct fascicles that run longitudinally along the nerve. Composed of five to fifteen concentric layers of specialized perineural cells connected by tight junctions, this layer creates the blood-nerve barrier. This selective barrier prevents harmful blood-borne substances from reaching nerve fibers while maintaining the precise ionic composition necessary for proper nerve conduction. The perineurium corresponds functionally and structurally to the arachnoid mater of the central nervous system.
+
+The epineurium is the outermost layer, surrounding the entire nerve and all its fascicles. This dense irregular connective tissue contains thick collagen bundles, blood vessels, lymphatics, and adipose tissue. The epineurium provides mechanical protection and shock absorption while housing the vascular supply for the entire nerve structure. This layer allows nerve flexibility and mobility, functioning as the peripheral equivalent of the dura mater.
+
+Within each fascicle, bundles of nerve fibers run parallel to the nerve axis. Each fiber consists of a central axon that conducts electrical impulses along the nerve length. Surrounding each axon is a myelin sheath produced by Schwann cells, whose elongated nuclei align with the fiber axis. The myelin insulation enables saltatory conduction, dramatically increasing signal transmission speed. Periodic gaps in the myelin, called nodes of Ranvier, are sites where action potentials regenerate during transmission.
+
+Between nerve fibers within the endoneurium, fibrocytes maintain the connective tissue matrix by producing collagen and reticular fibers. In the epineurium, adipocytes provide energy storage, mechanical cushioning, and protection from compression injury. The direct transition of these three connective tissue layers to the three meningeal layers at nerve roots ensures seamless protection from the peripheral to the central nervous system.
+
+
+================================================================================
+SLIDE 72: Peripheral Nerve (OsO₄)
+================================================================================
+
+This slide shows a peripheral nerve in cross section stained with osmium tetroxide. Osmium tetroxide reveals the true lipid-rich nature of myelin by staining it black, the opposite of HE staining where myelin appears white, allowing direct visualization of the myelin sheaths that insulate nerve fibers.
+
+The endoneurium is the innermost layer, wrapping each individual nerve fiber. This delicate loose connective tissue contains reticular fibers, fibroblasts, and capillaries. It provides the immediate microenvironment for nerve fibers, supporting their metabolic needs and maintaining optimal ion balance essential for signal conduction. This layer is the peripheral nervous system equivalent of the pia mater.
+
+The perineurium forms the middle layer, encircling bundles of multiple nerve fibers to create distinct fascicles. Composed of five to fifteen concentric layers of specialized perineural cells connected by tight junctions and basement membranes, this layer creates the blood-nerve barrier. This selective barrier prevents harmful blood-borne substances from reaching nerve fibers while maintaining the precise ionic microenvironment necessary for proper nerve conduction. The perineurium corresponds functionally and structurally to the arachnoid mater of the central nervous system.
+
+The epineurium is the outermost layer, surrounding the entire nerve and all its fascicles. This dense irregular connective tissue contains thick collagen bundles, elastic fibers, blood vessels, lymphatics, and adipose tissue. The epineurium provides mechanical protection and shock absorption while housing the vascular supply for the entire nerve structure. This layer allows nerve mobility and flexibility, functioning as the peripheral equivalent of the dura mater.
+
+Within each fascicle, bundles of nerve fibers are packed tightly to create dense black circular patterns. Each myelin sheath appears as a black ring surrounding a pale central axon. The osmium staining reveals intact lipid-rich insulation that enables saltatory conduction, allowing rapid signal transmission. Between nerve fibers, fibrocytes maintain the endoneurial connective tissue matrix. In the epineurium, adipocytes appear as large circular white spaces, much larger than myelin profiles, providing energy storage, mechanical cushioning, and thermal insulation for the nerve.
+
+
+================================================================================
+SLIDE 73: Peripheral Nerve - Longitudinal Section (OsO₄)
+================================================================================
+
+This slide shows a peripheral nerve in longitudinal section stained with osmium tetroxide. Osmium tetroxide stains myelin black, revealing nodes of Ranvier as periodic gaps in the myelin sheath along longitudinal nerve sections, allowing visualization of the specialized sites where action potentials regenerate during saltatory conduction.
+
+Within each fascicle, bundles of nerve fibers run longitudinally as parallel black strands with periodic interruptions. The myelin sheaths appear as continuous black bands along the length of each nerve fiber, interrupted at regular intervals by nodes of Ranvier. These nodes are unmyelinated gaps approximately one micrometer wide where the axon membrane is exposed, allowing action potentials to jump from node to node in saltatory conduction, dramatically increasing signal transmission speed up to 120 meters per second.
+
+Each nerve fiber consists of a central axon conducting electrical impulses along its length, surrounded by a myelin sheath produced by Schwann cells. The Schwann cell nuclei appear as elongated dark structures aligned along the fiber axis. The myelin insulation is produced by multiple Schwann cells arranged sequentially along each axon, with each Schwann cell myelinating a single segment called an internode. The junction between adjacent Schwann cells creates the node of Ranvier.
+
+At the nodes of Ranvier, the axon membrane is enriched with voltage-gated sodium channels, allowing rapid depolarization and regeneration of the action potential. The myelin acts as an electrical insulator, forcing the current to jump between nodes. This saltatory conduction is far more energy-efficient than continuous conduction and allows for rapid signal transmission essential for motor control and sensory processing.
+
+The three connective tissue layers endoneurium, perineurium, and epineurium run continuously along the entire nerve length, providing structural support, protection, and vascular supply. The perineurium maintains the blood-nerve barrier, while the epineurium houses blood vessels and adipose tissue providing cushioning and protection.
+
+
+================================================================================
+SLIDE 74: Sensory Ganglion (HE)
+================================================================================
+
+This slide shows a sensory ganglion. Sensory ganglia are relay stations housing pseudounipolar neurons that transmit sensory information from peripheral receptors to the central nervous system, located along the dorsal roots of spinal nerves and along cranial nerves.
+
+Pseudounipolar neurons are the primary cell type in sensory ganglia. These specialized neurons have a single process that emerges from the cell body and then bifurcates into two branches one peripheral branch extending to sensory receptors and one central branch extending into the spinal cord or brainstem. The cell bodies are large and round, with pale-staining nuclei containing prominent nucleoli, reflecting their high metabolic activity. Each neuron cell body is surrounded by a complete layer of satellite glial cells that provide metabolic support and maintain the microenvironment around the neuron.
+
+Satellite glial cells form intimate capsules around each neuronal cell body within the ganglion. These small cells with dark-staining nuclei are derived from neural crest, similar to Schwann cells. They regulate the microenvironment around neurons, providing nutritional support, maintaining ionic balance, and protecting neurons from toxins. The satellite cells are connected by gap junctions, allowing communication and coordinated responses to changes in neuronal activity.
+
+Within the ganglion, nerve fiber bundles course between the neuronal cell bodies. These bundles contain both the peripheral processes carrying sensory information toward the ganglion and central processes carrying information from the ganglion into the central nervous system. The nerve fibers are myelinated by Schwann cells, with unmyelinated fibers also present in smaller numbers.
+
+The ganglion is surrounded by a connective tissue capsule continuous with the epineurium of the associated nerve. Blood vessels penetrate the ganglion, providing oxygen and nutrients to the metabolically active neurons. Unlike autonomic ganglia, sensory ganglia contain no synapses the neurons simply serve as relay points where the signal passes through without synaptic transmission. The pseudounipolar morphology allows rapid, uninterrupted transmission of sensory information from periphery to central nervous system.
+
+
+================================================================================
+SLIDE 75: Sensory Nerve Ending - Meissner's Corpuscle (Ag)
+================================================================================
+
+This slide shows Meissner's corpuscles within the dermal papillae of skin. Meissner's corpuscles are specialized mechanoreceptors organized in three layers epidermis, dermis, and hypodermis that enable fine discriminative touch and low-frequency vibration detection, particularly abundant in fingertips, palms, and lips.
+
+The epidermis forms the outermost layer of skin. This stratified squamous keratinized epithelium consists of multiple layers of keratinocytes that progressively differentiate and keratinize as they migrate toward the surface. It provides a waterproof barrier and the first line of defense against pathogens, while also containing melanocytes for pigmentation and Merkel cells for light touch sensation. The epidermis lacks blood vessels and receives nutrients by diffusion from the underlying dermis.
+
+The dermis forms the middle layer beneath the epidermis. This dense irregular connective tissue contains collagen and elastic fibers providing strength and elasticity to the skin. It contains blood vessels, lymphatics, nerve endings, sensory receptors, hair follicles, and glands. The papillary dermis extends upward as dermal papillae that interdigitate with epidermal ridges, increasing the surface area for exchange and anchoring the epidermis. The dermis houses specialized sensory receptors including Meissner's corpuscles and provides vascular supply and structural support for all skin appendages.
+
+The hypodermis or subcutaneous layer is the deepest layer, lying beneath the dermis. This layer consists primarily of adipose tissue interspersed with loose connective tissue. It contains larger blood vessels and nerves that branch into the dermis, houses the deep portions of hair follicles and sweat glands, and provides thermal insulation, energy storage, and mechanical cushioning. The hypodermis anchors the skin to underlying fascia and allows skin mobility over deeper structures.
+
+Meissner's corpuscles are encapsulated sensory receptors located in the dermal papillae immediately beneath the epidermis. Each corpuscle consists of a stack of specialized Schwann cells arranged horizontally within an elliptical connective tissue capsule. Unmyelinated sensory nerve endings wind through the stacked cells in a spiral pattern. These rapidly adapting mechanoreceptors detect light touch, texture, and low-frequency vibrations, essential for fine tactile discrimination and manipulative tasks. They are particularly abundant in fingertips where tactile acuity is highest, with density decreasing in other body regions.
+
+
+================================================================================
+SLIDE 76: Sensory Nerve Ending - Vater-Pacinian Corpuscle (HE)
+================================================================================
+
+This slide shows Vater-Pacinian corpuscles within the dermis and hypodermis. The skin is organized in three layers epidermis, dermis, and hypodermis housing specialized mechanoreceptors including Vater-Pacinian corpuscles that detect deep pressure and high-frequency vibration.
+
+The epidermis is the outermost layer, a stratified squamous keratinized epithelium providing a protective barrier. This avascular layer receives nutrients by diffusion from the underlying dermis. It contains keratinocytes, melanocytes, Langerhans cells for immune surveillance, and Merkel cells for light touch sensation. The epidermis constantly renews itself through basal cell proliferation and progressive keratinization.
+
+The dermis is the middle layer composed of dense irregular connective tissue with abundant collagen and elastic fibers. It contains blood vessels, lymphatics, nerve endings, sensory receptors, hair follicles, sebaceous glands, and sweat glands. The papillary dermis forms finger-like projections into the overlying epidermis, while the deeper reticular dermis contains denser collagen bundles. The dermis provides structural support, vascular supply, and houses various sensory receptors essential for skin function.
+
+The hypodermis is the deepest layer beneath the dermis, consisting primarily of adipose tissue within loose connective tissue. It contains larger blood vessels and nerves that branch upward into the dermis, houses deep portions of hair follicles and sweat glands, and provides thermal insulation, energy storage, and mechanical cushioning. The hypodermis anchors skin to underlying fascia while allowing mobility.
+
+Vater-Pacinian corpuscles are large encapsulated mechanoreceptors located in the deep dermis and hypodermis. Each corpuscle consists of a single unmyelinated nerve ending surrounded by 20-60 concentric lamellae of flattened cells separated by fluid-filled spaces, creating an onion-like structure. The lamellae are derived from Schwann cells and fibroblasts, with collagen fibers between layers providing structural support. These rapidly adapting receptors detect deep pressure and high-frequency vibrations 200-300 Hz. The layered capsule acts as a mechanical filter that only responds to rapid pressure changes, making these receptors ideal for detecting vibration and sudden deep pressure. They are essential for proprioception and detecting tool vibration during manipulation.
+
+
+================================================================================
+SLIDE 77: Vegetative (Autonomic) Ganglion (Ag)
+================================================================================
+
+This slide shows a vegetative or autonomic ganglion. Autonomic ganglia are relay stations housing multipolar neurons that form networks for visceral control, located along sympathetic chains and within organs, transmitting autonomic signals for involuntary functions.
+
+Multipolar neurons are the primary neurons in autonomic ganglia. These neurons have multiple dendrites extending from the cell body and a single axon, distinguishing them from the pseudounipolar neurons found in sensory ganglia. The cell bodies are irregularly shaped with eccentric nuclei containing prominent nucleoli. Unlike sensory ganglia, autonomic ganglia contain synapses where preganglionic fibers synapse onto postganglionic neurons. The postganglionic neurons then send axons to target organs to regulate smooth muscle, cardiac muscle, and glands.
+
+Satellite glial cells surround each neuronal cell body, forming incomplete capsules. These small cells with dark-staining nuclei provide metabolic support, regulate the extracellular environment, and protect neurons from toxins. The satellite cells maintain ionic balance and provide nutritional support essential for neuronal function. They are less organized than in sensory ganglia, reflecting the more complex synaptic activity within autonomic ganglia.
+
+Nerve fiber bundles course through the ganglion, containing both preganglionic fibers arriving from the central nervous system and postganglionic fibers departing to target organs. The preganglionic fibers are typically myelinated and release acetylcholine at synapses with postganglionic neurons. The postganglionic fibers may be unmyelinated or lightly myelinated and release either acetylcholine or norepinephrine depending on whether the ganglion is parasympathetic or sympathetic.
+
+Blood vessels penetrate the ganglion to supply the metabolically active neurons. The ganglion is surrounded by a connective tissue capsule continuous with the nerve sheaths. Sympathetic ganglia form chains along the vertebral column and contain neurons that release norepinephrine to activate fight-or-flight responses. Parasympathetic ganglia are located near or within target organs and release acetylcholine to promote rest-and-digest functions. Unlike sensory ganglia which simply relay signals, autonomic ganglia integrate and modulate signals for visceral control.
+
+
+================================================================================
+SLIDE 78: Spinal Cord (HE)
+================================================================================
+
+This slide shows the spinal cord. The spinal cord is a CNS processing center with butterfly-shaped gray matter containing neurons and synapses, surrounded by white matter containing myelinated tracts, protected by three-layered meninges, serving as the integration point between brain commands and peripheral responses.
+
+White matter forms the outer layer of the spinal cord, surrounding the butterfly-shaped gray matter core. It consists of myelinated axons organized into ascending and descending tracts called funiculi anterior, lateral, and posterior. The oligodendrocytes produce myelin sheaths around multiple axons, and astrocytes provide structural support. The lipid of the myelin was dissolved during standard histological preparation, making white matter appear pale and empty. White matter transmits information with ascending tracts carrying sensory information to the brain and descending tracts carrying motor commands to spinal segments.
+
+Gray matter forms the inner butterfly or H-shaped core of the spinal cord. It contains neuronal cell bodies, dendrites, unmyelinated axons, and neuropil, which is a dense network of neuronal processes. Gray matter is divided into anterior horns containing motor neurons that control voluntary movement, posterior horns receiving and processing sensory input, and in thoracic and upper lumbar segments, lateral horns containing autonomic neurons. The gray commissure connects both sides across the midline, surrounding the central canal.
+
+The central canal is located at the center of the gray commissure, representing the remnant of the embryonic neural tube lumen. It is lined by ependymal cells, simple columnar ciliated epithelial cells that produce and regulate cerebrospinal fluid. The cilia move CSF through the canal. In adults, the central canal is often partially or completely obliterated but remains visible histologically as a small CSF-filled space.
+
+The anterior horn contains alpha motor neurons, also called Deiters's motor neurons, which are large multipolar neurons with prominent Nissl substance. These neurons innervate skeletal muscles for voluntary movement, conducting motor commands from the brain via the corticospinal tract to peripheral muscles. Throughout gray matter, neuropil forms a dense mesh-like network appearing as pale matrix between cell bodies, containing countless axons, dendrites, and glial processes forming synaptic connections. This is the primary site of synaptic transmission and signal integration.
+
+The meninges are three protective connective tissue layers surrounding the spinal cord the pia mater adhering directly to the cord surface, the arachnoid mater forming an avascular middle layer, and the dura mater providing a tough fibrous outer tube. The subarachnoid space between pia and arachnoid contains CSF for shock absorption. Blood vessels penetrate from the pia mater into the cord parenchyma, with the anterior spinal artery supplying the anterior two-thirds and posterior spinal arteries supplying the posterior one-third.
+
+
+================================================================================
+SLIDE 79: Meninges (HE)
+================================================================================
+
+This slide shows the meninges. The meninges are three protective layers surrounding the central nervous system with CSF cushioning and venous drainage, paralleling peripheral nerve connective tissue layers.
+
+The pia mater is the innermost layer, closely adhering to the brain surface and following all its contours. It consists of a single layer of flattened meningeal cells derived from neural crest with underlying loose connective tissue. The pia mater contains a rich vascular network that supplies the brain, and as blood vessels penetrate the brain parenchyma, the pia extends along them, creating perivascular or Virchow-Robin spaces. This layer is the CNS equivalent of the endoneurium in peripheral nerves.
+
+The arachnoid mater is the middle layer, forming a continuous membrane over the brain surface without following the contours of sulci and gyri. It consists of an outer barrier layer of arachnoid cells connected by tight junctions and an inner layer with trabecular cells sending processes to connect with the pia mater. The space between arachnoid and pia is the subarachnoid space, filled with cerebrospinal fluid that cushions the brain. Arachnoid granulations are finger-like projections that protrude into dural venous sinuses, particularly the superior sagittal sinus, where they drain CSF into venous blood circulation. The arachnoid creates the CSF-brain barrier and corresponds to the perineurium in peripheral nerves.
+
+The dura mater is the outermost layer, forming a tough protective membrane. It consists of two layers in the cranial cavity a periosteal layer adhering to the skull and a meningeal layer continuous with spinal dura. The dura is composed of dense irregular connective tissue with abundant collagen. It contains venous sinuses including the superior sagittal sinus along the superior border of the falx cerebri, which drains venous blood from the brain. Lateral lacunae are expansions of the superior sagittal sinus where arachnoid granulations are most prominent, serving as primary sites of CSF absorption. The dura provides mechanical protection, contains venous sinuses for blood drainage, forms compartments separating brain regions, and anchors the brain within the skull. This layer is the CNS equivalent of the epineurium in peripheral nerves.
+
+Arachnoid granulations transfer CSF from the subarachnoid space into venous blood circulation, essential for maintaining CSF homeostasis and intracranial pressure. Blood vessels course through the subarachnoid space and penetrate the brain parenchyma, surrounded by perivascular spaces that allow CSF circulation around vessels.
+
+
+================================================================================
+SLIDE 80: Medulla Oblongata (Myelin + Cresyl Violet)
+================================================================================
+
+This slide shows the medulla oblongata with dual staining. The myelin stain highlights white matter tracts in blue-black, while cresyl violet stains neuronal cell bodies purple, revealing the organization of motor and sensory pathways where the brainstem integrates signals between brain and spinal cord.
+
+The medulla oblongata is the most caudal portion of the brainstem, continuous with the spinal cord below and the pons above. It serves as a vital relay and integration center for ascending sensory and descending motor pathways, while also housing nuclei that control essential autonomic functions including cardiovascular regulation, respiratory rhythm, and reflexes such as swallowing and vomiting.
+
+White matter tracts run through the medulla, containing myelinated axons that form the major ascending and descending pathways. The pyramids are prominent ventral structures containing corticospinal tract fibers carrying motor commands from cerebral cortex to spinal cord, with most fibers decussating in the pyramidal decussation at the caudal medulla. The medial lemniscus is formed by decussating fibers of the posterior column pathway, carrying fine touch and proprioception from the body to the thalamus. Olivary nuclei send climbing fibers to the cerebellum via the inferior cerebellar peduncle. The myelin stain reveals these fiber tracts as blue-black regions.
+
+Gray matter in the medulla contains numerous important nuclei. The inferior olivary nucleus is a large folded structure in the ventrolateral medulla that projects to the cerebellum, involved in motor learning and coordination. The hypoglossal nucleus in the dorsomedial medulla contains motor neurons innervating tongue muscles via cranial nerve XII. The dorsal motor nucleus of the vagus contains preganglionic parasympathetic neurons, while the nucleus ambiguus contains motor neurons for muscles of pharynx and larynx. The solitary nucleus receives visceral sensory information. Cresyl violet stains the Nissl substance in neuronal cell bodies, revealing these nuclei as purple clusters.
+
+The fourth ventricle is the CSF-filled space in the dorsal medulla, continuous with the central canal of the spinal cord caudally and the cerebral aqueduct rostrally. Its floor contains important nuclei, while its roof is formed by the inferior cerebellar peduncles and choroid plexus. Ependymal cells line the ventricular surface.
+
+The medulla's organization reflects its role as a transition zone between spinal cord and higher brain centers. The decussation of pyramids and medial lemniscus explains why brain lesions affect the opposite side of the body. Damage to medullary nuclei can have life-threatening consequences, disrupting vital autonomic functions.
+
+
+================================================================================
+SLIDE 81: Cerebellum (HE)
+================================================================================
+
+This slide shows the cerebellum. The cerebellum is a motor coordination center with a unique three-layered cortex where Purkinje cells integrate inputs to fine-tune movement, balance, and motor learning.
+
+The cerebellar cortex has three distinct layers. The molecular layer is the outermost layer, appearing pale and sparsely cellular. It contains the dendrites of Purkinje cells, parallel fibers which are axons of granule cells running perpendicular to the folia, and scattered stellate and basket interneurons. This layer is primarily a zone of synaptic connections where climbing fibers and parallel fibers synapse onto Purkinje cell dendrites. Despite its pale appearance, it contains the most complex synaptic networks in the brain.
+
+The Purkinje cell layer is the middle layer, consisting of a single row of large Purkinje cell bodies. Purkinje cells are among the largest neurons in the brain, with massive fan-shaped dendritic trees extending into the molecular layer and axons projecting into white matter. They are GABAergic inhibitory neurons and represent the sole output of the cerebellar cortex, projecting to deep cerebellar nuclei. Each Purkinje cell integrates inputs from up to 200,000 parallel fibers and one climbing fiber, performing crucial computations for motor coordination. Damage to Purkinje cells results in ataxia and loss of motor coordination.
+
+The granular layer is the innermost layer, densely packed with tiny granule cell bodies appearing as a dark purple band. Granule cells are the most numerous neurons in the entire brain. Their axons ascend into the molecular layer where they bifurcate to form parallel fibers that synapse on Purkinje cell dendrites. The granular layer also contains Golgi cells, which are larger inhibitory interneurons scattered among the granule cells. Cerebellar glomeruli are synaptic complexes within the granular layer where mossy fiber terminals synapse with granule cell dendrites, modulated by Golgi cell axons.
+
+White matter lies deep to the granular layer, containing myelinated axons. These include afferent fibers mossy fibers carrying information from pontine nuclei and spinal cord, and climbing fibers from the inferior olivary nucleus and efferent fibers which are axons of Purkinje cells projecting to deep cerebellar nuclei. The deep cerebellar nuclei dentate, interposed, and fastigial are clusters of neurons within the white matter that receive Purkinje cell output and project to thalamus, brainstem, and spinal cord.
+
+The cerebellum's folded structure greatly increases cortical surface area. Each folium is a ridge of cortex surrounded by white matter core. The consistent three-layered organization across all folia allows parallel processing of multiple motor programs simultaneously. The cerebellum refines motor commands, maintains balance, coordinates eye movements, and contributes to motor learning through synaptic plasticity at parallel fiber-Purkinje cell synapses.
+
+
+================================================================================
+SLIDE 82: Cerebellum (Ag)
+================================================================================
+
+This slide shows the cerebellum with silver staining. Silver impregnation reveals the massive dendritic arbors of Purkinje cells within the highly organized three-layered cerebellar cortex where motor coordination and motor learning occur.
+
+The cerebellar cortex has three distinct layers organized for precise motor control. The molecular layer is the outermost layer, appearing relatively pale and sparsely cellular. It contains the elaborate fan-shaped dendritic trees of Purkinje cells that extend upward into this layer, parallel fibers which are the axons of granule cells running perpendicular to the plane of Purkinje cell dendrites, and scattered inhibitory interneurons including stellate and basket cells. This layer is primarily a synaptic zone where parallel fibers and climbing fibers make connections with Purkinje cell dendrites. The silver staining dramatically reveals the extensive dendritic branching of Purkinje cells, which can receive inputs from up to 200,000 parallel fibers.
+
+The Purkinje cell layer consists of a single row of large Purkinje cell bodies. Purkinje cells are among the largest and most distinctive neurons in the brain, with flask-shaped cell bodies arranged in a single layer. Silver staining reveals their massive dendritic trees extending into the molecular layer like a fan, oriented perpendicular to the long axis of the folium. These GABAergic inhibitory neurons are the sole output of the cerebellar cortex, with their axons projecting through the granular layer into white matter to synapse on deep cerebellar nuclei. Each Purkinje cell integrates climbing fiber input providing error signals and parallel fiber input encoding sensory and motor information, performing complex computations essential for motor coordination and learning.
+
+The granular layer is the innermost layer, densely packed with tiny granule cell bodies creating a dark band. Granule cells are the most numerous neurons in the entire central nervous system. They receive input from mossy fibers in cerebellar glomeruli and send their axons into the molecular layer where they bifurcate to form parallel fibers. These parallel fibers run along the length of folia, intersecting the dendritic trees of multiple Purkinje cells, allowing integration of information across multiple cells. Golgi cells scattered within the granular layer provide feedback inhibition to granule cells.
+
+White matter lies beneath the granular layer, containing myelinated afferent and efferent fibers. Mossy fibers bring information from pontine nuclei conveying cerebral cortex input and from spinal cord carrying proprioceptive information. Climbing fibers from the inferior olivary nucleus carry error signals that induce synaptic plasticity. Purkinje cell axons project to deep cerebellar nuclei, which then project to thalamus, red nucleus, vestibular nuclei, and reticular formation.
+
+The cerebellum's precise laminar organization allows parallel processing of multiple motor programs. Each folium contains the complete circuit Purkinje cells comparing intended movements with actual performance, enabling real-time motor corrections and motor learning through synaptic plasticity.
+
+
+================================================================================
+SLIDE 83: Cerebral Cortex - Granular (Cresyl Violet)
+================================================================================
+
+This slide shows the cerebral cortex with cresyl violet staining. The granular cortex is a sensory processing center with prominent layer 4 receiving thalamic input, organized in six layers performing hierarchical sensory analysis.
+
+The cerebral cortex exhibits six distinct layers, each with characteristic cell types and connections. Layer 1, the molecular layer, is the most superficial layer, appearing pale and sparsely cellular. It contains few neurons but abundant dendrites from pyramidal cells in deeper layers, along with axons from other cortical areas and thalamus. This layer is primarily a zone of synaptic connections where apical dendrites receive modulatory inputs.
+
+Layer 2, the external granular layer, and layer 3, the external pyramidal layer, contain small to medium-sized neurons. Layer 2 contains small granule cells, while layer 3 contains small pyramidal neurons. These layers contain neurons that project to other cortical areas, establishing corticocortical connections essential for associative processing and integration of information across different cortical regions.
+
+Layer 4, the internal granular layer, is prominently developed in primary sensory cortices. This layer is densely packed with small stellate cells and granule cells, appearing as a thick dark band in cresyl violet staining. Layer 4 receives the majority of thalamocortical afferents, making it the primary input layer of the cortex. In primary visual cortex, layer 4 is further subdivided, reflecting the complexity of visual processing. The prominence of layer 4 defines granular cortex found in sensory areas, distinguishing it from agranular motor cortex where layer 4 is minimal.
+
+Layer 5, the internal pyramidal layer, contains large pyramidal neurons with prominent cell bodies and apical dendrites extending to layer 1. These neurons project to subcortical structures including brainstem, spinal cord, and striatum. Layer 5 pyramidal cells are the primary output neurons for motor commands and other descending pathways. In motor cortex, layer 5 contains Betz cells, giant pyramidal neurons that contribute to the corticospinal tract.
+
+Layer 6, the multiform or polymorphic layer, is the deepest layer adjacent to white matter. It contains diverse neuron types including pyramidal cells and fusiform cells. Layer 6 neurons project back to the thalamus, providing feedback modulation of thalamic relay neurons. This layer completes the cortical circuit, allowing the cortex to regulate its own input.
+
+Cresyl violet stains Nissl substance in neuronal cell bodies, revealing the laminar organization and neuronal density in each layer. White matter beneath the cortex contains myelinated axons forming association fibers connecting different cortical areas, commissural fibers connecting the hemispheres, and projection fibers connecting cortex with subcortical structures. The six-layered organization allows hierarchical processing, with each layer performing specific computational roles in sensory analysis, association, and motor output.
+
+
+================================================================================
+SLIDE 84: Cerebral Cortex - Agranular (Motor Cortex)
+================================================================================
+
+This slide shows the motor cortex or agranular cortex. The motor cortex is organized with prominent layer 5 containing Betz cells for voluntary movement control, characterized by a minimal layer 4, distinguishing it from sensory cortex.
+
+The cerebral cortex in motor areas exhibits a modified six-layer organization. Layer 1, the molecular layer, is the most superficial layer, containing few cell bodies but abundant dendrites from pyramidal cells in deeper layers and axons from other regions. This layer is a zone of synaptic modulation where apical dendrites receive inputs that modulate neuronal firing.
+
+Layers 2 and 3 together form the external layers containing small to medium pyramidal neurons. These neurons establish connections with other cortical areas, participating in motor planning and coordination. Layer 3 pyramidal neurons project to other cortical regions including premotor areas and supplementary motor areas, integrating information necessary for complex voluntary movements.
+
+Layer 4, the internal granular layer, is characteristically thin or nearly absent in motor cortex, distinguishing agranular cortex from granular sensory cortex. The reduced layer 4 reflects the motor cortex's role in output rather than receiving thalamic sensory input. This absence of a prominent granular layer is the defining feature of agranular cortex.
+
+Layer 5, the internal pyramidal layer, is highly developed in motor cortex, containing the largest neurons in the cerebral cortex called Betz cells or giant pyramidal cells. These massive pyramidal neurons have large triangular cell bodies, thick apical dendrites extending to layer 1, and prominent Nissl substance visible with cresyl violet staining. Betz cell axons form part of the corticospinal tract, traveling through the internal capsule, cerebral peduncle, and pyramids, with most fibers decussating in the medulla before descending in the lateral corticospinal tract to synapse on motor neurons in the spinal cord. Betz cells comprise only about 3-5% of corticospinal fibers, with the remaining fibers arising from smaller layer 5 pyramidal cells and layer 3 neurons. These neurons are essential for fine voluntary motor control, particularly of distal muscles in hands and fingers.
+
+Layer 6, the multiform layer, contains diverse cell types and sends projections back to the thalamus, modulating thalamic relay activity. Below the cortex, white matter contains massive bundles of myelinated axons, predominantly motor fibers descending from layer 5 pyramidal cells to brainstem and spinal cord.
+
+The motor cortex is organized somatotopically with a motor homunculus, where different body regions are represented in specific cortical areas, with disproportionately large representations for hands and face reflecting their importance in fine motor control. Damage to motor cortex results in contralateral weakness or paralysis, with loss of fine motor control being most prominent.
+
+
+================================================================================
+SLIDE 85: Cerebral Cortex (Parvalbumin IHC)
+================================================================================
+
+This slide shows the cerebral cortex with Parvalbumin immunohistochemistry. Parvalbumin IHC reveals the powerful inhibitory network controlling cortical excitability through fast-spiking interneurons that regulate pyramidal cell firing and maintain excitatory-inhibitory balance.
+
+Parvalbumin-positive interneurons are a major class of GABAergic inhibitory neurons in the cerebral cortex, comprising approximately 40% of all cortical interneurons. These neurons express the calcium-binding protein parvalbumin and include basket cells and chandelier cells. Basket cells have cell bodies located primarily in layers 2-6, with axons forming basket-like terminals around pyramidal cell somata, providing powerful perisomatic inhibition. Chandelier cells, also called axo-axonic cells, have distinctive candlestick-like axon terminals that synapse exclusively on the axon initial segments of pyramidal neurons, providing the strongest inhibitory control over action potential generation.
+
+The parvalbumin-positive network exhibits a characteristic distribution across cortical layers. Basket cells are found throughout layers 2-6, with highest density in layers 3-5. Chandelier cells are concentrated in layers 2-3. Both cell types have fast-spiking properties, capable of firing at very high frequencies 200-300 Hz, enabling rapid inhibitory control of cortical circuits. The cell bodies appear as dark labeled neurons with the immunostaining, often with visible proximal dendrites and axon initial segments.
+
+Parvalbumin-positive terminals form dense networks of inhibitory connections throughout all cortical layers. These terminals appear as dark punctate staining surrounding unlabeled pyramidal cell bodies and coating their axon initial segments. The density of parvalbumin-positive terminals reflects the extensive inhibitory control these interneurons exert on cortical excitability. Each basket cell can innervate hundreds of pyramidal neurons, while each chandelier cell controls dozens of pyramidal neurons through axo-axonic synapses.
+
+The parvalbumin network plays critical roles in cortical function. These interneurons maintain excitatory-inhibitory balance by preventing runaway excitation and potential seizure activity. They generate and synchronize gamma oscillations 30-80 Hz that are essential for attention, working memory, and sensory binding. They provide feedforward inhibition that sharpens sensory responses and improves signal-to-noise ratio. They control the timing of pyramidal cell firing with millisecond precision through perisomatic and axo-axonic inhibition.
+
+Dysfunction of parvalbumin-positive interneurons is implicated in multiple neurological and psychiatric disorders. In schizophrenia, reduced parvalbumin expression and altered chandelier cell connectivity contribute to cognitive deficits and disorganized neural activity. In epilepsy, loss of parvalbumin interneurons reduces inhibitory control, leading to hyperexcitability and seizures. In autism spectrum disorders, altered excitatory-inhibitory balance partly reflects parvalbumin interneuron dysfunction. The parvalbumin network represents a critical therapeutic target for these conditions.
+
+
+================================================================================
+SLIDE 86: Hippocampus (cresyl violet)
+================================================================================
+
+This slide shows the hippocampus with cresyl violet staining. The hippocampus is a layered archicortex structure with large pyramidal neurons rich in Nissl bodies, critical for memory formation through its trisynaptic circuit connecting dentate gyrus, CA3, and CA1 regions.
+
+The hippocampus is an archicortex structure with a simpler laminar organization compared to neocortex, consisting of three main cellular layers. The dentate gyrus is a V-shaped or C-shaped structure forming one blade of the hippocampal formation. Its granule cell layer consists of densely packed small granule neurons that receive input from the entorhinal cortex via the perforant pathway. The dentate gyrus is one of the few brain regions exhibiting adult neurogenesis, continuously generating new granule neurons from neural stem cells in the subgranular zone. Granule cell axons called mossy fibers project to CA3 pyramidal neurons, forming the first synapse in the trisynaptic hippocampal circuit essential for episodic memory formation.
+
+The CA3 region contains large pyramidal neurons arranged in a relatively thick layer. CA3 pyramidal cells have large cell bodies with abundant Nissl substance, extensive basal dendritic trees receiving mossy fiber input from dentate granule cells, and apical dendrites extending into stratum radiatum and stratum lacunosum-moleculare. CA3 neurons exhibit extensive recurrent collateral connections, allowing auto-association and pattern completion crucial for memory recall. CA3 axons project via the Schaffer collateral pathway to CA1 pyramidal neurons, forming the second synapse of the trisynaptic circuit.
+
+The CA1 region contains a single layer of medium-sized pyramidal neurons that are smaller than CA3 pyramidal cells but still display prominent Nissl substance. CA1 pyramidal cells receive input from CA3 via Schaffer collaterals and are the major output of the hippocampus, projecting to subiculum, entorhinal cortex, and other brain regions. CA1 neurons exhibit long-term potentiation and long-term depression, forms of synaptic plasticity underlying memory encoding. The CA1 region is particularly vulnerable to ischemia and hypoxia, with selective CA1 damage causing severe anterograde amnesia as seen in patient H.M.
+
+The hippocampus is organized in distinct layers in each region. Stratum oriens contains pyramidal cell basal dendrites and interneurons. Pyramidal cell layer contains the cell bodies. Stratum radiatum contains apical dendrites receiving Schaffer collateral inputs. Stratum lacunosum-moleculare contains distal dendrites receiving entorhinal inputs. The molecular layer in dentate gyrus contains granule cell dendrites receiving perforant path input.
+
+The hippocampal formation includes adjacent structures. The subiculum is a transitional cortex between hippocampus and entorhinal cortex. The entorhinal cortex is the major input/output interface between hippocampus and neocortex. The hippocampal circuit is essential for declarative memory formation, with information flowing through the trisynaptic pathway dentate gyrus to CA3 to CA1, before projecting back to entorhinal cortex. Damage to hippocampus bilaterally causes severe anterograde amnesia, demonstrating its critical role in consolidating new memories.
+
+
+================================================================================
+SLIDE 87: Diencephalon (Oxytocin Immunostaining)
+================================================================================
+
+This slide shows the diencephalon with oxytocin immunostaining. The hypothalamus bridges nervous and endocrine systems, with neurons synthesizing hormones like oxytocin that travel via the hypothalamo-hypophyseal tract to regulate pituitary function and homeostasis.
+
+The hypothalamus is a small but functionally critical region of the diencephalon located below the thalamus and forming the floor and ventral walls of the third ventricle. It is organized into numerous nuclei that regulate homeostasis, autonomic function, endocrine secretion, and behavior. The hypothalamus integrates inputs from multiple sources including visceral sensory information, circulating hormones, metabolites, and descending signals from limbic structures, allowing it to coordinate complex physiological responses.
+
+The paraventricular nucleus and supraoptic nucleus are magnocellular neurosecretory nuclei located in the anterior hypothalamus. These nuclei contain large neurons whose cell bodies are labeled with oxytocin immunostaining. These magnocellular neurons synthesize oxytocin and vasopressin, packaging the hormones along with carrier proteins called neurophysins into secretory granules. The hormones are transported down long axons that form the hypothalamo-hypophyseal tract, projecting through the median eminence and infundibulum to terminate in the posterior pituitary or neurohypophysis.
+
+Oxytocin-positive neurons have large cell bodies with extensive dendritic trees and long axons. The immunostaining reveals the entire neuron including soma, dendrites, and axon, making the hypothalamo-hypophyseal tract visible as a dense bundle of labeled fibers descending toward the posterior pituitary. Oxytocin is synthesized in the neuronal cell body in the rough endoplasmic reticulum, processed in the Golgi apparatus, and packaged into dense-core vesicles that undergo axonal transport to nerve terminals in the posterior pituitary.
+
+Oxytocin has multiple important functions. In females, it stimulates uterine contractions during labor and milk ejection during breastfeeding in response to suckling. In both sexes, oxytocin promotes social bonding, trust, and pair bonding, often called the love hormone. Oxytocin release is stimulated by suckling, cervical stretch during labor, and social interactions. The hormone acts through oxytocin receptors in target tissues including uterus, mammary glands, and brain regions involved in social behavior.
+
+Vasopressin or antidiuretic hormone is co-synthesized in many of the same neurons. Vasopressin regulates water balance by promoting water reabsorption in kidney collecting ducts, increases blood pressure through vasoconstriction, and influences social behaviors. The posterior pituitary acts as a neurohaemal organ where neurosecretory axon terminals release hormones directly into fenestrated capillaries for systemic distribution. This neurohypophysis represents a direct neural control of endocrine function, distinguishing it from the anterior pituitary which is controlled by releasing hormones secreted into the hypothalamo-hypophyseal portal system.
+
+
+================================================================================
+SLIDE 88: Astrocyta (immunostaining - GFAP)
+================================================================================
+
+This slide shows astrocytes with GFAP immunostaining. GFAP immunostaining reveals the extensive astrocyte network forming critical CNS barriers at brain surfaces and around blood vessels, performing essential support and regulatory functions.
+
+Astrocytes are the most numerous glial cells in the central nervous system, comprising approximately 20-40% of all glia. These star-shaped cells express glial fibrillary acidic protein, an intermediate filament protein that forms the structural cytoskeleton and is the definitive marker for astrocyte identification. GFAP immunostaining labels the entire astrocyte cell body and its elaborate branching processes, revealing the extensive network these cells form throughout CNS tissue.
+
+There are two main morphological types of astrocytes. Protoplasmic astrocytes are found in gray matter, with relatively short, highly branched processes extending in all directions from the cell body. These astrocytes contact multiple neuronal cell bodies, dendrites, and synapses, with each protoplasmic astrocyte occupying a distinct territorial domain containing up to 100,000 synapses. Fibrous astrocytes are found in white matter, with longer, less branched processes oriented along myelinated fiber tracts. Fibrous astrocytes support axons and regulate the white matter microenvironment.
+
+Astrocyte processes extend to form critical structures throughout the CNS. Astrocytic endfeet terminate on blood vessels, where they form a near-complete covering of the vessel wall as part of the blood-brain barrier. These perivascular endfeet contain high concentrations of aquaporin-4 water channels and regulate blood flow, nutrient transport, and waste removal. Astrocytic endfeet also extend to cover the brain surface beneath the pia mater, forming the glial limitans externa, a continuous barrier separating CNS parenchyma from meningeal space. Around the ependyma lining the ventricles, astrocytes form the glial limitans interna, preventing unregulated exchange between cerebrospinal fluid and brain tissue.
+
+Astrocytes perform numerous essential functions. They maintain blood-brain barrier integrity by inducing tight junctions between endothelial cells. They regulate extracellular ion concentrations, particularly potassium, preventing neuronal hyperexcitability. They take up neurotransmitters including glutamate and GABA from synaptic clefts, terminating synaptic transmission. They provide metabolic support to neurons, supplying lactate as an energy substrate. They modulate synaptic transmission through gliotransmitter release including glutamate, ATP, and D-serine. They promote synapse formation and elimination, actively sculpting neural circuits. They form glial scars in response to CNS injury, limiting damage spread but potentially impeding axon regeneration.
+
+The GFAP-positive network demonstrates astrocyte territorial organization, with each astrocyte occupying a defined domain with minimal overlap between adjacent cells. This organization ensures complete coverage of the CNS parenchyma while preventing redundant function. Reactive astrocytes in pathological conditions show increased GFAP expression, enlarged cell bodies, and hypertrophied processes, visible as reactive gliosis in injured or diseased brain tissue. Astrocyte dysfunction is implicated in numerous neurological disorders including epilepsy, Alzheimer's disease, and ALS.
+
+
+================================================================================
+SLIDE 89: Microglia (immunostaining -Iba1)
+================================================================================
+
+This slide shows microglia with Iba1 immunostaining. Microglia are the resident immune cells of the CNS, acting as sentinels that constantly survey the brain, with morphology revealing activation state ramified processes indicate surveillance while amoeboid shape indicates active immune response.
+
+Microglia are specialized immune cells representing approximately 10-15% of all glial cells in the central nervous system. They have a unique origin compared to all other CNS cells microglia derive from yolk sac monocytes during early embryonic development, migrating into the CNS before the blood-brain barrier forms. This mesodermal origin contrasts with all other CNS cells which derive from neuroectoderm, explaining microglia's immune cell properties. Under normal conditions, microglia are self-renewing and do not require replacement from blood monocytes, although severe injury can recruit peripheral monocytes.
+
+Iba1, or ionized calcium-binding adapter molecule 1, is the most specific marker for identifying microglia in CNS tissue. Iba1 immunostaining labels the entire microglial cell including the cell body and all processes, providing complete visualization of microglial morphology. Unlike markers such as CD11b or CD68 which may label other immune cells, Iba1 is expressed exclusively in microglia within the CNS, making it the gold standard for microglial identification.
+
+Microglial morphology directly reflects their functional state. In healthy brain tissue, resting or surveilling microglia exhibit a ramified morphology with a small cell body and multiple long, thin, highly branched processes extending in all directions. These processes are constantly moving and retracting, surveilling the local environment and detecting any signs of damage, infection, or dysfunction. Each microglial cell surveys a distinct territorial domain, with processes making transient contacts with synapses, blood vessels, and other cells.
+
+Upon detecting injury, infection, or pathological changes, microglia transform to an activated state. Activated microglia retract their fine processes, developing thicker, shorter processes, and enlarge their cell bodies. In severe pathology, microglia may adopt an amoeboid morphology with round cell bodies, few processes, and high phagocytic activity. This morphological transformation is reversible microglia can return to ramified surveillance mode after resolution of the pathological stimulus.
+
+Microglia perform dual roles in CNS health and disease. In health, they provide essential maintenance functions including phagocytosing cellular debris and dead cells, pruning excess synapses during development and plasticity, monitoring blood-brain barrier integrity, supporting neuronal health, and providing immunosurveillance against pathogens. In disease and injury, microglia mount inflammatory responses that can be beneficial or harmful. Acute activation helps clear debris and pathogens, but chronic activation releases inflammatory cytokines including TNF-alpha and IL-1beta that can damage neurons. In Alzheimer's disease, microglia cluster around amyloid plaques attempting clearance but become dysfunctional. In stroke, early microglial response removes dead tissue but prolonged activation worsens damage. In multiple sclerosis, activated microglia attack myelin and oligodendrocytes during relapses.
+
+The morphological spectrum visible with Iba1 staining provides diagnostic information about CNS health. Increased microglial activation indicated by thicker processes, enlarged cell bodies, and increased Iba1 staining intensity suggests neuroinflammation and is observed in virtually all neurological diseases. The challenge in microglial biology is modulating their activation to preserve beneficial surveillance and clearance functions while preventing harmful chronic inflammation.
+

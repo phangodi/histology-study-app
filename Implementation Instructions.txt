@@ -1,0 +1,40 @@
+Implementation Instructions
+To implement this standalone audio player in another website, follow these steps:
+
+Include Dependencies:
+Make sure React is loaded on your page (v16.8 or higher for hooks support)
+Include Howler.js library (v2.2.4 or compatible version)
+html
+<script src="https://unpkg.com/react@18/umd/react.production.min.js"></script>
+<script src="https://unpkg.com/react-dom@18/umd/react-dom.production.min.js"></script>
+<script src="https://unpkg.com/howler@2.2.4/dist/howler.min.js"></script>
+Include the Audio Player CSS:
+Copy the CSS from 
+MiniAudioPlayer.css
+ in your project
+Include it in your HTML or add it to your existing stylesheet
+Use the Component:
+javascript
+// Create a container element in your HTML
+// <div id="audio-player-container"></div>
+
+// Render the player
+const root = ReactDOM.createRoot(document.getElementById('audio-player-container'));
+root.render(React.createElement(MiniAudioPlayer, {
+  audioUrl: "path/to/your/audio/file.mp3",
+}));
+Customization Options:
+audioUrl: Path to the audio file you want to play
+The player includes all the functionality from the original:
+
+Play/Pause controls
+Progress bar with seeking capability
+Time display
+Speed control (0.75x, 1x, 1.25x, 1.5x, 2x)
+Repeat modes (Off, Once, Loop)
+Restart button to go back to the beginning
+Responsive design for mobile devices
+
+
+
+This site has no critical and non-critical objectives, so just have the color matching this site design. Only one player for each slide on the Oral Answer Page

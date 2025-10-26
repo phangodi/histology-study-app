@@ -1,0 +1,489 @@
+// Standalone Audio Player Component
+// This file contains all necessary code for the audio player in a single file
+
+// RepeatMode constants
+const RepeatMode = {
+  OFF: 'off',
+  ONCE: 'once',
+  LOOP: 'loop'
+};
+
+// Audio Player Hook (standalone version)
+function useAudioPlayer(onTrackEnd) {
+  const [isPlaying, setIsPlaying] = React.useState(false);
+  const [currentTime, setCurrentTime] = React.useState(0);
+  const [duration, setDuration] = React.useState(0);
+  const [speed, setSpeed] = React.useState(1);
+  const [repeat, setRepeat] = React.useState(RepeatMode.OFF);
+  const [isLoading, setIsLoading] = React.useState(false);
+  
+  const soundRef = React.useRef(null);
+  const intervalRef = React.useRef(null);
+  const repeatCountRef = React.useRef(0);
+  const wasPlayingRef = React.useRef(false);
+  const repeatRef = React.useRef(RepeatMode.OFF);
+  const skipNextTickRef = React.useRef(false);
+
+  const load = React.useCallback((audioPath) => {
+    // Remember if we were playing
+    wasPlayingRef.current = isPlaying;
+
+    // Stop current sound if any
+    if (soundRef.current) {
+      soundRef.current.stop();
+      soundRef.current.unload();
+    }
+
+    setIsLoading(true);
+    setCurrentTime(0);
+    setDuration(0);
+    setIsPlaying(false);
+    repeatCountRef.current = 0;
+
+    soundRef.current = new Howl({
+      src: [audioPath],
+      html5: true,
+      preload: true,
+      onload: () => {
+        const dur = soundRef.current.duration();
+        setDuration(dur);
+        setIsLoading(false);
+        // Restore playback speed
+        soundRef.current.rate(speed);
+        // Auto-play if we were playing before
+        if (wasPlayingRef.current) {
+          soundRef.current.play();
+        }
+      },
+      onloaderror: (id, error) => {
+        console.error('Error loading audio:', error);
+        setIsLoading(false);
+      },
+      onend: () => {
+        // Use ref to get current repeat mode (avoids stale closure)
+        const currentRepeat = repeatRef.current;
+
+        if (currentRepeat === RepeatMode.LOOP) {
+          setCurrentTime(0); // Reset time display for loop
+          soundRef.current?.seek(0);
+          soundRef.current?.play();
+          repeatCountRef.current++;
+        } else if (currentRepeat === RepeatMode.ONCE && repeatCountRef.current === 0) {
+          setCurrentTime(0); // Reset time display for repeat once
+          soundRef.current?.seek(0);
+          repeatCountRef.current++;
+          soundRef.current?.play();
+        } else {
+          setIsPlaying(false);
+          repeatCountRef.current = 0;
+          if (onTrackEnd) onTrackEnd();
+        }
+      },
+      onpause: () => {
+        setIsPlaying(false);
+      },
+      onplay: () => {
+        setIsPlaying(true);
+      },
+      onseek: () => {
+        const pos = soundRef.current ? soundRef.current.seek() : 0;
+        if (typeof pos === 'number' && !isNaN(pos)) {
+          setCurrentTime(pos);
+        }
+      }
+    });
+  }, [isPlaying, speed]);
+
+  const play = React.useCallback(() => {
+    if (soundRef.current && !isLoading) {
+      soundRef.current.play();
+    } else if (isLoading) {
+      // Queue play for when audio finishes loading
+      wasPlayingRef.current = true;
+    }
+  }, [isLoading]);
+
+  const pause = React.useCallback(() => {
+    if (soundRef.current) {
+      soundRef.current.pause();
+    }
+    // Cancel queued play
+    wasPlayingRef.current = false;
+  }, []);
+
+  const togglePlayPause = React.useCallback(() => {
+    if (isPlaying) {
+      pause();
+    } else {
+      play();
+    }
+  }, [isPlaying, play, pause]);
+
+  const seek = React.useCallback((time) => {
+    const s = soundRef.current;
+    if (!s) return;
+
+    const dur = typeof s.duration === 'function' ? s.duration() : duration;
+    let t = Number(time);
+    if (!Number.isFinite(t)) return;
+    if (Number.isFinite(dur) && dur > 0) {
+      t = Math.min(Math.max(0, t), dur);
+    }
+
+    // Set flag to skip next progress update to prevent race condition
+    skipNextTickRef.current = true;
+    s.seek(t);
+    // Do not set currentTime directly - let polling and onseek handle it
+  }, [duration]);
+
+  const seekToProgress = React.useCallback((progress01) => {
+    const s = soundRef.current;
+    if (!s) return;
+    const dur = typeof s.duration === 'function' ? s.duration() : duration;
+    if (typeof dur === 'number' && dur > 0 && Number.isFinite(progress01)) {
+      const clamped = progress01 < 0 ? 0 : progress01 > 1 ? 1 : progress01;
+      seek(clamped * dur);
+    }
+  }, [duration, seek]);
+
+  const changeSpeed = React.useCallback((newSpeed) => {
+    setSpeed(newSpeed);
+    if (soundRef.current) {
+      soundRef.current.rate(newSpeed);
+    }
+  }, []);
+
+  const skipForward = React.useCallback((seconds = 10) => {
+    if (soundRef.current) {
+      const newTime = Math.min(soundRef.current.seek() + seconds, duration);
+      seek(newTime);
+    }
+  }, [duration, seek]);
+
+  const skipBackward = React.useCallback((seconds = 10) => {
+    if (soundRef.current) {
+      const newTime = Math.max(soundRef.current.seek() - seconds, 0);
+      seek(newTime);
+    }
+  }, [seek]);
+
+  const toggleRepeat = React.useCallback(() => {
+    const modes = [RepeatMode.OFF, RepeatMode.ONCE, RepeatMode.LOOP];
+    const currentIndex = modes.indexOf(repeat);
+    const nextIndex = (currentIndex + 1) % modes.length;
+    setRepeat(modes[nextIndex]);
+    repeatCountRef.current = 0;
+  }, [repeat]);
+
+  const setRepeatMode = React.useCallback((mode) => {
+    setRepeat(mode);
+    repeatCountRef.current = 0;
+  }, []);
+
+  const reset = React.useCallback(() => {
+    if (soundRef.current) {
+      soundRef.current.stop();
+      soundRef.current.unload();
+      soundRef.current = null;
+    }
+    setIsPlaying(false);
+    setCurrentTime(0);
+    setDuration(0);
+    setSpeed(1);
+    setRepeat(RepeatMode.OFF);
+    setIsLoading(false);
+    repeatCountRef.current = 0;
+    wasPlayingRef.current = false;
+  }, []);
+
+  // Progress update loop
+  React.useEffect(() => {
+    if (intervalRef.current) {
+      clearInterval(intervalRef.current);
+      intervalRef.current = null;
+    }
+    intervalRef.current = setInterval(() => {
+      const s = soundRef.current;
+      if (!s) return;
+      
+      // Skip update if we just performed a seek to prevent race condition
+      if (skipNextTickRef.current) {
+        skipNextTickRef.current = false;
+        return;
+      }
+      
+      const pos = s.seek();
+      if (typeof pos === 'number' && Number.isFinite(pos)) {
+        setCurrentTime(pos);
+      }
+      const durNow = typeof s.duration === 'function' ? s.duration() : null;
+      if (typeof durNow === 'number' && Number.isFinite(durNow) && durNow > 0) {
+        setDuration(prev => (prev !== durNow ? durNow : prev));
+      }
+    }, 100);
+    return () => {
+      if (intervalRef.current) {
+        clearInterval(intervalRef.current);
+        intervalRef.current = null;
+      }
+    };
+  }, []);
+
+  // Cleanup on unmount
+  React.useEffect(() => {
+    return () => {
+      if (soundRef.current) {
+        soundRef.current.unload();
+      }
+      if (intervalRef.current) {
+        clearInterval(intervalRef.current);
+        intervalRef.current = null;
+      }
+    };
+  }, []);
+
+  // Update speed when it changes
+  React.useEffect(() => {
+    if (soundRef.current) {
+      soundRef.current.rate(speed);
+    }
+  }, [speed]);
+
+  // Keep repeatRef in sync with repeat state
+  React.useEffect(() => {
+    repeatRef.current = repeat;
+  }, [repeat]);
+
+  const formatTime = React.useCallback((seconds) => {
+    if (!seconds || isNaN(seconds)) return '0:00';
+    const mins = Math.floor(seconds / 60);
+    const secs = Math.floor(seconds % 60);
+    return `${mins}:${secs.toString().padStart(2, '0')}`;
+  }, []);
+
+  return {
+    isPlaying,
+    currentTime,
+    duration,
+    speed,
+    repeat,
+    isLoading,
+    load,
+    play,
+    pause,
+    togglePlayPause,
+    seek,
+    seekToProgress,
+    changeSpeed,
+    skipForward,
+    skipBackward,
+    toggleRepeat,
+    setRepeatMode,
+    reset,
+    formatTime
+  };
+}
+
+// Standalone MiniAudioPlayer Component
+function MiniAudioPlayer({ audioUrl, isCritical = false }) {
+  const player = useAudioPlayer();
+  
+  React.useEffect(() => {
+    if (audioUrl) {
+      player.load(audioUrl);
+    }
+  }, [audioUrl, player]);
+
+  // Auto-convert ONCE to LOOP on mobile (since mobile only supports OFF/LOOP)
+  React.useEffect(() => {
+    const isMobile = window.innerWidth <= 768;
+    if (isMobile && player.repeat === RepeatMode.ONCE) {
+      player.setRepeatMode(RepeatMode.LOOP);
+    }
+  }, [player.repeat]);
+
+  // Reset player to defaults when component unmounts
+  React.useEffect(() => {
+    return () => {
+      player.reset();
+    };
+  }, [player]);
+
+  const handlePlayPause = React.useCallback(() => {
+    player.togglePlayPause();
+  }, [player]);
+
+  // Mobile-specific repeat toggle: only OFF and LOOP
+  const handleRepeatToggle = React.useCallback(() => {
+    const isMobile = window.innerWidth <= 768;
+    if (isMobile) {
+      // Mobile: simple toggle between OFF and LOOP only (skip ONCE)
+      if (player.repeat === RepeatMode.OFF || player.repeat === RepeatMode.ONCE) {
+        // Go directly to LOOP
+        player.setRepeatMode(RepeatMode.LOOP);
+      } else {
+        // LOOP -> OFF
+        player.setRepeatMode(RepeatMode.OFF);
+      }
+    } else {
+      // Desktop: normal 3-way toggle (OFF -> ONCE -> LOOP)
+      player.toggleRepeat();
+    }
+  }, [player]);
+
+  const progressPercent = player.duration > 0
+    ? (player.currentTime / player.duration) * 100
+    : 0;
+
+  if (!audioUrl) return null;
+
+  // Use critical status to determine color scheme
+  const colorClass = isCritical ? 'critical' : 'non-critical';
+  const stateClass = player.isPlaying ? 'playing' : 'paused';
+
+  return React.createElement('div', {
+    className: `mini-audio-player ${colorClass} ${stateClass}`
+  },
+    // Restart Button
+    React.createElement('button', {
+      onClick: () => player.seek(0),
+      disabled: player.isLoading,
+      className: 'mini-player-btn mini-player-btn-restart',
+      'aria-label': 'Restart',
+      title: 'Restart from beginning'
+    },
+      React.createElement('svg', {
+        width: '18',
+        height: '18',
+        viewBox: '0 0 24 24',
+        fill: 'currentColor'
+      },
+        React.createElement('path', {
+          d: 'M12 5V1L7 6l5 5V7c3.31 0 6 2.69 6 6s-2.69 6-6 6-6-2.69-6-6H4c0 4.42 3.58 8 8 8s8-3.58 8-8-3.58-8-8-8z'
+        })
+      )
+    ),
+    
+    // Play/Pause Button
+    React.createElement('button', {
+      onClick: handlePlayPause,
+      disabled: player.isLoading,
+      className: 'mini-player-btn mini-player-btn-play',
+      'aria-label': player.isPlaying ? 'Pause' : 'Play'
+    },
+      player.isLoading ? 
+        React.createElement('span', { className: 'mini-player-loader' }, '⏳') :
+        player.isPlaying ?
+          React.createElement('svg', {
+            width: '18',
+            height: '18',
+            viewBox: '0 0 24 24',
+            fill: 'currentColor'
+          },
+            React.createElement('rect', { x: '6', y: '4', width: '4', height: '16', rx: '1' }),
+            React.createElement('rect', { x: '14', y: '4', width: '4', height: '16', rx: '1' })
+          ) :
+          React.createElement('svg', {
+            width: '18',
+            height: '18',
+            viewBox: '0 0 24 24',
+            fill: 'currentColor'
+          },
+            React.createElement('path', { d: 'M8 5v14l11-7z' })
+          )
+    ),
+
+    // Progress Bar + Time
+    React.createElement('div', { className: 'mini-player-progress-container' },
+      // Progress Bar
+      React.createElement('div', {
+        onClick: (e) => {
+          e.stopPropagation();
+          const rect = e.currentTarget.getBoundingClientRect();
+          const x = Math.max(0, Math.min(rect.width, e.clientX - rect.left));
+          const width = rect.width || 1;
+          let pct = x / width;
+          if (pct < 0) pct = 0;
+          if (pct > 1) pct = 1;
+          // Delegate to player so it uses Howler's live duration
+          player.seekToProgress(pct);
+        },
+        className: 'mini-player-progress-bar',
+        role: 'slider',
+        'aria-valuemin': '0',
+        'aria-valuemax': player.duration,
+        'aria-valuenow': player.currentTime,
+        'aria-label': 'Seek audio',
+        title: [${player.formatTime(player.currentTime)} / ${player.formatTime(player.duration)}](cci:1://file:///c:/Users/hpeti/Downloads/WindSurf/physiology-react-app/src/hooks/useAudioPlayer.js:266:2-271:4)
+      },
+        React.createElement('div', {
+          className: 'mini-player-progress-fill',
+          style: { width: `${progressPercent}%` }
+        })
+      ),
+
+      // Time Display - Compact
+      React.createElement('div', { className: 'mini-player-time' },
+        player.formatTime(player.currentTime)
+      )
+    ),
+
+    // Speed Control
+    React.createElement('div', { className: 'mini-player-speed-container' },
+      React.createElement('span', { className: 'mini-player-speed-label' }, 'Speed:'),
+      React.createElement('select', {
+        value: player.speed,
+        onChange: (e) => player.changeSpeed(Number(e.target.value)),
+        className: 'mini-player-speed',
+        'aria-label': 'Playback speed'
+      },
+        React.createElement('option', { value: '0.75' }, '0.75×'),
+        React.createElement('option', { value: '1' }, '1×'),
+        React.createElement('option', { value: '1.25' }, '1.25×'),
+        React.createElement('option', { value: '1.5' }, '1.5×'),
+        React.createElement('option', { value: '2' }, '2×')
+      )
+    ),
+
+    // Repeat Button
+    React.createElement('button', {
+      onClick: handleRepeatToggle,
+      className: `mini-player-btn-repeat ${
+        player.repeat !== RepeatMode.OFF ? 'mini-player-btn-repeat-active' : ''
+      }`,
+      'data-repeat-mode': player.repeat === RepeatMode.LOOP ? 'loop' : '',
+      'data-critical': isCritical ? 'true' : 'false',
+      'aria-label': `Repeat: ${player.repeat}`,
+      title: player.repeat === RepeatMode.OFF ? 'No repeat' :
+             player.repeat === RepeatMode.ONCE ? 'Repeat once (play twice)' :
+             'Loop forever'
+    },
+      React.createElement('svg', {
+        width: '14',
+        height: '14',
+        viewBox: '0 0 24 24',
+        fill: 'none',
+        stroke: 'currentColor',
+        strokeWidth: '2'
+      },
+        React.createElement('path', { d: 'M17 1l4 4-4 4' }),
+        React.createElement('path', { d: 'M3 11V9a4 4 0 0 1 4-4h14' }),
+        React.createElement('path', { d: 'M7 23l-4-4 4-4' }),
+        React.createElement('path', { d: 'M21 13v2a4 4 0 0 1-4 4H3' })
+      ),
+      React.createElement('span', { className: 'mini-player-repeat-text' },
+        player.repeat === RepeatMode.OFF ? 'No Repeat' :
+        player.repeat === RepeatMode.ONCE ? 'Repeat Once' :
+        'Loop ∞'
+      )
+    )
+  );
+}
+
+// Export the component
+if (typeof module !== 'undefined' && module.exports) {
+  module.exports = { MiniAudioPlayer, RepeatMode };
+} else if (typeof window !== 'undefined') {
+  window.MiniAudioPlayer = MiniAudioPlayer;
+  window.RepeatMode = RepeatMode;
+}

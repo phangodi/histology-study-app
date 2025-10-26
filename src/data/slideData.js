@@ -104,6 +104,21 @@ const SLIDE_DATA_15 = {
 
   bigPicture: "Neuromuscular junctions are chemical synapses converting electrical nerve signals into muscle contraction via acetylcholine neurotransmission",
 
+    examPresentation: {
+    introduction: "This slide shows a motor end plate. Neuromuscular junctions are chemical synapses that convert electrical nerve signals into muscle contraction via acetylcholine neurotransmission. These specialized structures occur at the interface between motor neuron terminals and skeletal muscle fibers, enabling signal transmission from the nervous system to muscle for voluntary contraction.",
+    sections: [
+      {
+        title: "Myelinated Motor Neuron Axon",
+        content: "The myelinated motor neuron axon originates from alpha motor neurons in the spinal cord or brainstem. As it approaches the muscle, the axon loses its myelin sheath at terminal branches, forming expanded boutons at the motor end plates. These terminals conduct action potentials from the central nervous system to skeletal muscle to initiate voluntary contraction."
+      },
+      {
+        title: "Skeletal Muscle Fibers",
+        content: "The skeletal muscle fibers are large cylindrical multinucleated cells, ranging from 10 to 100 micrometers in diameter. They display characteristic alternating light and dark cross-striations resulting from sarcomere organization. The nuclei are flattened and positioned peripherally, with pale pink cytoplasm filling the cell. These contractile cells generate voluntary movement through the sliding filament mechanism of actin and myosin interactions."
+      }
+    ],
+    additionalStructures: []
+  },
+  
   hierarchy: [
     "Motor neuron axon → branches to muscle → loses myelin → forms bouton terminal",
     "Axon terminal releases ACh → crosses synaptic cleft → binds postsynaptic receptors",
@@ -418,6 +433,30 @@ const SLIDE_DATA_70 = {
   
   bigPicture: "Peripheral nerve = axons wrapped in 3 protective CT layers (exactly like CNS meninges!) - this parallel structure ensures seamless protection at CNS-PNS transition zones",
   
+    examPresentation: {
+    introduction: "This slide shows a peripheral nerve in cross section. Peripheral nerves consist of axons wrapped in three protective connective tissue layers that mirror the structure of the central nervous system meninges. This parallel organization ensures seamless protection at the central to peripheral nervous system transition zones.",
+    sections: [
+      {
+        title: "Endoneurium",
+        content: "The endoneurium is the innermost layer, wrapping each individual nerve fiber along its entire length. This delicate loose connective tissue contains reticular fibers and ground substance. It contains capillaries, fibroblasts, reticular fibers, and endoneurial fluid. The endoneurium provides the microenvironment for nerve fibers and supports their nutritional and metabolic exchange needs. This layer is the peripheral nervous system equivalent of the pia mater."
+      },
+      {
+        title: "Perineurium",
+        content: "The perineurium forms the middle layer, encircling bundles of multiple nerve fibers together to create distinct fascicles. This layer comprises 5 to 15 concentric layers of flattened perineural cells with tight junctions between them. It contains perineural cells, basement membrane, and collagen fibers. The perineurium forms the blood-nerve barrier, protecting nerve fibers from toxins and maintaining the precise ionic environment necessary for proper nerve function. This layer corresponds to the arachnoid mater of the central nervous system."
+      },
+      {
+        title: "Epineurium",
+        content: "The epineurium is the outermost layer, surrounding the entire nerve and all its fascicles together. This dense irregular connective tissue contains thick collagen bundles and elastic fibers. It contains blood vessels, lymphatics, adipose tissue, and nerve fibers called vasa nervorum. The epineurium provides mechanical protection and cushioning while supplying the vascular network for the entire nerve. This layer is the peripheral equivalent of the dura mater."
+      }
+    ],
+    additionalStructures: [
+      "Within each fascicle, bundles of nerve fibers create the characteristic honeycomb pattern visible in cross section. These fibers conduct electrical impulses between the central nervous system and the periphery in both directions. The myelin sheaths surrounding the axons enable rapid saltatory conduction of nerve impulses.",
+      "Between individual nerve fibers within the endoneurium, fibrocytes maintain the connective tissue matrix. These cells appear as scattered elongated dark blue nuclei visible in the thin pink endoneurial tissue. They produce collagen and reticular fibers that support the structural integrity of the nerve.",
+      "In the epineurium, adipocytes appear as large white circular spaces. These are much larger than myelin profiles, measuring 50 to 150 micrometers versus only 5 to 15 micrometers for myelin. They appear as empty circles because the lipid content dissolves during tissue processing. These cells serve multiple functions including energy storage and reserve, cushioning and mechanical protection of the nerve, and thermal insulation.",
+      "The direct transition of these three connective tissue layers to the three meningeal layers at nerve roots ensures seamless protection from the peripheral to the central nervous system."
+    ]
+  },
+  
   hierarchy: [
     "Single Nerve Fiber → Fascicle → Whole Nerve",
     "↕ ENDONEURIUM → PERINEURIUM → EPINEURIUM",
@@ -629,6 +668,30 @@ const SLIDE_DATA_71 = {
   
   bigPicture: "Peripheral nerve in longitudinal section = parallel axons wrapped in 3 protective CT layers running along nerve length (CNS meninges equivalent!)",
   
+    examPresentation: {
+    introduction: "This slide shows a longitudinal section of a peripheral nerve. Peripheral nerves are organized around three protective connective tissue layers that run parallel to the nerve axis, each serving distinct structural and physiological roles.",
+    sections: [
+      {
+        title: "Endoneurium",
+        content: "The endoneurium is the innermost layer, wrapping each individual nerve fiber along its entire length. This delicate loose connective tissue contains reticular fibers and fibroblasts. It contains capillaries, fibroblasts also called fibrocytes, reticular fibers, and endoneurial fluid. The endoneurium provides the immediate microenvironment for nerve fibers, supporting their nutritional needs and maintaining optimal ion balance essential for signal conduction. This layer is the peripheral nervous system equivalent of the pia mater."
+      },
+      {
+        title: "Perineurium",
+        content: "The perineurium forms the middle layer, encircling bundles of multiple nerve fibers to create distinct fascicles that run longitudinally along the nerve. Composed of 5 to 15 concentric layers of specialized perineural cells connected by tight junctions, this layer creates the blood-nerve barrier. This selective barrier prevents harmful blood-borne substances from reaching nerve fibers while maintaining the precise ionic composition necessary for proper nerve conduction. The perineurium corresponds functionally and structurally to the arachnoid mater of the central nervous system."
+      },
+      {
+        title: "Epineurium",
+        content: "The epineurium is the outermost layer, surrounding the entire nerve and all its fascicles along the full nerve length. This dense irregular connective tissue contains thick collagen bundles. It contains blood vessels, lymphatics, adipose tissue, and small nerve fibers called vasa nervorum. The epineurium provides mechanical protection and shock absorption while housing the vascular supply for the entire nerve structure. This layer allows nerve flexibility and mobility, functioning as the peripheral equivalent of the dura mater."
+      }
+    ],
+    additionalStructures: [
+      "Within each fascicle, bundles of nerve fibers run parallel to the nerve axis. Each fiber consists of a central axon that conducts electrical impulses along the nerve length. Surrounding each axon is a myelin sheath produced by Schwann cells, whose elongated nuclei align with the fiber axis. The myelin insulation enables saltatory conduction, dramatically increasing signal transmission speed. Periodic gaps in the myelin, called nodes of Ranvier, are sites where action potentials regenerate during transmission.",
+      "Between nerve fibers within the endoneurium, fibrocytes maintain the connective tissue matrix. These cells appear as scattered elongated dark blue nuclei aligned along the nerve fiber axis within the endoneurium, appearing as thin spindle-shaped cells between nerve fibers. They produce collagen and reticular fibers that support the structural integrity of the nerve tissue.",
+      "In the epineurium, adipocytes provide additional protective functions. These cells appear as large white circular or oval spaces in the epineurium, much larger than myelin profiles at 50 to 150 micrometers versus only 5 to 15 micrometers. They appear as distinct round voids in the tissue sections. These adipocytes serve for energy storage, provide mechanical cushioning and thermal insulation, and protect the nerve from compression injuries.",
+      "The direct transition of these three connective tissue layers to the three meningeal layers at nerve roots ensures seamless protection from the peripheral to the central nervous system."
+    ]
+  },
+
   hierarchy: [
     "Axon → Nerve Fiber → Fascicle → Whole Nerve",
     "↕ ENDO → PERI → EPI",
@@ -821,6 +884,29 @@ const SLIDE_DATA_72 = {
   
   bigPicture: "OsO₄ reveals the true lipid-rich nature of myelin by staining it BLACK - the opposite of HE where myelin appears white!",
   
+      examPresentation: {
+    introduction: "This slide shows a peripheral nerve stained with osmium tetroxide. Osmium tetroxide reveals the true lipid-rich nature of myelin by staining it black, creating the opposite appearance from hematoxylin and eosin staining where myelin appears white.",
+    sections: [
+      {
+        title: "Endoneurium",
+        content: "The endoneurium is the innermost layer, wrapping each individual nerve fiber consisting of the axon plus its myelin sheath. This delicate loose connective tissue contains reticular fibers and fine collagen. It contains capillaries, fibroblasts producing reticular fibers, and tissue fluid. The endoneurium provides the immediate microenvironment for nerve fibers, supporting their metabolic needs and maintaining ionic balance essential for proper nerve function. This layer is the peripheral nervous system equivalent of the pia mater."
+      },
+      {
+        title: "Perineurium",
+        content: "The perineurium forms the middle layer, encircling bundles of multiple nerve fibers to create the entire fascicle. This layer comprises 5 to 15 concentric layers of flattened perineural cells with tight junctions and basement membranes. It contains perineural cells which are modified fibroblasts, basement membrane, and tight junction complexes. The perineurium forms the blood-nerve barrier, preventing harmful substances from reaching the delicate nerve fibers while maintaining the specialized ionic microenvironment. This layer corresponds to the arachnoid mater of the central nervous system."
+      },
+      {
+        title: "Epineurium",
+        content: "The epineurium is the outermost layer, surrounding the entire nerve and all its fascicles together. This dense irregular connective tissue contains thick collagen bundles and elastic fibers. It contains blood vessels, lymphatic vessels, adipose tissue, and small nerve fibers called nervi nervorum. The epineurium provides mechanical protection and shock absorption, supplies the vascular network for the entire nerve, and allows nerve mobility during joint movement. This layer is the peripheral equivalent of the dura mater."
+      }
+    ],
+    additionalStructures: [
+      "Inside each fascicle, nerve fibers are packed tightly to create dense black circular patterns characteristic of osmium staining. These fibers conduct electrical impulses rapidly throughout the nervous system. The osmium-stained myelin reveals the intact lipid-rich insulation that enables saltatory conduction of nerve signals.",
+      "In the epineurium, adipocytes appear as large circular white or pale spaces. These are much larger than the myelin profiles, measuring 50 to 150 micrometers versus only 5 to 15 micrometers for myelin sheaths. They appear as empty circles where the lipid was preserved during osmium preparation but remained unstained. These cells provide energy storage, cushioning and mechanical protection of the nerve, and thermal insulation.",
+      "The direct transition of these three connective tissue layers to the three meningeal layers at nerve roots ensures seamless protection from the peripheral to the central nervous system."
+    ]
+  },
+
   hierarchy: [
     "BLACK circles = Myelin (lipid-rich)",
     "WHITE centers = Axons (negative image)",
@@ -962,6 +1048,28 @@ const SLIDE_DATA_73 = {
   
   bigPicture: "OsO₄ stains myelin BLACK revealing nodes of Ranvier in longitudinal nerve sections",
   
+     examPresentation: {
+    introduction: "This slide shows a peripheral nerve in longitudinal section stained with osmium tetroxide. Osmium stains myelin black, revealing nodes of Ranvier as periodic interruptions in the myelin sheaths along longitudinal nerve sections.",
+    sections: [
+      {
+        title: "Endoneurium",
+        content: "The endoneurium is the innermost layer, wrapping individual myelinated nerve fibers which consist of the axon, myelin sheath, and Schwann cell together. This delicate loose connective tissue contains reticular fibers made of Type 3 collagen, fibroblasts, and capillaries. It contains capillaries that work with the perineurium to provide the blood-nerve barrier, fibroblasts, occasional mast cells, and extracellular matrix. The endoneurium provides the microenvironment for individual nerve fibers, allows nutrient diffusion from capillaries, maintains the ionic environment necessary for impulse conduction, and cushions individual axons during nerve movement."
+      },
+      {
+        title: "Perineurium",
+        content: "The perineurium forms the middle layer, wrapping the entire fascicle which is a bundle of multiple nerve fibers. This layer comprises 5 to 15 concentric layers of specialized flattened epithelioid cells, which are modified fibroblasts with extensive tight junctions, all surrounded by collagen. It contains specialized perineural cells with tight junctions, basement membrane, and longitudinally oriented collagen fibers. The perineurium forms the blood-nerve barrier through its tight junctions, preventing large molecules and pathogens from entering the fascicle. It maintains the osmotic environment, provides tensile strength to the nerve, and defines the fascicular compartments essential for nerve regeneration."
+      },
+      {
+        title: "Epineurium",
+        content: "The epineurium is the outermost layer, surrounding the entire peripheral nerve and all its fascicles together. This dense irregular connective tissue contains Type 1 collagen, elastic fibers, adipose tissue, blood vessels called vasa nervorum, and lymphatics. It contains large adipocytes for lipid cushioning, vasa nervorum providing arterial and venous networks, lymphatic vessels, fibrocytes, and scattered mast cells. The epineurium protects the entire nerve from mechanical stress and compression, contains the vasa nervorum that provide arterial supply, allows nerve gliding during joint movement, provides adipose cushioning against external pressure, and binds the nerve to surrounding tissues."
+      }
+    ],
+    additionalStructures: [
+      "Inside each fascicle, nerve fibers run longitudinally as parallel black strands with periodic interruptions representing the nodes of Ranvier. These fibers conduct electrical impulses along nerve pathways. The myelin sheaths enable saltatory conduction for rapid signal transmission at speeds up to 120 meters per second.",
+      "The direct transition of these three connective tissue layers to the three meningeal layers at nerve roots ensures seamless protection from the peripheral to the central nervous system."
+    ]
+  },
+
   hierarchy: [
     "Axon → Fascicle → Whole Nerve",
     "↓ ENDO → PERI → EPI",
@@ -1409,6 +1517,28 @@ const SLIDE_DATA_74 = {
   
   bigPicture: "Sensory ganglia = relay stations housing pseudounipolar neurons that transmit sensory info from periphery to CNS (NO synapses here - direct relay!)",
   
+      examPresentation: {
+    introduction: "This slide shows a sensory ganglion. Sensory ganglia are relay stations housing pseudounipolar neurons that transmit sensory information from the periphery to the central nervous system. Importantly, no synapses occur within the ganglion; it functions as a direct relay station.",
+    sections: [
+      {
+        title: "Satellite Cells",
+        content: "Satellite cells, also called capsule cells, form a glial cell layer immediately surrounding each neuron, wrapping the individual pseudounipolar neuron cell body. These modified glial cells derive from the neural crest and have thin cytoplasmic extensions. They contain tight junctions between adjacent satellite cells. The satellite cells provide protection, structural support, and nutrition to the neurons. They regulate the microenvironment, help maintain the blood-nerve barrier, and electrically insulate neurons from each other. This layer is similar to oligodendrocytes and astrocytes but is specific to peripheral nervous system ganglia."
+      },
+      {
+        title: "Connective Tissue Capsule",
+        content: "The connective tissue capsule forms the outer protective layer, wrapping the entire ganglion structure. This dense irregular connective tissue contains thick collagen fibers. It contains blood vessels, nerve bundles entering and exiting the ganglion, and fibroblasts. The capsule provides structural support, protection, anchoring of the ganglion, and vascular supply to the ganglion cells. This layer is similar to the dura mater but specialized for ganglia."
+      },
+      {
+        title: "Pseudounipolar Neurons",
+        content: "The ganglia are clustered in specific anatomical locations including spinal or dorsal root ganglia and cranial nerve ganglia, where they are organized in columns with satellite cells surrounding each neuron. These neurons relay sensory information from peripheral receptors to the central nervous system via afferent nerve impulses. No synapses occur within the ganglion; transmission is direct. Large neurons with large cell bodies conduct fine touch and proprioception signals, while smaller neurons conduct pain and temperature information."
+      }
+    ],
+    additionalStructures: [
+      "Bundles of myelinated and unmyelinated axons run through the ganglion tissue. These appear as elongated pink and white structures with scattered Schwann cell nuclei. The myelin appears as white space, creating a negative image due to lipid dissolution during tissue processing. These nerve bundles conduct sensory impulses to and from the ganglia, connecting peripheral receptors with the central nervous system.",
+      "Small capillaries and larger vessels course through the connective tissue throughout the ganglion. These appear as circular profiles with thin walls. The vascular network provides rich blood supply to the metabolically active neurons, delivering oxygen and nutrients while removing metabolic waste. The vessels also support the blood-nerve barrier function through their interaction with satellite cells."
+    ]
+  },
+
   hierarchy: [
     "Peripheral Receptor → Peripheral Process (Dendrite) → Perikaryon → Central Process (Axon) → CNS",
     "↑ Protected by: Satellite Cells → CT Capsule",
@@ -1690,6 +1820,32 @@ const SLIDE_DATA_75 = {
   
   bigPicture: "Meissner's corpuscles are specialized mechanoreceptors in dermal papillae that enable fine tactile discrimination and light touch sensation, essential for tasks like reading Braille or detecting surface textures.",
   
+    examPresentation: {
+    introduction: "This slide shows a Meissner corpuscle. Meissner corpuscles are specialized mechanoreceptors located in the dermal papillae that enable fine tactile discrimination and light touch sensation. These receptors are essential for tasks requiring precise touch, such as reading Braille or detecting subtle surface textures.",
+    sections: [
+      {
+        title: "Epidermis",
+        content: "The epidermis is the outermost layer, covering the skin surface. This stratified squamous keratinized epithelium provides a protective barrier. The epidermis contains keratinocytes in various stages of differentiation, melanocytes producing protective melanin pigment, and Langerhans cells for immune surveillance. The epidermis forms a protective barrier against physical, chemical, and biological threats. It prevents water loss, provides pigmentation protection against ultraviolet radiation, and initiates immune responses to pathogens."
+      },
+      {
+        title: "Dermal Papillae and Stratum Papillare",
+        content: "The dermal papillae are finger-like projections of the papillary dermis extending into the epidermis. These contain loose connective tissue with thin collagen fibers and elastic fibers. The papillae house Meissner corpuscles, capillary loops for nutrient exchange, and free nerve endings for pain sensation. The stratum papillare is the superficial layer of the dermis immediately beneath the epidermis. This loose connective tissue contains thin collagen fibers, elastic fibers, and rich capillary networks. The papillary layer provides structural support to the epidermis, enables flexibility and sensitivity of skin, and houses mechanoreceptors and nociceptors."
+      },
+      {
+        title: "Stratum Reticulare",
+        content: "The stratum reticulare is the deeper layer of the dermis below the papillary layer. This dense irregular connective tissue contains thick collagen bundles and coarse elastic fibers. It contains hair follicles, sebaceous glands, sweat glands, and deeper nerve networks. The reticular layer provides tensile strength and elasticity to skin, anchors skin appendages, and contains sensory receptors for deep pressure."
+      },
+      {
+        title: "Meissner Corpuscles",
+        content: "The Meissner corpuscle is located in the dermal papillae of the papillary dermis, positioned immediately beneath the epidermis. These encapsulated mechanoreceptors detect light touch and low-frequency vibration, typically in the range of 5 to 40 hertz. They function as rapidly adapting receptors, providing fine tactile discrimination essential for texture perception and delicate manual tasks."
+      }
+    ],
+    additionalStructures: [
+      "Bundles of myelinated nerve fibers course through the dermis. These contain sensory axons that innervate Meissner corpuscles and other cutaneous receptors. The nerve bundles transmit sensory information from skin receptors to the central nervous system, providing the innervation to Meissner corpuscles necessary for tactile sensation.",
+      "Blood vessels including capillaries, arterioles, and venules are distributed throughout the dermal layers. These provide rich vascular supply to the metabolically active skin tissues. The vessels deliver oxygen and nutrients to skin cells, support Meissner corpuscle function, and help regulate body temperature through vasodilation and vasoconstriction."
+    ]
+  },
+
   hierarchy: [
     "Skin Layers: Epidermis → Dermis (Papillare + Reticulare) → Hypodermis",
     "Meissner's Corpuscle Location: Stratum Papillare of Dermis (in dermal papillae)",
@@ -1924,6 +2080,34 @@ const SLIDE_DATA_76 = {
   
   bigPicture: "Skin = protective barrier organized in three layers (epidermis/dermis/hypodermis) housing specialized mechanoreceptors for tactile sensation, with Pacinian corpuscles serving as deep pressure/vibration detectors",
   
+      examPresentation: {
+    introduction: "This slide shows a Vater-Pacinian corpuscle. The skin consists of a protective barrier organized in three layers: epidermis, dermis, and hypodermis. These layers house specialized mechanoreceptors for tactile sensation, with Pacinian corpuscles serving as deep pressure and vibration detectors.",
+    sections: [
+      {
+        title: "Epidermis",
+        content: "The epidermis is the outermost layer covering the skin surface. This stratified squamous keratinized epithelium consists of multiple cell layers undergoing progressive differentiation and keratinization. It contains keratinocytes, melanocytes, and Langerhans cells. The epidermis forms a waterproof barrier preventing dehydration, provides protection against pathogens and physical damage, and blocks harmful ultraviolet radiation through melanin pigmentation."
+      },
+      {
+        title: "Dermis",
+        content: "The dermis is the middle layer supporting the epidermis. This connective tissue layer contains both papillary and reticular components with collagen and elastic fibers. It contains blood vessels, nerves, sensory receptors, hair follicles, and glands. The dermis provides structural support and elasticity, houses sensory receptors including Pacinian corpuscles, supplies nutrients to the avascular epidermis, and facilitates thermoregulation."
+      },
+      {
+        title: "Hypodermis",
+        content: "The hypodermis, also called subcutaneous tissue, is the deepest layer beneath the dermis. This loose connective tissue contains abundant adipocytes and larger blood vessels. It contains adipose tissue, larger nerves and vessels, and Pacinian corpuscles. The hypodermis provides insulation and energy storage, cushions underlying structures from mechanical trauma, and anchors skin to underlying fascia and muscles."
+      },
+      {
+        title: "Pacinian Corpuscle Structure",
+        content: "The Pacinian corpuscle is located in the hypodermis or occasionally in the deep reticular dermis. This specialized mechanoreceptor detects deep pressure and high-frequency vibrations. It functions as a rapidly adapting receptor, transmitting signals via fast-conducting A-beta myelinated fibers for epicritic sensation, providing awareness of pressure changes and vibration. A single unmyelinated sensory nerve fiber runs through the center of the corpuscle core. The axon loses its myelin sheath upon entering the capsule. This central fiber converts mechanical deformation from pressure or vibration into electrical signals in the form of action potentials."
+      }
+    ],
+    additionalStructures: [
+      "Eccrine sweat glands appear as coiled tubular structures forming clusters of small pink circular profiles in the dermis and hypodermis. These simple cuboidal epithelium-lined glands are also called merocrine sweat glands. The sweat glands produce watery sweat for thermoregulation and excretion. Secretion occurs via exocytosis through a merocrine mechanism without loss of cellular components.",
+      "Adipocytes appear as large white circular or polygonal spaces in the hypodermis. The lipid content dissolves during tissue preparation, leaving empty vacuoles with nuclei pushed to the periphery, creating characteristic signet ring cell appearances. These adipocytes provide energy storage in the form of triglycerides, thermal insulation against heat loss, mechanical cushioning to protect underlying structures, and endocrine functions by producing hormones such as leptin and other adipokines.",
+      "Nerve bundles appear as pink oval structures with a honeycomb internal pattern. This pattern results from myelin sheaths creating a negative image in hematoxylin and eosin staining. These nerve bundles transmit sensory information from skin receptors to the central nervous system and carry autonomic motor signals to blood vessels and glands.",
+      "Blood vessels appear as circular or elongated profiles with pink walls composed of smooth muscle and connective tissue, often containing red blood cells in the lumen. Blood vessels deliver nutrients and oxygen, remove metabolic waste, and participate in thermoregulation. Lymphatics drain excess fluid and provide immune surveillance."
+    ]
+  },
+
   hierarchy: [
     "Superficial → Deep: Epidermis → Dermis → Hypodermis",
     "Pacinian corpuscle layers: Capsule → Lamellae (60+ layers) → Central axon",
@@ -2119,6 +2303,27 @@ const SLIDE_DATA_77 = {
   
   bigPicture: "Autonomic ganglia = relay stations with multipolar neurons forming networks for visceral control",
   
+       examPresentation: {
+    introduction: "This slide shows an autonomic ganglion. Autonomic ganglia are relay stations containing multipolar neurons that form complex networks for visceral control. These ganglia may be located in organ walls as intramural ganglia or as separate structures near the vertebral column.",
+    sections: [
+      {
+        title: "Multipolar Neurons",
+        content: "The multipolar neurons are scattered throughout the ganglion, forming interconnected networks that enable coordinated autonomic responses. Each neuron has multiple dendrites radiating from the cell body, allowing integration of signals from various preganglionic fibers. These neurons provide autonomic motor control to visceral organs, glands, and smooth muscle. The ganglia function as relay stations where preganglionic fibers synapse with postganglionic neurons. Preganglionic fibers from the central nervous system release acetylcholine onto nicotinic receptors of ganglionic neurons. The postganglionic fibers then extend to target organs, where they release either acetylcholine in parasympathetic pathways or norepinephrine in sympathetic pathways."
+      },
+      {
+        title: "Nerve Fibers",
+        content: "The nerve fibers entering and leaving the ganglion carry both preganglionic and postganglionic axons. Preganglionic fibers are generally myelinated and originate from the central nervous system, while postganglionic fibers are usually unmyelinated and extend to target organs. These fibers appear as bundled structures coursing through the ganglion. The preganglionic fibers conduct signals from the central nervous system to the ganglia, while postganglionic fibers transmit autonomic commands from ganglionic neurons to effector organs including smooth muscle, cardiac muscle, and glands."
+      },
+      {
+        title: "Supporting Structures",
+        content: "Satellite cells are small glial cells surrounding each neuron cell body. Although not easily visible in silver staining, they are present as a thin layer around the neuronal perikaryon. These cells support and regulate the neuronal microenvironment, help maintain the blood-nerve barrier, provide metabolic support to neurons, and offer protection against harmful substances. Small capillaries and arterioles run through the connective tissue throughout the ganglion. The rich vascular network provides oxygen and nutrients to the metabolically demanding neurons and removes metabolic waste products."
+      }
+    ],
+    additionalStructures: [
+      "Delicate fibrous connective tissue surrounds the ganglion structure. This capsule may be poorly defined in intramural ganglia located within organ walls but is more prominent in separate ganglia. The connective tissue provides structural support and protection to the neurons and is continuous with the endoneurium of entering and exiting nerve bundles."
+    ]
+  },
+
   hierarchy: [
     "Preganglionic fiber (CNS) → Synapse → Postganglionic fiber → Target organ",
     "Multipolar neuron: Perikaryon → Multiple dendrites + Single axon",
@@ -2421,6 +2626,34 @@ const SLIDE_DATA_78 = {
   
   bigPicture: "Spinal cord = CNS processing center with butterfly-shaped gray matter (neurons, synapses) surrounded by white matter (myelinated tracts), protected by three-layered meninges - the integration point between brain commands and peripheral responses",
   
+      examPresentation: {
+    introduction: "This slide shows a spinal cord section. The spinal cord is the central nervous system processing center featuring butterfly-shaped gray matter containing neurons and synapses, surrounded by white matter containing myelinated tracts. Three protective meningeal layers envelop the cord. The spinal cord serves as the critical integration point between brain commands descending from above and peripheral sensory information ascending from below.",
+    sections: [
+      {
+        title: "White Matter",
+        content: "The white matter forms the outer layer of the spinal cord, surrounding the butterfly-shaped gray matter core. This region contains myelinated axons organized into ascending and descending tracts called funiculi, along with oligodendrocytes and astrocytes. During tissue preparation, lipids dissolve, causing myelin to appear as negative space. The white matter contains three funiculi: the anterior or ventral funiculus, the lateral funiculi, and the posterior or dorsal funiculi. The anterior white commissure is where fibers cross the midline. The white matter transmits information bidirectionally: ascending tracts carry sensory information to the brain, while descending tracts carry motor commands to spinal segments."
+      },
+      {
+        title: "Gray Matter",
+        content: "The gray matter forms the inner core of the spinal cord in a characteristic butterfly or H-shaped pattern. This region contains neuronal cell bodies called perikarya, dendrites, unmyelinated axons, and neuropil, which is a dense network of neuronal processes. The gray matter is functionally divided into 10 Rexed laminae. It contains the anterior horn housing motor neurons, the lateral horn present from T1 to L2 containing autonomic neurons, the posterior horn containing sensory neurons and interneurons, and the gray commissure connecting both sides of the cord. The anterior horn controls voluntary movement through alpha motor neurons. The lateral horn controls autonomic functions through sympathetic preganglionic neurons. The posterior horn receives and processes sensory input from the periphery."
+      },
+      {
+        title: "Central Canal",
+        content: "The central canal is located at the center of the gray commissure. This narrow channel is a remnant of the embryonic neural tube lumen. The canal is lined by ependymal cells featuring cilia and microvilli, and contains cerebrospinal fluid. The ependymal cells produce and regulate cerebrospinal fluid composition and form a barrier between cerebrospinal fluid and neural tissue. Their cilia help move fluid through the central canal, which is continuous with the ventricular system. The gray commissure allows bilateral communication through commissural axons crossing between the left and right sides."
+      },
+      {
+        title: "Motor Neurons and Neuropil",
+        content: "Large motor neurons are located in the anterior horn of the gray matter. These multipolar neurons feature prominent nuclei with dispersed chromatin and prominent nucleoli. They are among the largest neurons in the central nervous system. These motor neurons innervate skeletal muscles to produce voluntary movement. The neuropil appears as a dense mesh-like network forming a pale pink to purple matrix throughout the gray matter between cell bodies. This region contains countless axons, dendrites, and glial processes forming synaptic connections. The neuropil serves as the primary site of synaptic transmission and signal integration within the gray matter."
+      }
+    ],
+    additionalStructures: [
+      "Glial cells appear as small cells scattered throughout white matter, identifiable by their heterochromatic or dark, condensed nuclei. These include oligodendrocytes, which are the myelinating cells in white matter, and astrocytes, which are support cells. Oligodendrocytes produce and maintain myelin sheaths around central nervous system axons. Astrocytes provide structural support, maintain the blood-brain barrier, offer metabolic support to neurons, and regulate ion concentrations.",
+      "Ependymal cells form a simple columnar ciliated epithelium lining the central canal. These cuboidal to columnar cells have cilia projecting into the canal lumen. Ependymal cells produce and circulate cerebrospinal fluid, regulate its composition, and form a barrier between cerebrospinal fluid and underlying neural tissue.",
+      "The three protective meningeal layers surround the spinal cord. The pia mater is the delicate innermost layer adhering directly to the cord surface. The arachnoid mater forms the middle avascular layer. The dura mater is the tough outermost fibrous layer. These layers provide protection through mechanical cushioning. The subarachnoid space between the pia and arachnoid contains cerebrospinal fluid for shock absorption.",
+      "Arteries and veins penetrate from the pia mater into the spinal cord parenchyma. These vessels are surrounded by perivascular spaces called Virchow-Robin spaces. The anterior spinal artery supplies the anterior two-thirds of the cord, while paired posterior spinal arteries supply the posterior third."
+    ]
+  },
+
   hierarchy: [
     "Periphery → Center: Meninges → White Matter → Gray Matter → Central Canal",
     "White Matter = Myelinated tracts (information highways)",
@@ -2682,6 +2915,30 @@ const SLIDE_DATA_79 = {
   
   bigPicture: "Meninges = three protective layers surrounding CNS with CSF cushioning and venous drainage (parallels peripheral nerve CT layers!)",
   
+      examPresentation: {
+    introduction: "This slide shows the meninges. The meninges consist of three protective layers surrounding the central nervous system. These layers provide cerebrospinal fluid cushioning and venous drainage. The meningeal organization parallels the connective tissue layers of peripheral nerves, reflecting the developmental and functional continuity between central and peripheral nervous systems.",
+    sections: [
+      {
+        title: "Pia Mater",
+        content: "The pia mater is the innermost layer, adhering closely to the brain surface and following the cortex contours. This delicate membrane consists of a single layer of flattened meningeal cells, which are modified fibroblasts, with loose connective tissue. It contains a rich vascular network and perivascular cells. The pia mater provides the vascular supply to the brain, creates the subpial space for cerebrospinal fluid, and forms perivascular spaces called Virchow-Robin spaces around vessels as they enter brain tissue. This layer is the central nervous system equivalent of the endoneurium in peripheral nerves."
+      },
+      {
+        title: "Arachnoid Mater",
+        content: "The arachnoid mater is the middle layer, wrapping the brain as a continuous membrane without following surface contours. This avascular layer has two components: an external layer formed by fused dural border cells and arachnoid barrier cells connected by tight junctions, and an internal layer containing meningeal cells. Delicate arachnoid trabeculae connect the arachnoid to the pia mater. The arachnoid creates the cerebrospinal fluid-filled subarachnoid space that provides cushioning to the brain. Arachnoid granulations project into venous sinuses to drain cerebrospinal fluid into the venous system. The arachnoid barrier cells form a cerebrospinal fluid-brain barrier through their tight junctions. This layer corresponds to the perineurium in peripheral nerves."
+      },
+      {
+        title: "Dura Mater",
+        content: "The dura mater is the outermost layer, wrapping the brain and spinal cord as a tough protective membrane. The cranial dura has two layers: a periosteal layer that adheres to the inner surface of the skull, and a meningeal layer that is continuous with the spinal dura. Both layers consist of dense irregular connective tissue with abundant collagen fibers. The dura contains the superior sagittal sinus and other dural venous sinuses, lateral lacunae for cerebrospinal fluid absorption, and meningeal arteries. The dura mater provides mechanical protection to the brain, contains venous sinuses that drain blood from the brain, forms important compartments including the falx cerebri separating cerebral hemispheres and the tentorium cerebelli separating cerebrum from cerebellum, and anchors the brain within the skull. This layer is the central nervous system equivalent of the epineurium in peripheral nerves."
+      }
+    ],
+    additionalStructures: [
+      "Sulci and gyri are visible on the outer surface of the cerebral hemispheres, with sulci forming the grooves that separate adjacent gyri. The sulci and gyri dramatically increase the cortical surface area available for higher cognitive functions. The longitudinal fissure is the deep sulcus that separates the left and right cerebral hemispheres.",
+      "Arachnoid granulations are finger-like projections of arachnoid mater that protrude into dural venous sinuses, especially the superior sagittal sinus. They drain cerebrospinal fluid from the subarachnoid space into the venous blood circulation, essential for maintaining cerebrospinal fluid homeostasis.",
+      "The superior sagittal sinus is a large midline venous sinus within the dura mater along the superior border of the falx cerebri. This sinus serves as the major drainage pathway for venous blood from the brain. Lateral lacunae are lateral expansions of the superior sagittal sinus where arachnoid granulations are most prominent, serving as primary sites of cerebrospinal fluid absorption.",
+      "Blood vessels course through the subarachnoid space and penetrate the brain parenchyma. As vessels penetrate the brain surface, they are surrounded by perivascular spaces called Virchow-Robin spaces, which are extensions of the subarachnoid space that facilitate cerebrospinal fluid circulation and metabolic exchange."
+    ]
+  },
+
   hierarchy: [
     "Brain Surface → Pia → Arachnoid → Dura → Skull",
     "↕ (Endo) ↔ (Peri) ↔ (Epi)",
@@ -2930,6 +3187,32 @@ const SLIDE_DATA_80 = {
   
   bigPicture: "Medulla oblongata = vital brainstem center where sensory pathways decussate, motor tracts descend, and cranial nerves control life-sustaining functions!",
   
+      examPresentation: {
+    introduction: "This slide shows the medulla oblongata. The medulla oblongata is a vital brainstem center where sensory pathways decussate, motor tracts descend, and cranial nerve nuclei control life-sustaining functions including cardiovascular and respiratory regulation.",
+    sections: [
+      {
+        title: "Neuronal Cell Bodies and Nuclei",
+        content: "Neuronal cell bodies are scattered throughout the medulla, forming distinct nuclear groups visible as dark purple clusters in cresyl violet staining. These nuclei include motor nuclei controlling muscles via cranial nerves, sensory nuclei receiving and processing sensory information, and autonomic nuclei regulating cardiovascular, respiratory, and visceral functions. The neurons in these nuclei process and relay sensory information from the body and head, control motor outputs to muscles of the head, neck, and viscera, and regulate vital autonomic functions including heart rate, blood pressure, and breathing rhythm."
+      },
+      {
+        title: "Pyramids and Fiber Tracts",
+        content: "Pyramids are prominent white matter structures on the ventral surface of the medulla containing descending corticospinal tract fibers. These tracts contain axons from motor cortex neurons that control voluntary movement. Most fibers decussate at the pyramidal decussation near the junction with the spinal cord. The pyramids carry motor commands from the cerebral cortex to spinal cord motor neurons, enabling voluntary control of skeletal muscles. The pyramidal decussation explains why each cerebral hemisphere controls the opposite side of the body. Fiber tracts course through the medulla carrying ascending sensory information and descending motor commands, including the medial lemniscus carrying fine touch and proprioception, spinothalamic tracts carrying pain and temperature, and the pyramids containing descending motor fibers."
+      },
+      {
+        title: "Inferior Olivary Nucleus",
+        content: "The inferior olivary nucleus is a large wrinkled or folded nucleus visible as a prominent gray matter structure in the lateral medulla. This nucleus has a characteristic convoluted appearance in cross section. The inferior olivary nucleus projects climbing fibers to the cerebellum via the inferior cerebellar peduncle. It plays a crucial role in motor learning, coordination, and timing of movements."
+      },
+      {
+        title: "Cranial Nerve Nuclei",
+        content: "Cranial nerve nuclei visible in the medulla include the hypoglossal nucleus controlling tongue muscles, the dorsal motor nucleus of the vagus nerve providing parasympathetic innervation to thoracic and abdominal viscera, the nucleus ambiguus innervating muscles of the pharynx and larynx, and sensory nuclei receiving taste and visceral sensory information. These nuclei control muscles of the tongue, pharynx, and larynx, regulate parasympathetic functions of the heart, lungs, and digestive tract, receive and process sensory information from taste buds and visceral organs, and coordinate swallowing, speech, and protective reflexes."
+      }
+    ],
+    additionalStructures: [
+      "Glial cells appear as small scattered heterochromatic nuclei throughout both white and gray matter regions. These cells include oligodendrocytes that form and maintain myelin sheaths, astrocytes that provide structural support and metabolic assistance, and microglia that perform immune surveillance.",
+      "The reticular formation consists of diffuse networks of neurons and nerve fibers scattered throughout the medulla. This region regulates consciousness and arousal, controls cardiovascular and respiratory functions through autonomic centers, modulates pain transmission, and coordinates reflex activities."
+    ]
+  },
+
   hierarchy: [
     "Medulla = transition between spinal cord and brainstem",
     "Gray matter nuclei (purple) + White matter tracts (blue)",
@@ -3163,6 +3446,31 @@ const SLIDE_DATA_81 = {
   
   bigPicture: "Cerebellum = motor coordination center with unique three-layered cortex where Purkinje cells integrate inputs and provide sole cortical output",
   
+      examPresentation: {
+    introduction: "This slide shows the cerebellum. The cerebellum is a motor coordination center featuring a unique three-layered cortex where Purkinje cells integrate massive sensory input to fine-tune movement, balance, and motor learning.",
+    sections: [
+      {
+        title: "Molecular Layer",
+        content: "The molecular layer is the outermost layer of the cerebellar cortex. This relatively cell-sparse layer contains primarily dendrites and axons with few neuronal cell bodies. It contains dendrites of Purkinje cells extending into this layer, parallel fibers which are axons of granule cells running parallel to folia, stellate cells in the outer portion, and basket cells in the inner portion near Purkinje cells. The molecular layer serves as the primary site of synaptic integration where parallel fibers synapse with Purkinje cell dendrites. Basket and stellate cells provide inhibitory modulation. This layer processes and integrates sensory and motor information from throughout the body."
+      },
+      {
+        title: "Purkinje Cell Layer",
+        content: "The Purkinje cell layer is the middle layer, consisting of a single row of large Purkinje cell bodies. These are among the largest neurons in the central nervous system, featuring large pear-shaped cell bodies with prominent nuclei and nucleoli. Each Purkinje cell extends a massive dendritic tree into the molecular layer above and projects a single axon into the white matter below. The Purkinje cells serve as the sole output neurons of the cerebellar cortex. They integrate inputs from climbing fibers originating in the inferior olive and parallel fibers from granule cells. After integration, Purkinje cells send inhibitory signals via GABA release to deep cerebellar nuclei, which then project to motor areas of the brain. These neurons are essential for motor coordination, balance, and motor learning."
+      },
+      {
+        title: "Granular Layer",
+        content: "The granular layer is the innermost layer of cerebellar cortex, appearing densely packed with small dark nuclei. This layer contains densely packed granule cells which are the most numerous neurons in the entire brain, along with Golgi cells scattered throughout. Glomeruli are synaptic complexes where granule cell dendrites receive input from mossy fibers. The granular layer receives mossy fiber inputs carrying sensory and motor information from the spinal cord and brainstem. Granule cells process this information and send their axons as parallel fibers into the molecular layer where they synapse with Purkinje dendrites. This layer serves as the entry point for most information reaching the cerebellar cortex."
+      },
+      {
+        title: "White Matter and Deep Nuclei",
+        content: "The white matter forms the core of each cerebellar folium beneath the three cortical layers. This region contains myelinated axons organized into tracts. It contains axons of Purkinje cells projecting to deep cerebellar nuclei, incoming mossy fibers and climbing fibers bringing information to the cortex, and axons connecting different cerebellar regions. Within the white matter core, deep cerebellar nuclei can sometimes be visible, including the dentate, interposed, and fastigial nuclei. These nuclei serve as the primary output of the cerebellum, projecting to motor areas of the brainstem and thalamus."
+      }
+    ],
+    additionalStructures: [
+      "Blood vessels penetrate from the pia mater covering the cerebellar folia into the underlying tissue. The rich vascular network provides oxygen and nutrients to the metabolically active cerebellar neurons."
+    ]
+  },
+
   hierarchy: [
     "Cerebellar Cortex Organization:",
     "Surface → Deep: Molecular → Purkinje → Granule",
@@ -3420,6 +3728,30 @@ const SLIDE_DATA_82 = {
   
   bigPicture: "Cerebellum = motor coordination center with highly organized 3-layer cortex where massive Purkinje dendrites (black on Ag) integrate 200,000+ inputs",
   
+      examPresentation: {
+    introduction: "This slide shows the cerebellum with silver staining. The cerebellum is a motor coordination center featuring a highly organized three-layered cortex where Purkinje cells integrate sensory input to fine-tune movement, balance, and motor learning. Silver staining dramatically reveals the extensive dendritic arbors and axonal projections that characterize cerebellar circuitry.",
+    sections: [
+      {
+        title: "Molecular Layer",
+        content: "The molecular layer is the outermost layer of cerebellar cortex, appearing relatively pale with sparse cell bodies but rich in neural processes. This layer contains the elaborate dendritic trees of Purkinje cells extending upward, parallel fibers which are the axons of granule cells running perpendicular to the folia long axis, stellate cells in the outer portion, and basket cells in the inner portion. The molecular layer is the primary integration site where parallel fibers make numerous synapses with Purkinje cell dendrites. Each Purkinje cell receives input from approximately 200,000 parallel fibers. This extensive connectivity allows integration of diverse sensory and motor information."
+      },
+      {
+        title: "Purkinje Cell Layer",
+        content: "The Purkinje cell layer is the middle layer, consisting of a single row of large pear-shaped Purkinje cell bodies. Silver staining highlights the massive dendritic arbors of these neurons extending into the molecular layer and their single axons projecting into the white matter. Each Purkinje cell has a planar dendritic tree oriented perpendicular to the long axis of the folium. The Purkinje cells are the sole output neurons of the cerebellar cortex. They integrate climbing fiber input from the inferior olive with parallel fiber input from granule cells. After integration, they project inhibitory GABA-ergic output to deep cerebellar nuclei. These neurons are critical for motor coordination, error correction in movement, balance maintenance, and procedural motor learning."
+      },
+      {
+        title: "Granular Layer",
+        content: "The granular layer is the innermost and most densely cellular layer of the cerebellar cortex. This layer appears dark due to densely packed small granule cells with dark nuclei. It contains granule cells which are the most numerous neurons in the brain, Golgi cells providing inhibitory feedback, and glomeruli which are synaptic complexes where mossy fibers synapse with granule cell dendrites. The granular layer receives mossy fiber inputs carrying motor and sensory information from the spinal cord, vestibular nuclei, and pontine nuclei. Granule cells process this input and send axons as parallel fibers into the molecular layer."
+      }
+    ],
+    additionalStructures: [
+      "Purkinje cell axons are visible with silver staining as they project from the Purkinje cell bodies through the granular layer into the underlying white matter. Each Purkinje cell extends a single myelinated axon that projects to deep cerebellar nuclei, providing the sole output pathway from cerebellar cortex.",
+      "Climbing fibers can be visualized with silver staining as they ascend through the granular layer and wrap around Purkinje cell bodies and proximal dendrites. Each Purkinje cell receives input from a single climbing fiber that makes multiple strong synapses. Climbing fibers provide powerful excitatory input and play a critical role in motor learning and error correction.",
+      "Basket cell axons and terminals are visible in silver staining around Purkinje cell bodies. These interneurons send axons that form basket-like structures around Purkinje cell bodies, providing powerful inhibitory input that enhances the precision of cerebellar output.",
+      "White matter beneath the cortex contains myelinated axons connecting cortex with deep nuclei. The white matter contains Purkinje cell axons projecting to deep cerebellar nuclei, incoming mossy fibers and climbing fibers, and commissural and associational fibers connecting different cerebellar regions."
+    ]
+  },
+
   hierarchy: [
     "White matter (center) → Cortex (3 layers)",
     "↑ Granule (deep, dense) → Purkinje (middle, large) → Molecular (superficial, pale)",
@@ -3786,6 +4118,28 @@ const SLIDE_DATA_83 = {
   
   bigPicture: "Granular cortex = sensory processing center with prominent Layer IV receiving thalamic input; 6-layer laminar organization enables hierarchical information processing",
   
+      examPresentation: {
+    introduction: "This slide shows granular cerebral cortex. Granular cortex, also called sensory cortex, is the sensory processing center with prominent layers 2 and 4 containing numerous small granule cells receiving thalamic sensory input. This cortical type is found in primary sensory areas including the postcentral gyrus for somatosensation and the primary visual and auditory cortices.",
+    sections: [
+      {
+        title: "Layers 1-3: Superficial Layers",
+        content: "Layer 1, the molecular layer, is the most superficial layer containing few cell bodies. This layer contains primarily dendrites from deeper neurons, axons running parallel to the surface, and occasional Cajal-Retzius cells. The molecular layer serves as a synaptic integration zone. Layer 2, the external granular layer, contains numerous small, densely packed granule cells with round cell bodies and dark nuclei. This layer is particularly prominent in sensory cortex, providing initial cortical processing of sensory information. Layer 3, the external pyramidal layer, contains small to medium-sized pyramidal neurons with characteristic triangular cell bodies and apical dendrites extending toward the surface. The pyramidal neurons in layer 3 receive processed sensory information from layer 4 and send associational fibers to other cortical areas."
+      },
+      {
+        title: "Layer 4: Internal Granular Layer",
+        content: "Layer 4, the internal granular layer, is the primary receiving layer for thalamic input and is exceptionally prominent in primary sensory cortex. This layer contains densely packed stellate cells and small granule cells. Layer 4 receives specific sensory information from thalamic relay nuclei. Stellate cells process this input and distribute it to pyramidal neurons in layers 2, 3, 5, and 6. This layer is the main entry point for sensory information into the cortex and is largest in primary sensory areas."
+      },
+      {
+        title: "Layers 5-6: Deep Layers",
+        content: "Layer 5, the internal pyramidal layer, contains large pyramidal neurons with prominent apical dendrites extending to layer 1. In sensory cortex, this layer is less prominent than in motor cortex. Layer 5 pyramidal neurons send projections to subcortical structures including the striatum, brainstem, and spinal cord. Layer 6, the multiform or polymorphic layer, contains diverse neuron types of various shapes including pyramidal cells, fusiform cells, and modified pyramidal neurons. This deepest cortical layer provides feedback projections to the thalamus, modulating the very thalamic nuclei that send sensory input to layer 4, participating in attention and sensory gating."
+      }
+    ],
+    additionalStructures: [
+      "Neurons of various sizes are distributed throughout all cortical layers. These include pyramidal neurons which are the principal output neurons, granule cells which are local circuit neurons receiving thalamic input, and stellate cells which are interneurons for local processing. These neurons work in concert to receive sensory input from the thalamus in layer 4, process information through intricate local circuits, integrate information across cortical columns, and send output to other cortical areas and subcortical structures.",
+      "Glial cells are scattered throughout all cortical layers, appearing as small cells with dark heterochromatic nuclei. These include astrocytes providing metabolic support, oligodendrocytes forming myelin in underlying white matter, and microglia performing immune functions."
+    ]
+  },
+
   hierarchy: [
     "Surface (Pia) → Layer I → II → III → IV → V → VI → White Matter",
     "Layer IV (Internal Granular) = THICKEST in sensory cortex",
@@ -4048,6 +4402,32 @@ const SLIDE_DATA_84 = {
   
   bigPicture: "Motor cortex with prominent layer 5 containing Betz cells for voluntary movement control",
   
+      examPresentation: {
+    introduction: "This slide shows motor cortex or agranular cortex. The motor cortex is organized with prominent layer 5 containing Betz cells for voluntary movement control, characterized by a minimal layer 4, distinguishing it from sensory cortex.",
+    sections: [
+      {
+        title: "Layers 1-3: External Layers",
+        content: "Layer 1, the molecular layer, is the most superficial layer, containing few cell bodies but abundant dendrites from pyramidal cells in deeper layers and axons from other regions. This layer is a zone of synaptic modulation where apical dendrites receive inputs that modulate neuronal firing. Layers 2 and 3 together form the external layers containing small to medium pyramidal neurons. These neurons establish connections with other cortical areas, participating in motor planning and coordination. Layer 3 pyramidal neurons project to other cortical regions including premotor areas and supplementary motor areas, integrating information necessary for complex voluntary movements."
+      },
+      {
+        title: "Layer 4: Minimal Internal Granular Layer",
+        content: "Layer 4, the internal granular layer, is characteristically thin or nearly absent in motor cortex, distinguishing agranular cortex from granular sensory cortex. The reduced layer 4 reflects the motor cortex's role in output rather than receiving thalamic sensory input. This absence of a prominent granular layer is the defining feature of agranular cortex."
+      },
+      {
+        title: "Layer 5: Betz Cells",
+        content: "Layer 5, the internal pyramidal layer, is highly developed in motor cortex, containing the largest neurons in the cerebral cortex called Betz cells or giant pyramidal cells. These massive pyramidal neurons have large triangular cell bodies, thick apical dendrites extending to layer 1, and prominent Nissl substance visible with cresyl violet staining. Betz cell axons form part of the corticospinal tract, traveling through the internal capsule, cerebral peduncle, and pyramids, with most fibers decussating in the medulla before descending in the lateral corticospinal tract to synapse on motor neurons in the spinal cord. Betz cells comprise only about 3-5% of corticospinal fibers, with the remaining fibers arising from smaller layer 5 pyramidal cells and layer 3 neurons. These neurons are essential for fine voluntary motor control, particularly of distal muscles in hands and fingers."
+      },
+      {
+        title: "Layer 6 and White Matter",
+        content: "Layer 6, the multiform layer, contains diverse cell types and sends projections back to the thalamus, modulating thalamic relay activity. Below the cortex, white matter contains massive bundles of myelinated axons, predominantly motor fibers descending from layer 5 pyramidal cells to brainstem and spinal cord."
+      }
+    ],
+    additionalStructures: [
+      "The motor cortex is organized somatotopically with a motor homunculus, where different body regions are represented in specific cortical areas, with disproportionately large representations for hands and face reflecting their importance in fine motor control.",
+      "Damage to motor cortex results in contralateral weakness or paralysis, with loss of fine motor control being most prominent."
+    ]
+  },
+
   hierarchy: [
     "Agranular cortex → Reduced layers 2 & 4 (granular layers) → Prominent layer 5",
     "Layer 5 internal pyramidal → Giant Betz cells → Corticospinal tract descends",
@@ -4307,6 +4687,27 @@ const SLIDE_DATA_85 = {
   
   bigPicture: "Parvalbumin IHC reveals the powerful inhibitory network controlling cortical excitability through perisomatic inhibition of pyramidal neurons.",
   
+      examPresentation: {
+    introduction: "This slide shows cerebral cortex with Parvalbumin immunohistochemistry. Parvalbumin IHC reveals the powerful inhibitory network controlling cortical excitability through fast-spiking interneurons that regulate pyramidal cell firing and maintain excitatory-inhibitory balance.",
+    sections: [
+      {
+        title: "Parvalbumin-Positive Interneurons",
+        content: "Parvalbumin-positive interneurons are a major class of GABAergic inhibitory neurons in the cerebral cortex, comprising approximately 40% of all cortical interneurons. These neurons express the calcium-binding protein parvalbumin and include basket cells and chandelier cells. Basket cells have cell bodies located primarily in layers 2-6, with axons forming basket-like terminals around pyramidal cell somata, providing powerful perisomatic inhibition. Chandelier cells, also called axo-axonic cells, have distinctive candlestick-like axon terminals that synapse exclusively on the axon initial segments of pyramidal neurons, providing the strongest inhibitory control over action potential generation."
+      },
+      {
+        title: "Distribution and Properties",
+        content: "The parvalbumin-positive network exhibits a characteristic distribution across cortical layers. Basket cells are found throughout layers 2-6, with highest density in layers 3-5. Chandelier cells are concentrated in layers 2-3. Both cell types have fast-spiking properties, capable of firing at very high frequencies 200-300 Hz, enabling rapid inhibitory control of cortical circuits. Parvalbumin-positive terminals form dense networks of inhibitory connections throughout all cortical layers, appearing as dark punctate staining surrounding unlabeled pyramidal cell bodies."
+      },
+      {
+        title: "Functional Roles",
+        content: "The parvalbumin network plays critical roles in cortical function. These interneurons maintain excitatory-inhibitory balance by preventing runaway excitation and potential seizure activity. They generate and synchronize gamma oscillations 30-80 Hz that are essential for attention, working memory, and sensory binding. They provide feedforward inhibition that sharpens sensory responses and improves signal-to-noise ratio. They control the timing of pyramidal cell firing with millisecond precision through perisomatic and axo-axonic inhibition."
+      }
+    ],
+    additionalStructures: [
+      "Dysfunction of parvalbumin-positive interneurons is implicated in multiple neurological and psychiatric disorders. In schizophrenia, reduced parvalbumin expression and altered chandelier cell connectivity contribute to cognitive deficits and disorganized neural activity. In epilepsy, loss of parvalbumin interneurons reduces inhibitory control, leading to hyperexcitability and seizures. In autism spectrum disorders, altered excitatory-inhibitory balance partly reflects parvalbumin interneuron dysfunction."
+    ]
+  },
+
   hierarchy: [
     "Basket Cell → Pericellular Basket → Boutons",
     "↓ INHIBITS ↓",
@@ -4643,6 +5044,34 @@ const SLIDE_DATA_86 = {
   
   bigPicture: "Hippocampus is a layered archicortex structure with large pyramidal neurons rich in Nissl bodies, critical for memory formation and spatial navigation",
   
+      examPresentation: {
+    introduction: "This slide shows the hippocampus. The hippocampus is a layered archicortex structure critical for forming new declarative memories and spatial navigation. Its unique architecture features a three-layered cortex rather than the six-layered neocortex, with the prominent pyramidal cell layer forming the characteristic C-shaped or seahorse-shaped structure.",
+    sections: [
+      {
+        title: "Molecular Layer",
+        content: "The molecular layer, also called stratum lacunosum-moleculare, is the most superficial layer of the hippocampus. This relatively cell-sparse layer contains primarily dendrites and axons with few neuronal cell bodies. It contains apical dendrites of pyramidal neurons, axons from entorhinal cortex providing cortical input, and scattered interneurons. The molecular layer receives input from the entorhinal cortex via the perforant pathway, which carries processed sensory information from association cortex. This layer is where cortical information enters the hippocampal circuit. Synapses here are critical for memory formation and consolidation."
+      },
+      {
+        title: "Pyramidal Cell Layer",
+        content: "The pyramidal cell layer, also called stratum pyramidale, is the middle and most prominent layer containing densely packed pyramidal neuron cell bodies. In the CA1 region, neurons are more tightly packed in a thinner band. In the CA3 region, the layer is wider and less compact. The distinctive pyramidal neurons appear as large cells with prominent nuclei and nucleoli. The pyramidal neurons are the principal output neurons of the hippocampus. CA3 pyramidal neurons receive mossy fiber input from dentate gyrus granule cells and send Schaffer collaterals to CA1. CA1 pyramidal neurons receive Schaffer collateral input from CA3 and project to subiculum and deep entorhinal cortex. These neurons encode spatial location forming place cells, process temporal sequences of events, and consolidate short-term memories into long-term storage."
+      },
+      {
+        title: "Polymorphic Layer",
+        content: "The polymorphic layer, also called stratum oriens, lies deep to the pyramidal cell layer. This layer contains scattered neurons of various shapes and sizes. It contains basal dendrites of pyramidal neurons, inhibitory interneurons including basket cells and chandelier cells, and axons of pyramidal cells leaving the hippocampus. The polymorphic layer provides local inhibitory control through interneurons, supports synaptic integration on basal dendrites, and contains axonal output pathways from hippocampus to other brain regions."
+      },
+      {
+        title: "Dentate Gyrus",
+        content: "The dentate gyrus is a distinct structure within the hippocampal formation, characterized by densely packed small granule cells forming a V-shaped or U-shaped layer. This layer contains the most densely packed neurons in the brain. The granule cells are small neurons with compact cell bodies and prominent nuclei. The dentate gyrus receives input from the entorhinal cortex via the perforant pathway. Granule cells process this input and send their axons, called mossy fibers, to CA3 pyramidal neurons. The dentate gyrus performs pattern separation, allowing discrimination between similar experiences and memories, and serves as the first processing stage of the trisynaptic hippocampal circuit essential for episodic memory formation."
+      }
+    ],
+    additionalStructures: [
+      "Mossy fibers are the large axons of dentate granule cells that project to CA3 pyramidal neurons. Though the axons themselves are not directly visible in cresyl violet staining, their terminal fields in CA3 stratum lucidum contain large mossy fiber boutons. These fibers form the second synapse in the trisynaptic circuit, transmitting processed information from dentate gyrus to CA3, enabling pattern completion where partial cues can retrieve complete memories, and modulating synaptic plasticity in CA3 through their powerful synapses.",
+      "The alveus is a thin layer of white matter on the ventricular surface of the hippocampus. This layer contains myelinated axons of pyramidal neurons leaving the hippocampus. The alveus collects output axons from hippocampal pyramidal neurons and channels them toward the fimbria and fornix, providing the major output pathway from the hippocampus to subcortical structures including mammillary bodies, anterior thalamus, and septal nuclei.",
+      "Blood vessels penetrate through all hippocampal layers, providing rich vascular supply. The vessels deliver oxygen and nutrients to the metabolically demanding hippocampal neurons. The hippocampus has high metabolic demands due to its role in active memory processing and is particularly vulnerable to hypoxia. Blood vessels maintain the blood-brain barrier and support the high energy requirements of synaptic plasticity and memory formation.",
+      "Glial cells including astrocytes, oligodendrocytes, and microglia are scattered throughout all hippocampal layers. These cells provide metabolic support to neurons, maintain the blood-brain barrier, regulate extracellular ion concentrations, participate in synaptic function and plasticity, and perform immune surveillance and response to injury."
+    ]
+  },
+
   hierarchy: [
     "Dentate Gyrus ← Input Processing",
     "→ CA3 (large pyramids) → CA1 (numerous pyramids)",
@@ -4863,6 +5292,27 @@ const SLIDE_DATA_87 = {
   
   bigPicture: "The hypothalamus bridges nervous and endocrine systems: neurons synthesize hormones that travel down axons to enter the bloodstream!",
   
+      examPresentation: {
+    introduction: "This slide shows the hypothalamus with oxytocin immunostaining. The hypothalamus bridges the nervous and endocrine systems, with magnocellular neurons synthesizing oxytocin for release into the bloodstream. These neurons control critical physiological and social behaviors including lactation, parturition, maternal bonding, and social attachment.",
+    sections: [
+      {
+        title: "Oxytocin-Positive Magnocellular Neurons",
+        content: "Oxytocin-positive magnocellular neurons appear as large, darkly stained cell bodies concentrated in the paraventricular and supraoptic nuclei of the hypothalamus. These neurons have large cell bodies with extensive Nissl substance reflecting their high protein synthesis activity. The oxytocin-positive neurons synthesize the peptide hormone oxytocin in their cell bodies. The hormone is packaged into vesicles and transported along axons to the posterior pituitary, where it is stored in nerve terminals. Upon appropriate stimulation such as suckling during lactation or uterine stretch during labor, these neurons fire action potentials causing oxytocin release into the bloodstream from posterior pituitary terminals. Oxytocin then acts on distant targets including mammary gland myoepithelial cells triggering milk ejection, uterine smooth muscle causing contractions during labor, and brain regions mediating maternal bonding, social attachment, and trust behaviors."
+      },
+      {
+        title: "Hypothalamo-Hypophyseal Tract",
+        content: "Oxytocin-positive nerve fibers and terminals form the hypothalamo-hypophyseal tract, visible as darkly stained processes projecting from hypothalamic nuclei toward the posterior pituitary. This tract carries oxytocin from hypothalamic cell bodies to release sites in the posterior pituitary. The axons transport oxytocin-containing vesicles to terminals in the posterior pituitary, where the hormone is stored until release. The tract represents the structural connection allowing neurosecretion, where neurons function as endocrine cells releasing hormones into the bloodstream."
+      },
+      {
+        title: "Adjacent Hypothalamic Structures",
+        content: "Adjacent hypothalamic nuclei that do not produce oxytocin appear as unstained or lightly stained regions. These include other neuroendocrine nuclei, autonomic control centers, and feeding and metabolism regulatory centers. The hypothalamus contains multiple functionally distinct nuclei controlling body temperature, circadian rhythms, hunger and satiety, thirst and osmotic balance, stress responses, and reproductive functions. The selective staining demonstrates the chemical specificity of hypothalamic neuron populations."
+      }
+    ],
+    additionalStructures: [
+      "Blood vessels are visible throughout the hypothalamic tissue. The hypothalamus has an exceptionally rich blood supply to support its neurosecretory functions. Capillaries in the median eminence have fenestrated endothelium allowing hormone release. The vasculature delivers nutrients to support high metabolic activity, allows hormone release into the bloodstream from the posterior pituitary, and in the median eminence, enables releasing hormone secretion into the hypothalamo-hypophyseal portal system for anterior pituitary control."
+    ]
+  },
+
   hierarchy: [
     "Hypothalamus → Posterior Pituitary → Bloodstream",
     "↑ Supraoptic + Paraventricular nuclei",
@@ -5082,6 +5532,28 @@ const SLIDE_DATA_88 = {
   
   bigPicture: "GFAP immunostaining reveals the extensive astrocyte network forming critical CNS barriers at brain surfaces, around ventricles, and surrounding every blood vessel",
   
+        examPresentation: {
+    introduction: "This slide shows astrocytes visualized with GFAP immunostaining. GFAP, or glial fibrillary acidic protein, reveals the extensive astrocyte network forming critical central nervous system barriers at brain surfaces, around ventricles, and surrounding every blood vessel. Astrocytes are the most abundant glial cells in the central nervous system and serve as master regulators of the brain microenvironment.",
+    sections: [
+      {
+        title: "Astrocytes",
+        content: "Astrocytes are distributed throughout central nervous system gray and white matter, with cell bodies and extensively branched processes visible in the staining. GFAP is an intermediate filament protein specific to astrocytes, making this immunostaining highly selective for these cells. Astrocytes display characteristic star-shaped morphology with multiple long processes radiating from the cell body. In gray matter, protoplasmic astrocytes have highly branched, bushy processes. In white matter, fibrous astrocytes have longer, less branched processes. These cells provide essential structural support to neural tissue, form and maintain the blood-brain barrier, provide metabolic support to neurons by supplying lactate and other nutrients, maintain ion and neurotransmitter homeostasis by taking up excess potassium and glutamate from synapses, and participate in repair and glial scar formation after central nervous system injury."
+      },
+      {
+        title: "Membrana Limitans Gliae Superficialis",
+        content: "The membrana limitans gliae superficialis appears as a dense brown layer formed by astrocyte end-feet at brain surfaces. This limiting membrane has two components: the externa lies beneath the pia mater at the brain surface, and the interna lines the ventricular surfaces. Both appear as continuous brown bands at the periphery of neural tissue. These membranes form barriers between central nervous system tissue and either the meninges or cerebrospinal fluid. They prevent harmful substances from entering the brain parenchyma and regulate the exchange of substances between brain tissue and surrounding spaces."
+      },
+      {
+        title: "Membrana Limitans Gliae Perivascularis",
+        content: "The membrana limitans gliae perivascularis consists of ring-like arrangements of astrocyte end-feet surrounding blood vessels. These appear as brown collars encircling unstained vessel lumens throughout the tissue. This perivascular limiting membrane forms a critical part of the blood-brain barrier. Astrocyte end-feet express aquaporin-4 water channels and regulate the passage of substances from blood to brain tissue. Nearly 100 percent of the blood vessel surface area is covered by these astrocyte end-feet, which maintain blood-brain barrier integrity and regulate cerebral blood flow in response to neuronal activity through neurovascular coupling."
+      }
+    ],
+    additionalStructures: [
+      "Blood vessels appear as clear or unstained lumens of various sizes, from capillaries to larger vessels, each surrounded by brown astrocyte end-feet forming the perivascular glial limiting membrane. These vessels provide the vascular supply to central nervous system tissue. The intimate association between astrocyte end-feet and blood vessels is essential for maintaining the blood-brain barrier, which prevents most blood-borne substances from entering brain tissue while allowing selective transport of necessary nutrients.",
+      "Neurons appear as unstained or lightly stained cells among the GFAP-positive astrocyte network. The nerve cell bodies are surrounded by astrocyte processes but do not themselves express GFAP. These are the primary functional cells of the central nervous system. Astrocytes provide crucial metabolic and structural support to neurons, supplying energy substrates during high activity, maintaining optimal extracellular conditions for synaptic transmission, and protecting neurons from excitotoxicity and oxidative stress."
+    ]
+  },
+  
   hierarchy: [
     "Astrocyte → Processes → Endfeet",
     "↓ At brain surface → Glia limitans externa (under pia)",
@@ -5293,6 +5765,28 @@ const SLIDE_DATA_89 = {
   
   bigPicture: "Microglia are the resident immune cells of the CNS, acting as sentinels that constantly survey the brain environment and respond rapidly to injury or disease",
   
+  examPresentation: {
+    introduction: "This slide shows microglia visualized with Iba1 immunostaining. Microglia are the resident immune cells of the central nervous system, acting as sentinels that constantly survey the brain environment and respond rapidly to injury or disease. Iba1, or ionized calcium-binding adapter molecule 1, is the gold standard marker that specifically and exclusively labels microglia, making it ideal for studying these cells.",
+    sections: [
+      {
+        title: "Microglial Morphology and Functional States",
+        content: "Microglial cells are distributed throughout central nervous system tissue, with particularly high concentrations in gray matter regions. These small cells feature compact cell bodies with multiple long, thin branching processes radiating in all directions, creating an extensive surveillance network. The morphology of microglia directly reflects their functional state. In healthy brain tissue, resting microglia display long, thin, highly ramified processes that constantly survey the microenvironment for signs of damage, pathogens, or cellular debris. During injury or disease, microglia transform into an activated state with enlarged cell bodies and shorter, thicker, less branched processes. In severe pathology, they adopt an amoeboid form with round bodies and few processes, actively phagocytosing damaged tissue. This morphological transformation is reversible, with cells returning to their resting surveillance state after resolving the pathological stimulus."
+      },
+      {
+        title: "Developmental Origin",
+        content: "Microglia have a unique developmental origin that distinguishes them from all other central nervous system cells. They derive from yolk sac monocytes during embryonic development, migrating into the central nervous system before the blood-brain barrier forms. This mesodermal origin contrasts sharply with neurons, astrocytes, and oligodendrocytes, which all originate from neuroectoderm. This unique origin explains their specialized immune cell properties and is a frequently tested concept on examinations."
+      },
+      {
+        title: "Microglial Functions",
+        content: "Microglia perform diverse functions that can be either beneficial or harmful depending on context. In healthy brain tissue, they provide essential maintenance by phagocytosing cellular debris and dead cells, pruning unnecessary synapses during development and plasticity, monitoring blood-brain barrier integrity, clearing pathogens, and supporting overall neuronal health. However, chronic microglial activation can be detrimental, releasing inflammatory cytokines that damage neurons. In Alzheimer disease, microglia cluster around amyloid plaques attempting clearance but often become dysfunctional. Following stroke, they respond early to remove dead tissue, but prolonged activation can worsen damage. In multiple sclerosis, activated microglia attack myelin and oligodendrocytes during disease relapses. Understanding this double-edged nature is critical for developing therapies that modulate excessive activation while preserving beneficial surveillance functions."
+      }
+    ],
+    additionalStructures: [
+      "Neurons and other glial cells including astrocytes and oligodendrocytes provide the structural context for microglial distribution. These cells do not express Iba1 and remain unstained, creating clear contrast that highlights the microglial network. Microglia interact closely with neurons, continuously monitoring their health and responding to neuronal damage or stress signals.",
+      "Blood vessels throughout the tissue are often surrounded by clusters of microglia. These immune cells monitor blood-brain barrier integrity and respond rapidly to vascular pathology. Their perivascular positioning allows them to detect and respond to blood-borne signals while maintaining central nervous system immune surveillance."
+    ]
+  },
+
   hierarchy: [
     "CNS Immune System",
     "↓ Microglia (5% of all glial cells)",
