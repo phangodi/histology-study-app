@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { Layers, Zap, Network, Target, Mic } from 'lucide-react';
+import { Layers, Zap, Network, Target, Mic, ClipboardCheck } from 'lucide-react';
 import ErrorBoundary from './components/ErrorBoundary';
 import VersionSelector from './components/VersionSelector';
 import SlideNavigation from './components/SlideNavigation';
@@ -8,6 +8,7 @@ import QuickCardsFormat from './components/QuickCardsFormat';
 import RelationshipsFormat from './components/RelationshipsFormat';
 import UltraMinimalFormat from './components/UltraMinimalFormat';
 import ExamPresentationFormat from './components/ExamPresentationFormat';
+import FinalCheckFormat from './components/FinalCheckFormat';
 import { SLIDES } from './data/slideData';
 import { ENABLED } from './flags';
 
@@ -23,7 +24,8 @@ const App = () => {
     { id: 'quick', name: 'Quick Cards', icon: <Zap size={20} />, component: QuickCardsFormat },
     { id: 'relationship', name: 'Relationships', icon: <Network size={20} />, component: RelationshipsFormat },
     { id: 'presentation', name: 'Exam Presentation', icon: <Mic size={20} />, component: ExamPresentationFormat },
-    { id: 'minimal', name: 'Ultra-Minimal', icon: <Target size={20} />, component: UltraMinimalFormat }
+    { id: 'minimal', name: 'Ultra-Minimal', icon: <Target size={20} />, component: UltraMinimalFormat },
+    { id: 'finalcheck', name: 'Final Check', icon: <ClipboardCheck size={20} />, component: FinalCheckFormat }
   ].filter(v => {
     const key = v.name.replace(/[^A-Za-z]/g, '');
     return ENABLED[key] !== false;

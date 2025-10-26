@@ -4,6 +4,58 @@ const SLIDE_DATA_15 = {
   section: "longitudinal section",
   stain: "AChE",
 
+    finalCheckData: {
+    bigPicture: "Motor end plates are the chemical synapses between nerves and muscles. AChE staining shows these junctions as dark brown/black spots on pale muscle fibers. This is where your brain's commands become muscle movement.",
+    essentialStructures: [
+      {
+        name: "Axon",
+        points: [
+          "Myelinated nerve fiber approaching muscle",
+          "Loses myelin sheath at junction but retains Schwann cell covering",
+          "Branches to form expanded terminal bouton"
+        ]
+      },
+      {
+        name: "Neuromuscular Junction",
+        isMain: true,
+        points: [
+          "Appears as dark brown/black irregular patches on muscle surface",
+          "Has 3 components:"
+        ],
+        subComponents: [
+          { name: "Presynaptic terminal", desc: "nerve ending with ACh vesicles" },
+          { name: "Synaptic cleft", desc: "20-30nm gap containing AChE enzyme (what stains dark!)" },
+          { name: "Motor end plate", desc: "specialized muscle membrane with junctional folds and ACh receptors" }
+        ]
+      },
+      {
+        name: "Striated Muscle Fiber",
+        points: [
+          "Pale pink/tan longitudinal fibers with cross-striations",
+          "Multiple peripheral nuclei visible as dark dots at fiber edges",
+          "Regular alternating light and dark bands (sarcomeres)"
+        ]
+      }
+    ],
+    examShortcuts: {
+      colorPattern: [
+        "Dark brown/black patches = motor end plates (AChE enzyme location)",
+        "Pale background = unstained muscle fibers",
+        "Cross-striations = confirms skeletal muscle"
+      ],
+      quickID: [
+        "Scan at low power for scattered dark spots on pale longitudinal fibers",
+        "High contrast makes these impossible to miss",
+        "Irregular shapes (not round like nuclei, not tubular like vessels)"
+      ]
+    },
+    clinicalPearl: [
+      { disease: "Myasthenia Gravis", note: "Antibodies destroy ACh receptors → progressive weakness" },
+      { disease: "Botulism", note: "Toxin blocks ACh release → flaccid paralysis" },
+      { disease: "Organophosphates", note: "Inhibit AChE → continuous stimulation → paralysis" }
+    ],
+    studyTip: "Think \"dark spots on striped muscle = ACh enzyme at nerve-muscle junction.\" The only synapse in the body that never fails under normal conditions."
+  },
   examEssentialStructures: {
     grouped: [
       {
@@ -340,6 +392,100 @@ const SLIDE_DATA_70 = {
   section: "cross section",
   stain: "HE",
   
+    finalCheckData: {
+    slideGroup: "SLIDES 70-73: PERIPHERAL NERVE (4 Variations)",
+    groupNote: "Same structure, different stains and orientations",
+    bigPicture: "Peripheral nerves are bundles of axons wrapped in three connective tissue layers (like a cable with insulation). The appearance changes dramatically based on stain (HE vs OsO₄) and section (cross vs longitudinal).",
+    essentialStructures: {
+      insideFascicles: [
+        {
+          name: "Bundle of Nerve Fibers",
+          points: [
+            "Circular \"honeycomb\" pattern in cross-section",
+            "Each circle = one myelinated axon"
+          ]
+        },
+        {
+          name: "Axon",
+          points: [
+            "Tiny pink/red dot in center of each circle",
+            "Eosinophilic (stains with eosin)"
+          ]
+        },
+        {
+          name: "Negative Image of Myelin Sheath",
+          points: [
+            "White/unstained ring around axon",
+            "Lipid dissolved during processing → empty space",
+            "Thickest layer in each fiber"
+          ]
+        },
+        {
+          name: "Schwann Cells",
+          points: [
+            "Small flattened nuclei in myelin layer",
+            "One Schwann cell wraps one axon segment"
+          ]
+        }
+      ],
+      connectiveTissueLayers: [
+        {
+          name: "Endoneurium",
+          points: [
+            "Thinnest pink layer around each individual fiber",
+            "Loose connective tissue with reticular fibers",
+            "Contains capillaries"
+          ]
+        },
+        {
+          name: "Perineurium",
+          points: [
+            "Thicker pink/purple layer around each fascicle",
+            "5-10 layers of flattened epithelioid cells",
+            "Forms blood-nerve barrier"
+          ]
+        },
+        {
+          name: "Epineurium",
+          points: [
+            "Thick pink dense connective tissue around entire nerve",
+            "Merges with surrounding tissue",
+            "Contains larger blood vessels"
+          ]
+        }
+      ],
+      additional: [
+        {
+          name: "Fibrocytes",
+          points: [
+            "Scattered spindle-shaped cells with dark nuclei",
+            "Present in all three connective tissue layers",
+            "Maintain structural integrity"
+          ]
+        },
+        {
+          name: "Adipocytes",
+          points: [
+            "Large clear/white cells with peripheral nuclei",
+            "Found in epineurium",
+            "Provide cushioning"
+          ]
+        }
+      ]
+    },
+    examShortcuts: {
+      patternStain: [
+        "HE: White rings (myelin dissolved) with pink dots (axons) inside",
+        "OsO₄: Black rings (myelin stained) with white dots (axons) inside"
+      ],
+      layers: [
+        "Endo = INdividual fiber (thinnest)",
+        "Peri = fascicle bundle (medium)",
+        "Epi = entire nerve (thickest)"
+      ]
+    },
+    studyTip: "Draw concentric circles: axon (center) → myelin → endoneurium → perineurium → epineurium. Label HE as \"white myelin\" and OsO₄ as \"black myelin.\""
+  },
   examEssentialStructures: {
     grouped: [{
       parent: "bundle of nerve fibers",
@@ -575,6 +721,92 @@ const SLIDE_DATA_71 = {
   section: "longitudinal section",
   stain: "HE",
   
+      finalCheckData: {
+    slideGroup: "SLIDES 70-73: PERIPHERAL NERVE (4 Variations)",
+    groupNote: "Same structure, different stains and orientations",
+    bigPicture: "Peripheral nerves are bundles of axons wrapped in three connective tissue layers (like a cable with insulation). The appearance changes dramatically based on stain (HE vs OsO₄) and section (cross vs longitudinal).",
+    essentialStructures: {
+      insideFascicles: [
+        {
+          name: "Bundle of Nerve Fibers",
+          points: [
+            "Parallel wavy pink strands (not circles)",
+            "Run longitudinally through section"
+          ]
+        },
+        {
+          name: "Axon",
+          points: ["Pink linear strands running length of fiber"]
+        },
+        {
+          name: "Negative Image of Myelin Sheath",
+          points: [
+            "White/unstained longitudinal columns alongside axons",
+            "Lipid dissolved during processing → empty space",
+            "May show segmentation"
+          ]
+        },
+        {
+          name: "Schwann Cells",
+          points: [
+            "Elongated nuclei spaced along myelin segments",
+            "One Schwann cell wraps one axon segment"
+          ]
+        }
+      ],
+      connectiveTissueLayers: [
+        {
+          name: "Endoneurium",
+          points: [
+            "Pink lines between individual fibers",
+            "Loose connective tissue with reticular fibers",
+            "Contains capillaries"
+          ]
+        },
+        {
+          name: "Perineurium",
+          points: [
+            "Pink bands separating fascicles",
+            "5-10 layers of flattened epithelioid cells",
+            "Forms blood-nerve barrier"
+          ]
+        },
+        {
+          name: "Epineurium",
+          points: [
+            "Pink surrounding tissue",
+            "Dense connective tissue",
+            "Contains larger blood vessels"
+          ]
+        }
+      ],
+      additional: [
+        {
+          name: "Fibrocytes",
+          points: [
+            "Scattered spindle-shaped cells with dark nuclei",
+            "Present in all three connective tissue layers",
+            "Maintain structural integrity"
+          ]
+        },
+        {
+          name: "Adipocytes",
+          points: [
+            "Large clear/white cells with peripheral nuclei",
+            "Found in epineurium",
+            "Provide cushioning"
+          ]
+        }
+      ]
+    },
+    examShortcuts: {
+      quickID: [
+        "Cross = circles, Longitudinal = lines",
+        "All structures identical, just different viewing angle"
+      ]
+    },
+    studyTip: "Cross = circles, Longitudinal = lines. All structures identical, just different viewing angle."
+  },
   examEssentialStructures: {
     grouped: [{
       parent: "bundle of nerve fibers",
@@ -804,6 +1036,65 @@ const SLIDE_DATA_72 = {
   section: "cross section",
   stain: "OsO₄",
   
+    finalCheckData: {
+    slideGroup: "SLIDES 70-73: PERIPHERAL NERVE (4 Variations)",
+    groupNote: "Same structure, different stains and orientations",
+    bigPicture: "Peripheral nerves are bundles of axons wrapped in three connective tissue layers (like a cable with insulation). The appearance changes dramatically based on stain (HE vs OsO₄) and section (cross vs longitudinal).",
+    essentialStructures: [
+      {
+        name: "Bundle of Nerve Fibers",
+        points: ["Black rings with white centers (OPPOSITE of HE!)"]
+      },
+      {
+        name: "Negative Image of Axon",
+        points: [
+          "White/pale unstained circles in center",
+          "Axoplasm doesn't contain much lipid"
+        ]
+      },
+      {
+        name: "Myelin Sheath",
+        points: [
+          "Thick BLACK rings (osmium binds myelin lipids)",
+          "Most prominent feature",
+          "Variable thickness reflects fiber diameter"
+        ]
+      },
+      {
+        name: "Endoneurium",
+        points: [
+          "Pale pink tissue between black myelin rings",
+          "Less visible than in HE"
+        ]
+      },
+      {
+        name: "Perineurium",
+        points: [
+          "Pale bands around fascicles",
+          "Less prominent than HE"
+        ]
+      },
+      {
+        name: "Epineurium",
+        points: ["Pale tissue around entire nerve"]
+      },
+      {
+        name: "Adipocytes",
+        points: ["May appear dark (lipid-rich) or extracted"]
+      }
+    ],
+    examShortcuts: {
+      heVsOso4Comparison: [
+        "HE: **White myelin**, pink axons",
+        "OsO₄: **Black myelin**, white axons",
+        "Think \"opposite staining pattern\""
+      ]
+    },
+    clinicalPearl: [
+      { disease: "Clinical Note", note: "OsO₄ is gold standard for myelin visualization - used to diagnose demyelinating diseases" }
+    ],
+    studyTip: "OsO₄ stains lipids black. Myelin = lipid-rich = BLACK rings. Axons = protein-rich = WHITE centers. Opposite of HE!"
+  },
   examEssentialStructures: {
     grouped: [{
       parent: "bundle of nerve fibers",
@@ -1014,6 +1305,52 @@ const SLIDE_DATA_73 = {
   section: "longitudinal section",
   stain: "OsO₄",
   
+    finalCheckData: {
+    slideGroup: "SLIDES 70-73: PERIPHERAL NERVE (4 Variations)",
+    groupNote: "Same structure, different stains and orientations",
+    bigPicture: "Peripheral nerves are bundles of axons wrapped in three connective tissue layers (like a cable with insulation). The appearance changes dramatically based on stain (HE vs OsO₄) and section (cross vs longitudinal).",
+    essentialStructures: [
+      {
+        name: "Node of Ranvier",
+        isMain: true,
+        points: [
+          "Gaps in black myelin where it appears interrupted",
+          "Appear as clear spaces in otherwise continuous black myelin columns",
+          "1-2 μm wide",
+          "Sites of action potential regeneration (saltatory conduction)",
+          "Critical for fast nerve transmission"
+        ]
+      },
+      {
+        name: "Bundle of nerve fibers",
+        points: ["Parallel black strands (myelin)"]
+      },
+      {
+        name: "Axons",
+        points: ["White longitudinal cores"]
+      },
+      {
+        name: "Endoneurium, perineurium, epineurium",
+        points: ["Pale surrounding tissue"]
+      },
+      {
+        name: "Adipocytes",
+        points: ["Variable appearance"]
+      }
+    ],
+     examShortcuts: {
+      findingNodesOfRanvier: [
+        "Look for interruptions/gaps in black myelin columns",
+        "Appear as regular intervals along fibers",
+        "Diagnostic feature distinguishing Slide 73 from 72"
+      ]
+    },
+    clinicalPearl: [
+      { disease: "Multiple Sclerosis", note: "Myelin loss → nodes dysfunctional → slow conduction" },
+      { disease: "Guillain-Barré", note: "Immune attack on nodes → paralysis" }
+    ],
+    studyTip: "Only LONGITUDINAL OsO₄ shows nodes of Ranvier clearly. If you see black myelin with gaps = Slide 73."
+  },
   examEssentialStructures: {
     grouped: [
       {
@@ -1417,6 +1754,82 @@ const SLIDE_DATA_74 = {
   section: null,
   stain: "HE",
   
+    finalCheckData: {
+    bigPicture: "Sensory ganglia (like dorsal root ganglia) house pseudounipolar neuron cell bodies that relay sensory info from periphery to CNS. They sit outside the CNS, protected by a capsule.",
+    essentialStructures: [
+      {
+        name: "Pseudounipolar Neurons",
+        points: [
+          "Large round cell bodies (30-100 μm)",
+          "Eccentric nucleus with prominent nucleolus",
+          "Surrounded by satellite cells forming capsule",
+          "Key feature: Single process that bifurcates into peripheral and central branches"
+        ]
+      },
+      {
+        name: "Perikaryon (Neuronal Cell Body)",
+        points: [
+          "Pale cytoplasm with basophilic Nissl bodies (purple granules)",
+          "Large pale nucleus",
+          "Prominent dark nucleolus"
+        ]
+      },
+      {
+        name: "Nissl Bodies (Tigroid Granules)",
+        points: [
+          "Basophilic purple clumps in cytoplasm",
+          "Rough endoplasmic reticulum + ribosomes",
+          "Absent near axon hillock (axon origin)"
+        ]
+      },
+      {
+        name: "Satellite Cells (Capsule Cells)",
+        points: [
+          "Small flattened cells surrounding each neuron",
+          "Dark nuclei forming ring around perikaryon",
+          "Continuous with Schwann cells of nerve fibers"
+        ]
+      },
+      {
+        name: "Nerve Fibers",
+        points: [
+          "Cross-sections and longitudinal profiles between cell bodies",
+          "Central processes heading to spinal cord",
+          "Peripheral processes from periphery"
+        ]
+      },
+      {
+        name: "Connective Tissue Capsule",
+        points: [
+          "Dense irregular CT surrounding entire ganglion",
+          "Continuous with epineurium"
+        ]
+      },
+      {
+        name: "Blood Vessels",
+        points: [
+          "Capillaries and small arterioles throughout",
+          "Supply metabolically active neurons"
+        ]
+      }
+    ],
+    examShortcuts: {
+      quickIdentification: [
+        "Large pale circles = neuron cell bodies",
+        "Purple granules inside = Nissl bodies",
+        "Dark outer ring = satellite cells",
+        "\"Fried egg\" appearance"
+      ],
+      sensoryVsAutonomic: [
+        "Sensory: Large neurons, pseudounipolar, prominent Nissl",
+        "Autonomic: Smaller neurons, multipolar, less prominent Nissl"
+      ]
+    },
+    clinicalPearl: [
+      { disease: "Herpes Zoster", note: "Virus hides in sensory ganglia → reactivation causes dermatomal pain and rash (shingles)" }
+    ],
+    studyTip: "\"Pseudo-UNI-polar\" = looks like one process but it splits into two (peripheral + central branches)."
+  },
   examEssentialStructures: {
     grouped: [{
       parent: "pseudounipolar neurons",
@@ -1729,7 +2142,60 @@ const SLIDE_DATA_75 = {
   name: "Sensory Nerve Ending - Meissner's Corpuscle (Ag)",
   section: null,
   stain: "Ag",
-  
+     finalCheckData: {
+    bigPicture: "Meissner's corpuscles are touch receptors in dermal papillae of fingertips and lips. Silver stain shows their spiral nerve pattern. These give you fine touch discrimination.",
+    essentialStructures: [
+      {
+        name: "Epidermis",
+        points: [
+          "Stratified squamous keratinized epithelium",
+          "Multiple layers, surface keratinized"
+        ]
+      },
+      {
+        name: "Dermis - Stratum Papillare (Dermal Papillae)",
+        points: [
+          "Finger-like projections into epidermis",
+          "MEISSNER'S CORPUSCLE LOCATION"
+        ]
+      },
+      {
+        name: "Meissner's Corpuscle",
+        isMain: true,
+        points: [
+          "Small oval encapsulated receptor (30-75 × 50-150 μm)",
+          "Axon: Black spiral/coiled nerve (silver-stained)",
+          "Modified Schwann cells stack horizontally",
+          "Thin connective tissue capsule"
+        ]
+      },
+      {
+        name: "Stratum Reticulare",
+        points: ["Deeper dense dermis"]
+      },
+      {
+        name: "Hypodermis",
+        points: [
+          "Contains peripheral nerves",
+          "Contains vessels"
+        ]
+      }
+    ],
+    examShortcuts: {
+      pattern: [
+        "Small oval + black spiral in dermal papilla = Meissner's",
+        "Large onion rings in hypodermis = Pacinian"
+      ],
+      location: [
+        "Superficial = light touch sensitivity",
+        "High density: fingertips, lips, palms, soles"
+      ]
+    },
+    clinicalPearl: [
+      { disease: "Aging/Diabetes", note: "Decreased two-point discrimination = Meissner's loss" }
+    ],
+    studyTip: "\"Meissner's in papillae, spiral style\" - small + superficial + coiled = light touch"
+  },
   examEssentialStructures: {
     grouped: [{
       parent: "Meissner's corpuscle",
@@ -1987,7 +2453,66 @@ const SLIDE_DATA_76 = {
   name: "Sensory Nerve Ending - Vater-Pacinian Corpuscle (HE)",
   section: null,
   stain: "HE",
-  
+    finalCheckData: {
+    bigPicture: "Pacinian corpuscles are mechanoreceptors for deep pressure and vibration. They look like \"onions\" - concentric layers of connective tissue surrounding a central nerve ending.",
+    essentialStructures: [
+      {
+        name: "Central Nerve Ending",
+        points: [
+          "Unmyelinated sensory nerve terminal in core",
+          "May be difficult to see (thin pink structure)"
+        ]
+      },
+      {
+        name: "Inner Core (Inner Bulb)",
+        points: [
+          "Immediately surrounds nerve ending",
+          "Amorphous pale substance",
+          "Contains modified Schwann cells"
+        ]
+      },
+      {
+        name: "Concentric Lamellae",
+        isMain: true,
+        points: [
+          "Multiple layers (30-70) of flattened cells",
+          "Separated by fluid-filled spaces",
+          "Create characteristic \"onion\" appearance",
+          "Pink connective tissue layers"
+        ]
+      },
+      {
+        name: "Outer Capsule",
+        points: [
+          "Dense irregular connective tissue",
+          "Continuous with surrounding tissue",
+          "Anchors corpuscle"
+        ]
+      },
+      {
+        name: "Blood Vessels",
+        points: [
+          "Small capillaries between lamellae",
+          "Supply metabolic needs"
+        ]
+      }
+    ],
+    examShortcuts: {
+      patternRecognition: [
+        "\"Sliced onion\" = Pacinian corpuscle",
+        "Large (1-4 mm visible structure)",
+        "Found in deep dermis, subcutaneous tissue, periosteum"
+      ],
+      meissnerVsPacinian: [
+        "Meissner: Small, oval, spiral pattern, light touch",
+        "Pacinian: Large, round, concentric rings, deep pressure/vibration"
+      ]
+    },
+    clinicalPearl: [
+      { disease: "Dorsal Column Damage", note: "Loss of vibration sense (tested with tuning fork) - these corpuscles send signals through dorsal columns" }
+    ],
+    studyTip: "\"Pack-in-ian\" corpuscle = layers packed in like an onion. Deep pressure sensor (think: packed deep)."
+  },
   examEssentialStructures: {
     grouped: [{
       parent: "Vater-Pacinian corpuscle",
@@ -2241,7 +2766,62 @@ const SLIDE_DATA_77 = {
   name: "Vegetative (Autonomic) Ganglion (Ag)",
   section: null,
   stain: "Ag",
-  
+    finalCheckData: {
+    bigPicture: "Autonomic ganglia relay sympathetic/parasympathetic signals. Multipolar neurons with many dendrites. Silver stain shows processes like black spider webs.",
+    essentialStructures: [
+      {
+        name: "Multipolar Neurons",
+        isMain: true,
+        points: [
+          "Irregularly shaped cell bodies",
+          "Smaller than sensory neurons",
+          "Multiple processes in all directions"
+        ]
+      },
+      {
+        name: "Perikaryon",
+        points: ["Cell body"]
+      },
+      {
+        name: "Dendrites",
+        points: [
+          "Multiple black branching processes (silver-stained)",
+          "Radiate from cell body",
+          "Receive preganglionic input"
+        ]
+      },
+      {
+        name: "Nerve Fibers",
+        points: [
+          "Black axons throughout ganglion",
+          "Preganglionic and postganglionic"
+        ]
+      },
+      {
+        name: "Nucleus",
+        points: ["Large pale nucleus"]
+      },
+      {
+        name: "Nucleolus",
+        points: ["Dark structure in nucleus"]
+      }
+    ],
+    examShortcuts: {
+      appearance: [
+        "\"Spider neurons\" with multiple BLACK arms",
+        "Irregular shapes with radiating processes"
+      ],
+      autonomicVsSensory: [
+        "Autonomic: MULTIPOLAR (many processes), smaller, irregular",
+        "Sensory: PSEUDOUNIPOLAR (one splitting process), larger, round"
+      ]
+    },
+    clinicalPearl: [
+      { disease: "Hirschsprung", note: "No autonomic ganglia in colon → megacolon" },
+      { disease: "Chagas", note: "Parasites destroy ganglia → megaesophagus" }
+    ],
+    studyTip: "\"Autonomic = many arms (MULTIpolar)\" - many black processes = autonomic ganglion"
+  },
   examEssentialStructures: {
     grouped: [{
       parent: "multipolar neuron",
@@ -2538,7 +3118,85 @@ const SLIDE_DATA_78 = {
   name: "Spinal Cord (HE)",
   section: "cross section",
   stain: "HE",
-  
+    finalCheckData: {
+    bigPicture: "Spinal cord has central butterfly-shaped gray matter (neuron cell bodies) surrounded by white matter (myelinated tracts). Protected by three meningeal layers.",
+    essentialStructures: [
+      {
+        name: "Anterior Horn",
+        points: [
+          "Large ventral gray matter projection",
+          "Contains alpha motor neurons (Deiters cells)"
+        ]
+      },
+      {
+        name: "Deiters's Motoneurons/Alpha Motor Neurons",
+        isMain: true,
+        points: [
+          "Large multipolar neurons (70-100 μm)",
+          "In anterior horn",
+          "Perikaryon: Large pale cell body",
+          "Nissl bodies/tigroid granules: Purple clumps",
+          "Euchromatic nucleus: Large pale nucleus",
+          "Nucleolus: Dark prominent structure"
+        ]
+      },
+      {
+        name: "Posterior Horn",
+        points: [
+          "Dorsal gray matter projection",
+          "Receives sensory input"
+        ]
+      },
+      {
+        name: "Lateral Horn",
+        points: [
+          "Small lateral gray matter projection",
+          "Sympathetic preganglionic neurons (T1-L2)"
+        ]
+      },
+      {
+        name: "White Matter (Funiculi)",
+        points: [
+          "Anterior, lateral, and posterior funiculi",
+          "Pink with scattered glial cell nuclei",
+          "Contains ascending/descending tracts"
+        ]
+      },
+      {
+        name: "Central Canal",
+        points: [
+          "Small central lumen",
+          "Remnant of neural tube",
+          "Lined by ependymal cells"
+        ]
+      },
+      {
+        name: "Meninges",
+        points: [
+          "Dura mater (outermost)",
+          "Arachnoid mater (middle)",
+          "Pia mater (innermost)"
+        ]
+      }
+    ],
+    examShortcuts: {
+      shapeRecognition: [
+        "Butterfly/H-shape = gray matter",
+        "Surrounding white = white matter",
+        "Ventral horns larger than dorsal"
+      ],
+      functionalOrganization: [
+        "Anterior horn = motor output",
+        "Posterior horn = sensory input",
+        "Lateral horn = autonomic (T1-L2, S2-S4 only)"
+      ]
+    },
+    clinicalPearl: [
+      { disease: "Polio", note: "Virus destroys anterior horn motor neurons → flaccid paralysis" },
+      { disease: "Spinal Cord Injury", note: "Above C3 → respiratory failure (phrenic nerve origin)" }
+    ],
+    studyTip: "Draw the butterfly. Label fat ventral horns \"Motor\" and thin dorsal horns \"Sensory.\""
+  },
   examEssentialStructures: {
     grouped: [{
       parent: "Deiters's motoneurons (alpha motor neurons)",
@@ -2821,7 +3479,88 @@ const SLIDE_DATA_79 = {
   name: "Meninges (HE)",
   section: null,
   stain: "HE",
-  
+    finalCheckData: {
+    bigPicture: "Three protective layers surround the brain. Dura (tough outer), arachnoid (middle web-like), pia (delicate inner). CSF flows in subarachnoid space and drains through arachnoid granulations into venous sinuses.",
+    essentialStructures: [
+      {
+        name: "Cerebral Falx",
+        points: [
+          "Sickle-shaped fold of dura between hemispheres",
+          "Extends into longitudinal fissure"
+        ]
+      },
+      {
+        name: "Superior Sagittal Sinus",
+        points: [
+          "Large venous channel in cerebral falx",
+          "At top of falx",
+          "Drains blood from brain"
+        ]
+      },
+      {
+        name: "Dura Mater",
+        points: [
+          "Outermost tough fibrous layer",
+          "Dense irregular CT",
+          "Thick pink/purple"
+        ]
+      },
+      {
+        name: "Arachnoid Mater",
+        points: [
+          "Middle layer",
+          "Thin avascular membrane",
+          "Fused layers of dural border cells and arachnoid barrier cells"
+        ]
+      },
+      {
+        name: "Subarachnoid Space",
+        isMain: true,
+        points: [
+          "Between arachnoid and pia",
+          "Contains CSF",
+          "Contains arachnoid trabeculae (cobweb-like strands)",
+          "Contains vessels",
+          "REAL space (not potential)"
+        ]
+      },
+      {
+        name: "Arachnoid Granulations",
+        points: [
+          "Mushroom-like projections into superior sagittal sinus",
+          "CSF drainage structures",
+          "Transfer CSF from subarachnoid space to venous blood"
+        ]
+      },
+      {
+        name: "Pia Mater",
+        points: [
+          "Innermost delicate layer",
+          "Single cell layer thickness",
+          "Closely adheres to cerebral cortex",
+          "Follows every gyrus and sulcus"
+        ]
+      }
+    ],
+    examShortcuts: {
+      layerIdentification: [
+        "Dura = thick pink/purple (toughest)",
+        "Arachnoid = thin with trabeculae and SPACE",
+        "Pia = delicate, hugs brain surface"
+      ],
+      spaceRecognition: [
+        "Subarachnoid = REAL space (contains CSF, vessels, trabeculae)",
+        "Subdural = POTENTIAL space (only opens with pathology)",
+        "Epidural = brain has NO epidural space (skull fused to dura)"
+      ]
+    },
+    clinicalPearl: [
+      { disease: "Epidural hematoma", note: "Arterial bleed between skull and dura (lens-shaped on CT)" },
+      { disease: "Subdural hematoma", note: "Venous bleed in potential subdural space (crescent on CT)" },
+      { disease: "Subarachnoid hemorrhage", note: "Arterial bleed in subarachnoid space (worst headache of life)" }
+    ],
+    studyTip: "\"The meninges PAD the brain\" - Pia, Arachnoid, Dura (inside out). CSF flows in Arachnoid (middle), drains through granulations into sagittal sinus."
+  },
   examEssentialStructures: {
     grouped: [{
       parent: "brain surface structures",
@@ -3078,7 +3817,86 @@ const SLIDE_DATA_80 = {
   name: "Medulla Oblongata (Myelin + Cresyl Violet)",
   section: "cross section",
   stain: "Myelin stain + Cresyl Violet",
-  
+    finalCheckData: {
+    bigPicture: "Medulla oblongata is the lower brainstem connecting spinal cord to brain. Contains vital centers (cardiac, respiratory) and nerve tracts. Myelin stain shows white matter blue/black.",
+    essentialStructures: [
+      {
+        name: "White Matter (Myelinated Tracts)",
+        points: [
+          "Appears blue-black with myelin stain",
+          "Large ascending and descending tracts",
+          "Includes corticospinal (motor) and sensory pathways"
+        ]
+      },
+      {
+        name: "Gray Matter (Nuclei)",
+        points: [
+          "Appears purple/pink with Cresyl violet (Nissl stain)",
+          "Contains neuron cell bodies",
+          "Forms distinct nuclei throughout medulla"
+        ]
+      },
+      {
+        name: "Pyramids",
+        isMain: true,
+        points: [
+          "Large bilateral tracts on ventral surface",
+          "Contain corticospinal (motor) fibers",
+          "Cross at pyramidal decussation",
+          "Stain dark blue (heavily myelinated)"
+        ]
+      },
+      {
+        name: "Inferior Olivary Nucleus",
+        points: [
+          "Large wavy/folded structure lateral to pyramids",
+          "Gray matter (purple/pink)",
+          "Involved in motor coordination",
+          "Distinctive wrinkled appearance"
+        ]
+      },
+      {
+        name: "Cranial Nerve Nuclei",
+        points: [
+          "Scattered gray matter regions",
+          "Include hypoglossal nucleus, dorsal motor nucleus of vagus",
+          "Control cranial nerves IX-XII"
+        ]
+      },
+      {
+        name: "Reticular Formation",
+        points: [
+          "Scattered neurons throughout medulla",
+          "Mixed gray and white matter",
+          "Controls vital functions (breathing, heart rate)",
+          "\"Net-like\" organization"
+        ]
+      },
+      {
+        name: "Fourth Ventricle (if visible)",
+        points: [
+          "Dorsal cavity",
+          "Continuous with central canal of spinal cord"
+        ]
+      }
+    ],
+    examShortcuts: {
+      staining: [
+        "Blue/black = myelin (white matter tracts)",
+        "Purple/pink = Nissl bodies (gray matter/nuclei)",
+        "Dual stain shows both myelin AND neurons"
+      ],
+      identification: [
+        "Large ventral dark tracts = pyramids (motor)",
+        "Wavy gray structure lateral = olivary nucleus"
+      ]
+    },
+    clinicalPearl: [
+      { disease: "Medullary stroke", note: "Can affect vital centers → respiratory/cardiac arrest" },
+      { disease: "Wallenberg syndrome", note: "Lateral medullary infarct → vertigo, dysphagia, Horner's syndrome" }
+    ],
+    studyTip: "Myelin stain = blue/black tracts. Cresyl violet = purple nuclei. Pyramids = motor highways on ventral side. Olive = wrinkly gray blob."
+  },
   examEssentialStructures: {
     grouped: [{
       parent: "gray matter nuclei",
@@ -3373,7 +4191,73 @@ const SLIDE_DATA_81 = {
   name: "Cerebellum (HE)",
   section: null,
   stain: "HE",
-  
+    finalCheckData: {
+    bigPicture: "Cerebellum has three-layered cortex (molecular, Purkinje, granular) over central white matter. Purkinje cells are the output neurons - huge cells with extensive dendritic trees.",
+    essentialStructures: [
+      {
+        name: "Molecular Layer (Layer 1)",
+        points: [
+          "Outermost, pale pink, mostly acellular",
+          "Contains parallel fibers (granule cell axons)",
+          "Contains Purkinje cell dendrites (faint in HE)",
+          "Contains basket and stellate interneurons (sparse)"
+        ]
+      },
+      {
+        name: "Purkinje Cell Layer (Layer 2)",
+        isMain: true,
+        points: [
+          "Single row of largest neurons in brain",
+          "Flask-shaped cell bodies (50-80 μm diameter)"
+        ]
+      },
+      {
+        name: "Purkinje Cells",
+        points: [
+          "Perikaryon: Large pale cell body",
+          "Nissl bodies/tigroid granules: Purple clumps (abundant)",
+          "Euchromatic nucleus: Large pale nucleus",
+          "Nucleolus: Prominent dark structure",
+          "Dendritic tree extends into molecular layer (faint in HE)"
+        ]
+      },
+      {
+        name: "Granule Cell Layer (Layer 3)",
+        points: [
+          "Innermost, dark purple/blue layer",
+          "Densely packed small cells",
+          "Granule cells: Smallest neurons in CNS (4-8 μm)",
+          "Tightly packed nuclei create dark appearance",
+          "Glomeruli (synaptic complexes) appear as pale islands"
+        ]
+      },
+      {
+        name: "White Matter (Central)",
+        points: [
+          "Pale pink",
+          "Contains glial cells with heterochromatic nuclei",
+          "Oligodendrocytes maintaining myelin"
+        ]
+      }
+    ],
+    examShortcuts: {
+      layerRecognition: [
+        "Pale layer = Molecular",
+        "Single row of huge neurons = Purkinje",
+        "Dark purple densely packed layer = Granular"
+      ],
+      purkinjeFeatures: [
+        "Largest neurons visible",
+        "Single row alignment",
+        "Abundant Nissl bodies (protein synthesis for huge dendritic tree)"
+      ]
+    },
+    clinicalPearl: [
+      { disease: "Alcohol damage", note: "Damages Purkinje cells → cerebellar ataxia (wide-based gait, tremor)" },
+      { disease: "Paraneoplastic degeneration", note: "Cancer antibodies attack Purkinje cells" }
+    ],
+    studyTip: "\"Pale, Huge, Dark\" = Molecular, Purkinje, Granular layers. Purkinje = output, Granular = input processing."
+  },
   examEssentialStructures: {
     grouped: [{
       parent: "Purkinje cells",
@@ -3633,7 +4517,66 @@ const SLIDE_DATA_82 = {
   name: "Cerebellum (Ag)",
   section: null,
   stain: "Ag",
-  
+    finalCheckData: {
+    bigPicture: "Same structure as Slide 81, but silver stain reveals nerve fibers magnificently. Purkinje cell dendritic trees are stunningly visible - look like flat black fans.",
+    essentialStructures: [
+      {
+        name: "White Matter",
+        points: [
+          "Black-stained myelinated axons",
+          "Radiating into cortex"
+        ]
+      },
+      {
+        name: "Molecular Layer",
+        points: [
+          "Contains parallel fibers (black lines)",
+          "Purkinje dendrites highly visible (major difference from HE!)"
+        ]
+      },
+      {
+        name: "Purkinje Cells",
+        points: [
+          "Perikaryal: Cell bodies visible, may appear pale or dark",
+          "Silver uptake varies"
+        ]
+      },
+      {
+        name: "Dendritic Tree of Purkinje Cells",
+        isMain: true,
+        points: [
+          "SPECTACULAR IN SILVER!",
+          "Elaborate black branching pattern",
+          "Extends through entire molecular layer",
+          "Flattened in single plane (2D fan shape)",
+          "Branches ~200,000 times",
+          "Makes synaptic contact with ~200,000 parallel fibers"
+        ]
+      },
+      {
+        name: "Granule Cell Layer",
+        points: [
+          "Small densely packed cells",
+          "Less prominent than in HE"
+        ]
+      }
+    ],
+    examShortcuts: {
+      heVsSilver: [
+        "HE: See cell bodies clearly (Nissl staining), dendrites faint",
+        "Silver: See nerve fibers/dendrites spectacularly, cell bodies variable"
+      ],
+      purkinjeDendrites: [
+        "Look like black fern fronds or fans",
+        "Diagnostic feature distinguishing from HE",
+        "Each cell contacts 1 climbing fiber + 200,000 parallel fibers"
+      ]
+    },
+    clinicalPearl: [
+      { disease: "Clinical Note", note: "This morphology explains cerebellar function - massive integration of inputs for motor coordination" }
+    ],
+    studyTip: "Silver = black nerve fibers. If you see spectacular black dendritic trees like palm fronds = Slide 82 (silver). If you just see cell body layers = Slide 81 (HE)."
+  },
   examEssentialStructures: {
     grouped: [{
       parent: "cerebellar cortex",
@@ -3903,7 +4846,71 @@ const SLIDE_DATA_83 = {
   name: "Cerebral Cortex - Granular (Cresyl Violet)",
   section: null,
   stain: "Cresyl Violet",
-  
+    finalCheckData: {
+    bigPicture: "Cerebral cortex has six layers. \"Granular cortex\" (sensory areas) has prominent LAYER 4 (internal granular layer) - receives thalamic sensory input.",
+    essentialStructures: [
+      {
+        name: "Molecular Layer (Layer I)",
+        points: [
+          "Outermost, pale",
+          "Few cells, mostly dendrites and axons"
+        ]
+      },
+      {
+        name: "External Granular Layer (Layer II)",
+        points: [
+          "Small purple granule cells",
+          "Densely packed"
+        ]
+      },
+      {
+        name: "External Pyramidal Layer (Layer III)",
+        points: [
+          "Medium-sized pyramidal neurons",
+          "Purple Nissl-stained cytoplasm"
+        ]
+      },
+      {
+        name: "Internal Granular Layer (Layer IV)",
+        isMain: true,
+        points: [
+          "MOST PROMINENT - dark purple band",
+          "Densely packed small granule cells",
+          "Receives thalamic sensory input",
+          "Defining feature of sensory cortex"
+        ]
+      },
+      {
+        name: "Internal Pyramidal Layer (Layer V)",
+        points: [
+          "Less prominent in sensory cortex",
+          "Large pyramidal neurons (faint here)"
+        ]
+      },
+      {
+        name: "Multiform Layer (Layer VI)",
+        points: [
+          "Deepest cortical layer",
+          "Various cell shapes",
+          "Transitions to white matter below"
+        ]
+      }
+    ],
+    examShortcuts: {
+      granularVsAgranular: [
+        "Granular (sensory): Layer 4 prominent (dark band)",
+        "Agranular (motor): Layer 5 prominent (large pyramidal cells)"
+      ],
+      locationFunction: [
+        "Granular cortex = sensory areas (occipital, parietal, temporal)",
+        "Primary visual cortex most granular"
+      ]
+    },
+    clinicalPearl: [
+      { disease: "Stroke", note: "Stroke affecting granular cortex → sensory loss (no motor paralysis)" }
+    ],
+    studyTip: "\"Granular = Receives\" (sensory input). Look for dark Layer 4."
+  },
   examEssentialStructures: {
     grouped: [{
       parent: "cortical layers (6 layers)",
@@ -4318,7 +5325,58 @@ const SLIDE_DATA_84 = {
   name: "Cerebral Cortex - Agranular (Motor Cortex)",
   section: null,
   stain: "Cresyl Violet",
-  
+    finalCheckData: {
+    bigPicture: "\"Agranular cortex\" (motor areas) has prominent LAYER 5 (internal pyramidal layer) with giant Betz cells - sends motor commands to spinal cord.",
+    essentialStructures: [
+      {
+        name: "Molecular Layer (Layer I)",
+        points: ["Outermost, pale"]
+      },
+      {
+        name: "External Granular Layer (Layer II)",
+        points: ["Less prominent in motor cortex"]
+      },
+      {
+        name: "External Pyramidal Layer (Layer III)",
+        points: ["Medium pyramidal neurons"]
+      },
+      {
+        name: "Internal Granular Layer (Layer IV)",
+        points: ["Less prominent/absent in motor cortex"]
+      },
+      {
+        name: "Internal Pyramidal Layer (Layer V)",
+        isMain: true,
+        points: [
+          "MOST PROMINENT",
+          "Contains giant pyramidal neurons",
+          "Betz cells in primary motor cortex (80-100 μm)",
+          "Large Nissl bodies",
+          "Defining feature of motor cortex"
+        ]
+      },
+      {
+        name: "Multiform Layer (Layer VI)",
+        points: ["Deepest layer"]
+      }
+    ],
+    examShortcuts: {
+      agranularVsGranular: [
+        "Agranular (motor): Layer 5 prominent (huge pyramidal cells)",
+        "Granular (sensory): Layer 4 prominent (small granule cells)"
+      ],
+      betzCells: [
+        "Largest neurons in cortex",
+        "Found ONLY in primary motor cortex (precentral gyrus)",
+        "Send axons down corticospinal tract"
+      ]
+    },
+    clinicalPearl: [
+      { disease: "Upper motor neuron lesion", note: "Cortex/internal capsule → spastic paralysis, hyperreflexia" },
+      { disease: "Betz cell loss", note: "Weakness but other Layer 5 cells compensate partially" }
+    ],
+    studyTip: "\"Agranular = Sends\" (motor output). Look for huge Layer 5 pyramidal cells."
+  },
   examEssentialStructures: {
     grouped: [{
       parent: "giant pyramidal cells of Betz",
@@ -4662,7 +5720,67 @@ const SLIDE_DATA_85 = {
   name: "Cerebral Cortex (Parvalbumin IHC)",
   section: null,
   stain: "Parvalbumin IHC",
-  
+    finalCheckData: {
+    bigPicture: "Parvalbumin antibody stains specific GABAergic inhibitory interneurons brown/black. Shows distribution of fast-spiking inhibitory neurons across cortical layers.",
+    essentialStructures: [
+      {
+        name: "Parvalbumin-Positive Interneurons",
+        isMain: true,
+        points: [
+          "Stain dark brown/black",
+          "Scattered across all cortical layers",
+          "Highest density in Layers 2-4",
+          "Types include basket cells and chandelier cells"
+        ]
+      },
+      {
+        name: "Basket Cells",
+        points: [
+          "Form synapses around pyramidal cell bodies",
+          "Provide perisomatic inhibition"
+        ]
+      },
+      {
+        name: "Chandelier Cells",
+        points: [
+          "Form synapses at axon initial segments",
+          "Control action potential initiation"
+        ]
+      },
+      {
+        name: "Pyramidal Cells (unstained)",
+        points: [
+          "Negative for parvalbumin",
+          "Appear as pale outlines",
+          "Still visible by tissue architecture"
+        ]
+      },
+      {
+        name: "Cortical Layering Pattern",
+        points: [
+          "Six-layer architecture still visible",
+          "Defined by cell density and parvalbumin distribution"
+        ]
+      }
+    ],
+    examShortcuts: {
+      whatStains: [
+        "Parvalbumin = calcium-binding protein",
+        "Found in fast-spiking GABAergic interneurons",
+        "These provide powerful inhibition"
+      ],
+      patternRecognition: [
+        "Dark brown scattered cells = parvalbumin+ interneurons",
+        "Unstained tissue = pyramidal neurons and glia",
+        "Layered distribution reflects functional organization"
+      ]
+    },
+    clinicalPearl: [
+      { disease: "Schizophrenia", note: "Reduced parvalbumin+ interneurons" },
+      { disease: "Epilepsy", note: "Interneuron dysfunction → loss of inhibition" }
+    ],
+    studyTip: "Parvalbumin highlights the brain's \"brake cells\" - inhibitory interneurons that control excitation."
+  },
   examEssentialStructures: {
     grouped: [{
       parent: "parvalbumin positive neurons",
@@ -4892,7 +6010,87 @@ const SLIDE_DATA_86 = {
   name: "Hippocampus (cresyl violet)",
   section: null,
   stain: "cresyl violet",
-  
+    finalCheckData: {
+    bigPicture: "Hippocampus has unique rolled architecture with pyramidal neurons in a dense layer. Critical for memory formation. Five layers form distinctive pattern.",
+    essentialStructures: [
+      {
+        name: "Str. Oriens",
+        points: [
+          "Deepest layer",
+          "Basal dendrites and interneurons",
+          "Pale layer beneath pyramidal cells"
+        ]
+      },
+      {
+        name: "Str. Pyramidale (Pyramidal Cell Layer)",
+        isMain: true,
+        points: [
+          "MOST PROMINENT - main cellular layer",
+          "Large triangular pyramidal neurons (20-30 μm)",
+          "Densely packed in single thick layer",
+          "Creates prominent dark purple band"
+        ]
+      },
+      {
+        name: "Pyramidal Cells",
+        points: [
+          "Nucleus: Large pale nucleus",
+          "Nucleolus: Prominent dark structure",
+          "Nissl bodies/tigroid granules: Purple cytoplasmic clumps",
+          "Apical dendrites: Extend into str. radiatum",
+          "Basal dendrites: Extend into str. oriens",
+          "Axon: Projects to fornix"
+        ]
+      },
+      {
+        name: "Str. Radiatum",
+        points: [
+          "Above pyramidal layer",
+          "Pale zone with apical dendrites",
+          "Receives Schaffer collaterals from CA3"
+        ]
+      },
+      {
+        name: "Str. Lacunosum",
+        points: [
+          "Molecular layer",
+          "Pale, sparse cells"
+        ]
+      },
+      {
+        name: "Str. Moleculare",
+        points: [
+          "Outermost layer",
+          "Perforant path fibers from entorhinal cortex"
+        ]
+      },
+      {
+        name: "Fimbria of Hippocampus",
+        points: [
+          "White matter tract on medial surface",
+          "Axons leaving hippocampus → fornix"
+        ]
+      }
+    ],
+    examShortcuts: {
+      recognition: [
+        "Prominent curved dark purple band = pyramidal cell layer",
+        "Rolled C-shape architecture",
+        "Adjacent to ventricle"
+      ],
+      caRegions: [
+        "CA1: Thinner pyramidal layer, vulnerable to hypoxia",
+        "CA3: Thicker pyramidal layer, receives mossy fibers",
+        "CA2: Between CA1 and CA3"
+      ]
+    },
+    clinicalPearl: [
+      { disease: "Alzheimer's", note: "Early hippocampal damage → memory loss" },
+      { disease: "Temporal lobe epilepsy", note: "Hippocampal sclerosis with CA1 neuron loss" },
+      { disease: "Hypoxia", note: "CA1 neurons most vulnerable (\"Sommer's sector\")" }
+    ],
+    studyTip: "\"Hippocampus = curved dark purple line of pyramidal neurons.\" If you see this architecture near a ventricle = hippocampus."
+  },
   examEssentialStructures: {
     grouped: [{
       parent: "dentate gyrus",
@@ -5248,7 +6446,71 @@ const SLIDE_DATA_87 = {
   name: "Diencephalon (Oxytocin Immunostaining)",
   section: null,
   stain: "Oxytocin IHC + Nissl counterstain",
-  
+    finalCheckData: {
+    bigPicture: "Hypothalamic neurons that produce oxytocin (and vasopressin/ADH). These magnocellular neurons project to posterior pituitary where they release hormones into blood.",
+    essentialStructures: [
+      {
+        name: "Oxytocin-Positive Neurons",
+        isMain: true,
+        points: [
+          "Stain brown/dark (immunoperoxidase)",
+          "Located in Paraventricular nucleus (PVN) and Supraoptic nucleus (SON)",
+          "Large magnocellular neurons (20-30 μm)"
+        ]
+      },
+      {
+        name: "Neuronal Cell Bodies",
+        points: [
+          "Prominent perikarya stained brown",
+          "Contains oxytocin in secretory vesicles"
+        ]
+      },
+      {
+        name: "Nissl Bodies",
+        points: [
+          "May be visible as darker regions in cytoplasm",
+          "Protein synthesis for hormone production"
+        ]
+      },
+      {
+        name: "Axons",
+        points: [
+          "Brown-stained processes",
+          "Project to posterior pituitary via hypothalamo-hypophyseal tract"
+        ]
+      },
+      {
+        name: "Nerve Terminals",
+        points: [
+          "In posterior pituitary (neurohypophysis)",
+          "Release oxytocin into capillaries"
+        ]
+      },
+      {
+        name: "Blood Vessels",
+        points: [
+          "Fenestrated capillaries",
+          "Allow hormone entry into circulation"
+        ]
+      }
+    ],
+    examShortcuts: {
+      oxytocinFunctions: [
+        "Labor: Uterine contractions",
+        "Lactation: Milk ejection reflex",
+        "Social bonding"
+      ],
+      location: [
+        "Hypothalamic nuclei (PVN and SON)",
+        "Axons in posterior pituitary"
+      ]
+    },
+    clinicalPearl: [
+      { disease: "Diabetes insipidus", note: "Loss of ADH-producing neurons → massive water loss" },
+      { disease: "Labor induction", note: "Oxytocin given to induce labor (Pitocin)" }
+    ],
+    studyTip: "\"Oxytocin = born in hypothalamus, released in posterior pituitary.\" Brown neurons = hormone factories."
+  },
   examEssentialStructures: {
     grouped: [{
       parent: "magnocellular neurosecretory nuclei",
@@ -5490,7 +6752,72 @@ const SLIDE_DATA_88 = {
   name: "Astrocyta (immunostaining - GFAP)",
   section: null,
   stain: "GFAP IHC",
-  
+    finalCheckData: {
+    bigPicture: "GFAP antibody specifically stains astrocytes brown/black, revealing their star-shaped morphology and extensive processes. Shows three specialized astrocyte structures formed at CNS boundaries.",
+    essentialStructures: [
+      {
+        name: "Astrocytes",
+        isMain: true,
+        points: [
+          "Star-shaped glial cells",
+          "Stain brown/black with GFAP",
+          "Cell body with multiple radiating processes",
+          "Most abundant glial cells in CNS"
+        ]
+      },
+      {
+        name: "Astrocyte Functions",
+        points: [
+          "Form blood-brain barrier (via perivascular endfeet)",
+          "Regulate extracellular ion balance",
+          "Support neuronal metabolism",
+          "Form glial scar after injury"
+        ]
+      },
+      {
+        name: "Membrana Limitans Gliae Superficialis Interna",
+        points: [
+          "Inner surface glial limiting membrane",
+          "Beneath pia mater on brain surface",
+          "Astrocyte processes form continuous layer"
+        ]
+      },
+      {
+        name: "Membrana Limitans Gliae Superficialis Externa",
+        points: [
+          "Outer surface glial limiting membrane",
+          "At brain-meninges interface",
+          "Forms barrier beneath pia mater"
+        ]
+      },
+      {
+        name: "Membrana Limitans Gliae Perivascularis",
+        points: [
+          "Perivascular glial limiting membrane",
+          "Astrocyte endfeet surround blood vessels",
+          "Forms blood-brain barrier (with endothelium)"
+        ]
+      }
+    ],
+    examShortcuts: {
+      gfapStaining: [
+        "GFAP = intermediate filament specific to astrocytes",
+        "Brown/black staining reveals astrocyte processes",
+        "Other glia (oligodendrocytes, microglia) are GFAP-negative"
+      ],
+      threeMembranes: [
+        "Superficialis interna = inner surface (beneath pia)",
+        "Superficialis externa = outer surface (at pia)",
+        "Perivascularis = around blood vessels"
+      ]
+    },
+    clinicalPearl: [
+      { disease: "Gliosis", note: "Astrocyte proliferation after brain injury (GFAP increases)" },
+      { disease: "Glioblastoma", note: "Malignant astrocyte tumor (GFAP-positive)" },
+      { disease: "Alexander disease", note: "Mutation in GFAP gene" }
+    ],
+    studyTip: "\"Astrocytes = stars with feet\" - star shape, endfeet on vessels. GFAP = astrocyte-specific marker."
+  },
   examEssentialStructures: {
     grouped: [{
       parent: "astrocyte",
@@ -5749,7 +7076,69 @@ const SLIDE_DATA_89 = {
   name: "Microglia (immunostaining -Iba1)",
   section: null,
   stain: "Iba1 Immunohistochemistry",
-  
+    finalCheckData: {
+    bigPicture: "Iba1 antibody specifically stains microglia - the brain's immune cells. These are the CNS resident macrophages that constantly survey for damage and pathogens.",
+    essentialStructures: [
+      {
+        name: "Microglia Cells",
+        isMain: true,
+        points: [
+          "Small cells with elongated/irregular cell bodies",
+          "Stain brown/black with Iba1",
+          "Multiple fine branching processes",
+          "Constantly moving processes (in vivo)"
+        ]
+      },
+      {
+        name: "Ramified (Resting) Microglia",
+        points: [
+          "Small body, long thin processes",
+          "Surveying state"
+        ]
+      },
+      {
+        name: "Activated Microglia",
+        points: [
+          "Larger body, thicker processes",
+          "Amoeboid shape"
+        ]
+      },
+      {
+        name: "Microglia Functions",
+        points: [
+          "Immune surveillance (constantly extend/retract processes)",
+          "Phagocytosis of debris and pathogens",
+          "Release cytokines during inflammation",
+          "Synaptic pruning during development"
+        ]
+      },
+      {
+        name: "Distribution",
+        points: [
+          "Throughout gray and white matter",
+          "Higher density in gray matter",
+          "Evenly distributed"
+        ]
+      }
+    ],
+    examShortcuts: {
+      iba1Staining: [
+        "Iba1 = calcium-binding protein in microglia",
+        "Specific marker for microglia/macrophages",
+        "Brown/black cells with fine processes"
+      ],
+      microgliaVsAstrocytes: [
+        "Microglia: Iba1+, small irregular cells, fine processes, immune cells",
+        "Astrocytes: GFAP+, star-shaped, thick processes, support cells"
+      ]
+    },
+    clinicalPearl: [
+      { disease: "Neuroinflammation", note: "Microglial activation in Alzheimer's, MS, stroke" },
+      { disease: "HIV encephalitis", note: "Infected microglia = virus reservoir" },
+      { disease: "Chronic activation", note: "May damage neurons (neurodegeneration)" }
+    ],
+    studyTip: "\"Microglia = tiny cells with fine branches, brain's immune patrol.\" Iba1 = microglia-specific marker (not astrocytes!)."
+  },
   examEssentialStructures: {
     grouped: [{
       parent: "microglia cells",

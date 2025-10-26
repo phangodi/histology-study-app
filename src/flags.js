@@ -4,5 +4,6 @@ export const ENABLED = {
   QuickCards: true,
   Relationships: true,
   ExamPresentation: true, // NEW - Oral exam presentation format
-  UltraMinimal: false // DISABLED - Only using 3 main formats
+  UltraMinimal: false, // DISABLED - Only using 3 main formats
+  FinalCheck: true // NEW - Final Check study guide format
 };
